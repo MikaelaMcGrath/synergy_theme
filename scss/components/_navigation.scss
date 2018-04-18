@@ -1,0 +1,48 @@
+.navbar-default {
+  	background-color: $base;
+  	font-weight: $light-font-weight;
+  	.navbar-nav {
+  		float: none;
+  		margin: 0 -15px;
+    	&> .active {
+    		a {
+	      		background-color: $base;
+	      		color: $white;
+	      		&:hover,
+	      		&:focus {
+	      			background-color: $accent;
+	      			color: $white;
+	      		}
+	      	}
+    	}
+  	}
+  	.navbar-toggle {
+  		border-color: transparent;
+	  	.icon-bar {
+	  		background-color: white;
+	  	}
+	  	&:hover,
+	  	&:focus {
+	  		background-color: transparent;
+	  	}
+	}
+}
+@media (min-width: $screen-sm-min) {
+ 	.navbar-nav {
+  		display: flex;
+  		margin: 7.5px -15px;
+    	&> li {
+      		text-align: center;
+      		width: calc(100% / 7);
+      		display: flex;
+    		justify-content: center;
+    		&> a {
+    			display: flex;
+	      		flex-direction: column;
+	      		justify-content: center;
+	      		width: 100%;
+	      		padding: $horz-spacing-unit*1.1 $vert-spacing-unit/2;
+    		}
+    	}
+  	}
+}

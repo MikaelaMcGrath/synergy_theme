@@ -12,6 +12,8 @@ $grid-breakpoint:     "screen and (min-width: #{$grid-float-breakpoint})";
 }
 
 html {
+  margin: 0;
+  padding: 0;
   &.overlay-open .navbar-fixed-top {
     z-index: 400;
   }
@@ -48,6 +50,8 @@ body {
   // Fix horizontal scrolling on iOS devices.
   // https://www.drupal.org/node/1870076
   position: relative;
+  margin: 0;
+  padding: 0;
   &.admin-expanded.admin-vertical.admin-nw .navbar,
   &.admin-expanded.admin-vertical.admin-sw .navbar {
     margin-left: 260px;

@@ -7,4 +7,12 @@
 // Base-theme overrides.
 @import 'overrides';
 
+@import 'variables/colors';
+
+@import 'base/variables';
+@import 'base/typography';
+
+@import 'components/branding';
+@import 'components/user-menu';
+@import 'components/navigation';
 @import 'components/body';

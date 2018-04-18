@@ -1,0 +1,26 @@
+.logo {
+	padding: $horz-spacing-unit 0em;
+}
+.branding {
+	height: 100%;
+	div {
+		height: 100%;
+	}
+}
+#phone { 
+	text-decoration: none;
+	border: 1px solid $base;
+	border-radius: 4px;
+	color: $base;
+	padding: $horz-spacing-unit/2.5 $vert-spacing-unit*1.5;
+	vertical-align: center;
+	display: block;
+	font-weight: $light-font-weight;
+	height: 100%;
+}
+@media (min-width: $screen-sm-min) {
+	#phone {
+		pointer-events: none;
+		color: $base;
+	}
+}

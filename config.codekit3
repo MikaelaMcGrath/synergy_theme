@@ -7,21 +7,24 @@
 		"uuidString": "C769B6AA-440C-4DA8-B2B4-0712634B870C"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "26680",
 "files": {
 	"\/bootstrap\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/.gitignore",
 		"oF": 0
 		},
 	"\/bootstrap\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/.travis.yml",
 		"oF": 0
 		},
 	"\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.eot",
@@ -38,24 +41,28 @@
 		"prP": 0
 		},
 	"\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.ttf",
 		"oF": 0
 		},
 	"\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.woff",
 		"oF": 0
 		},
 	"\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.woff2",
 		"oF": 0
 		},
 	"\/bootstrap\/assets\/images\/.keep": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/assets\/images\/.keep",
@@ -63,6 +70,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap-sprockets.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap-sprockets-min.js",
@@ -72,6 +80,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap-min.js",
@@ -81,6 +90,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap.min-min.js",
@@ -90,6 +100,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/affix.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/affix-min.js",
@@ -99,6 +110,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/alert.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/alert-min.js",
@@ -108,6 +120,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/button.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/button-min.js",
@@ -117,6 +130,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/carousel.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/carousel-min.js",
@@ -126,6 +140,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/collapse.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/collapse-min.js",
@@ -135,6 +150,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/dropdown.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/dropdown-min.js",
@@ -144,6 +160,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/modal.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/modal-min.js",
@@ -153,6 +170,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/popover.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/popover-min.js",
@@ -162,6 +180,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/scrollspy.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/scrollspy-min.js",
@@ -171,6 +190,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/tab.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/tab-min.js",
@@ -180,6 +200,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/tooltip.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/tooltip-min.js",
@@ -189,6 +210,7 @@
 		},
 	"\/bootstrap\/assets\/javascripts\/bootstrap\/transition.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/assets\/javascripts\/bootstrap\/transition-min.js",
@@ -1159,6 +1181,7 @@
 		"uL": 1
 		},
 	"\/bootstrap\/bootstrap-sass.gemspec": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/bootstrap-sass.gemspec",
@@ -1173,10 +1196,10 @@
 		"oS": 1
 		},
 	"\/bootstrap\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1199,10 +1222,10 @@
 		"oS": 1
 		},
 	"\/bootstrap\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1218,6 +1241,7 @@
 		},
 	"\/bootstrap\/eyeglass-exports.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/eyeglass-exports-min.js",
@@ -1226,30 +1250,35 @@
 		"tS": 0
 		},
 	"\/bootstrap\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/Gemfile",
 		"oF": 0
 		},
 	"\/bootstrap\/lib\/bootstrap-sass.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/lib\/bootstrap-sass.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/lib\/bootstrap-sass\/engine.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/lib\/bootstrap-sass\/engine.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/lib\/bootstrap-sass\/version.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/lib\/bootstrap-sass\/version.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/LICENSE",
@@ -1264,16 +1293,17 @@
 		"oS": 1
 		},
 	"\/bootstrap\/Rakefile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/Rakefile",
 		"oF": 0
 		},
 	"\/bootstrap\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1296,48 +1326,56 @@
 		"oS": 1
 		},
 	"\/bootstrap\/tasks\/bower.rake": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/bower.rake",
 		"oF": 0
 		},
 	"\/bootstrap\/tasks\/converter.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/converter.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/tasks\/converter\/char_string_scanner.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/converter\/char_string_scanner.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/tasks\/converter\/fonts_conversion.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/converter\/fonts_conversion.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/tasks\/converter\/js_conversion.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/converter\/js_conversion.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/tasks\/converter\/less_conversion.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/converter\/less_conversion.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/tasks\/converter\/logger.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/converter\/logger.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/tasks\/converter\/network.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/tasks\/converter\/network.rb",
@@ -1357,6 +1395,7 @@
 		"uL": 1
 		},
 	"\/bootstrap\/templates\/project\/manifest.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/templates\/project\/manifest.rb",
@@ -1376,12 +1415,14 @@
 		"uL": 1
 		},
 	"\/bootstrap\/test\/compass_test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/compass_test.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/compilation_test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/compilation_test.rb",
@@ -1413,6 +1454,7 @@
 		},
 	"\/bootstrap\/test\/dummy_node_mincer\/manifest.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/test\/dummy_node_mincer\/manifest-min.js",
@@ -1421,6 +1463,7 @@
 		"tS": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/app\/assets\/images\/.keep": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/app\/assets\/images\/.keep",
@@ -1428,6 +1471,7 @@
 		},
 	"\/bootstrap\/test\/dummy_rails\/app\/assets\/javascripts\/application.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/app\/assets\/javascripts\/application-min.js",
@@ -1449,30 +1493,35 @@
 		"uL": 1
 		},
 	"\/bootstrap\/test\/dummy_rails\/app\/controllers\/application_controller.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/app\/controllers\/application_controller.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/app\/controllers\/pages_controller.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/app\/controllers\/pages_controller.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/app\/helpers\/application_helper.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/app\/helpers\/application_helper.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/app\/views\/layouts\/application.html.erb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/app\/views\/layouts\/application.html.erb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/app\/views\/pages\/root.html.slim": {
+		"cB": 0,
 		"cmO": 0,
 		"ft": 1024,
 		"llg": 0,
@@ -1484,102 +1533,119 @@
 		"rAC": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config.ru": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config.ru",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/application.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/application.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/boot.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/boot.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/environment.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/environment.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/environments\/development.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/environments\/development.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/environments\/production.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/environments\/production.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/environments\/test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/environments\/test.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/initializers\/backtrace_silencers.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/initializers\/backtrace_silencers.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/initializers\/filter_parameter_logging.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/initializers\/filter_parameter_logging.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/initializers\/inflections.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/initializers\/inflections.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/initializers\/mime_types.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/initializers\/mime_types.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/initializers\/secret_token.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/initializers\/secret_token.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/initializers\/session_store.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/initializers\/session_store.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/initializers\/wrap_parameters.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/initializers\/wrap_parameters.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/locales\/en.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/locales\/en.yml",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/locales\/es.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/locales\/es.yml",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/config\/routes.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/config\/routes.rb",
@@ -1592,24 +1658,28 @@
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/Rakefile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/Rakefile",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_rails\/README.rdoc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_rails\/README.rdoc",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_sass_only\/compile.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_sass_only\/compile.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/dummy_sass_only\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/dummy_sass_only\/Gemfile",
@@ -1629,78 +1699,91 @@
 		"uL": 1
 		},
 	"\/bootstrap\/test\/gemfiles\/rails_head.gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/gemfiles\/rails_head.gemfile",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/gemfiles\/sass_3_3.gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/gemfiles\/sass_3_3.gemfile",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/gemfiles\/sass_3_4.gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/gemfiles\/sass_3_4.gemfile",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/gemfiles\/sass_head.gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/gemfiles\/sass_head.gemfile",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/node_mincer_test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/node_mincer_test.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/node_sass_compile_test.sh": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/node_sass_compile_test.sh",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/pages_test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/pages_test.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/sass_test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/sass_test.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/sprockets_rails_test.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/sprockets_rails_test.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/support\/dummy_rails_integration.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/support\/dummy_rails_integration.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/support\/reporting.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/support\/reporting.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/test_helper.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/test_helper.rb",
 		"oF": 0
 		},
 	"\/bootstrap\/test\/test_helper_rails.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bootstrap\/test\/test_helper_rails.rb",
@@ -1717,14 +1800,312 @@
 		"oS": 0
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/images\/favicon.png": {
+		"ft": 32768,
+		"iS": 20512,
+		"oA": 0,
+		"oAP": "\/images\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 20421,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 29040,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 3228,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-icon-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 4583,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-icon-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 7875,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 11664,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/android-icon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 14611,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 15801,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 20421,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 22015,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 27883,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 5729,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 6169,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 7875,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 8509,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 29529,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 29529,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/images\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1411,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2787,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 11664,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/favicon\/favicon.ico",
+		"oF": 0
+		},
+	"\/images\/favicon\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/images\/favicon\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/images\/favicon\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 20421,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/ms-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 21498,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/ms-icon-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 58402,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/ms-icon-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 7613,
+		"oA": 0,
+		"oAP": "\/images\/favicon\/ms-icon-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/logo.png": {
 		"ft": 32768,
-		"iS": 742,
+		"iS": 24810,
 		"oA": 0,
 		"oAP": "\/logo.png",
 		"oF": 0,
@@ -1734,10 +2115,10 @@
 		"q": 100
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1788,6 +2169,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/base\/_typography.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/base\/_variables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/components\/_body.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1797,6 +2204,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/css\/_body.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/_branding.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_branding.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/_general.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_general.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/_navigation.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/_user-menu.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_user-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1814,23 +2273,38 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/variables\/_colors.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/synergy_theme.info": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/synergy_theme.info",
 		"oF": 0
 		},
 	"\/template.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template.php",
 		"oF": 0
 		},
 	"\/templates\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1843,6 +2317,20 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/templates\/system\/html.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/html.tpl.php",
+		"oF": 0
+		},
+	"\/templates\/system\/page.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page.tpl.php",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1853,7 +2341,8 @@
 	"creationDate": 545532475,
 	"displayValue": "synergy_theme",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_orange"
+	"iconImageName": "\/bootstrap\/test\/dummy_node_mincer\/apple-touch-icon-144-precomposed.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1861,6 +2350,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2257,6 +2747,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -2264,6 +2758,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -2361,6 +2859,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -2377,9 +2879,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -2404,6 +2914,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2437,9 +2951,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2469,6 +2983,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2478,14 +2996,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2508,6 +3018,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -3053,6 +3567,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -3121,6 +3639,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -3160,6 +3682,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -3573,7 +4099,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3606,6 +4133,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3617,6 +4145,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -3647,7 +4176,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3679,13 +4209,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3694,7 +4224,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3714,7 +4245,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3742,7 +4274,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3789,9 +4322,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
