@@ -1,0 +1,1 @@
+function onSubmit(e){alert("thanks "+document.getElementById("mce-MMERGE1").value)}function validate(e){e.preventDefault(),document.getElementById("mce-MMERGE1").value?grecaptch.execute():alert("You mush add text to the required field")}function onload(){document.getElementById("mc-embedded-subscribe").onclick=validate}

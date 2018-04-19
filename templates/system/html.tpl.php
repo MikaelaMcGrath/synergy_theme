@@ -66,7 +66,8 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="57x57" href="/<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/images/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/images/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/images/favicon/apple-icon-72x72.png">

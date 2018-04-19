@@ -10,7 +10,6 @@
 			&.phone {
 				padding-right: 0;
 				a {
-					display: block;
 					font-size: $base-font-size/1.2;
 					color: $base;
 					text-decoration: none;
@@ -31,9 +30,10 @@
 				}
 			}
 			&.login {
-				font-size: $base-font-size/1.3;
+				font-size: $small-font-size;
 				padding: $horz-spacing-unit/2.5 0;
 				line-height: 2;
+
 				.log-in {
 					padding-right: $horz-spacing-unit;
 				}
@@ -43,7 +43,6 @@
 				.mobile-hide {
 					display: none;
 					visibility: hidden;
-					margin-left: $horz-spacing-unit*3;
 					a {
 						color: $base-font-color;
 					}
@@ -53,16 +52,15 @@
 	}
 }
 
-
 @media (min-width: $screen-sm-min) {
 	.user-menu {
-		margin-top: 20.5px;
+		margin-top: 23.5px;
 		ul {
 			li {
 				&.phone {
+					margin-right: $horz-spacing-unit*3;
 					a {
-						font-size: $base-font-size/1.1;
-						pointer-events: none;
+						font-size: $base-font-size;
 						padding: $horz-spacing-unit/2.5 $vert-spacing-unit*2;
 					}
 					&:before {
@@ -77,6 +75,5 @@
 				}
 			}
 		}
-		
 	}
 }

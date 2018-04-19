@@ -4,8 +4,9 @@
   	.navbar-nav {
   		float: none;
   		margin: 0 -15px;
-    	&> .active {
-    		a {
+    	&> .active,
+      &> li {
+    		&> a {
 	      		background-color: $base;
 	      		color: $white;
 	      		&:hover,

@@ -1,0 +1,26 @@
+.btn-primary {
+  color: $white;
+  background-color: $accent;
+  border-color: $accent;
+}
+.btn-primary:focus, 
+.btn-primary.focus,
+.btn-primary:hover {
+    color: $white;
+    background-color: lighten($accent, 5%);
+    border-color: lighten($accent, 5%); 
+}
+.btn-primary:active, 
+.btn-primary.active,
+.btn-primary[disabled]:active, 
+.btn-primary[disabled].active {
+  color: $white;
+  background-color: darken($accent, 5%);
+  border-color: darken($accent, 5%);
+}
+.btn-primary[disabled]:hover, 
+.btn-primary[disabled]:focus {
+	color: $white;
+	background-color: lighten($accent, 10%);
+	border-color: lighten($accent, 10%);	
+}
