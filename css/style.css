@@ -8207,6 +8207,17 @@ h2 {
   padding: 1.5rem 1rem;
   font-family: "Montserrat", sans-serif; }
 
+/* line 8, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
+#mc_embed_signup div.mce_inline_error {
+  background-color: #ffffff !important;
+  font-weight: 400 !important;
+  color: #e1474d !important;
+  font-size: 0.7692307692rem !important;
+  margin: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  transition: display ease 0.2s; }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_branding.scss */
 .logo {
   padding: 1rem 0em; }
@@ -8373,7 +8384,7 @@ body {
     margin: 0 0 0.5rem; }
   /* line 31, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
   .footer .newsletter .inline-field-wrapper {
-    margin: 1rem 0; }
+    margin: 1.5rem 0; }
   /* line 35, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
   .footer .newsletter .form-inline .form-control {
     width: 100%; }
@@ -8392,28 +8403,25 @@ body {
       font-size: 0.9090909091rem;
       padding: 1rem 2rem;
       margin-right: 0; }
-  /* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
+  /* line 55, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
   .footer .block-copyright-block {
     border-top: 1px solid #DEE2E6;
     margin-top: 2.5rem;
     padding-top: 1.5rem;
     color: #868E96; }
-    /* line 61, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
+    /* line 60, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
     .footer .block-copyright-block p {
       height: auto; }
-    /* line 64, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
+    /* line 63, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
     .footer .block-copyright-block .copyright-name {
       color: #8DC63F;
       padding-left: 2rem; }
-  /* line 69, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
-  .footer .g-recaptcha {
-    font-size: 0.7692307692rem; }
 
 @media (min-width: 480px) {
-  /* line 75, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
+  /* line 71, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
   .inline-field-wrapper {
     display: flex;
     justify-content: space-between; }
-    /* line 78, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
+    /* line 74, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_footer.scss */
     .inline-field-wrapper .form-group {
       flex: 0 1 48%; } }

@@ -29,7 +29,7 @@
 			margin: 0 0 $vert-spacing-unit/2;
 		}
 		.inline-field-wrapper {
-			margin: $vert-spacing-unit 0;
+			margin: $vert-spacing-unit*1.5 0;
 		}
 		.form-inline {
 			.form-control {
@@ -51,7 +51,6 @@
 				margin-right: 0;
 			}
 		}
-		
 	}
 	.block-copyright-block {
 		border-top: $base-border;
@@ -65,9 +64,6 @@
 			color: $base;
 			padding-left: $horz-spacing-unit*2;
 		}
-	}
-	.g-recaptcha {
-		font-size: $small-font-size;
 	}
 	
 }
