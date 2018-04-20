@@ -51,10 +51,9 @@
 		}
 	}
 }
-
 @media (min-width: $screen-sm-min) {
 	.user-menu {
-		margin-top: 23.5px;
+		margin-top: 19.5px;
 		ul {
 			li {
 				&.phone {
@@ -75,5 +74,10 @@
 				}
 			}
 		}
+	}
+}
+@media (min-width: $screen-md-min) {
+	.user-menu {
+		margin-top: 23.5px;
 	}
 }

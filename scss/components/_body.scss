@@ -4,3 +4,7 @@ body {
 .container-fluid {
 	box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5)
 }
+.no-hero {
+	margin-top: $vert-spacing-unit;
+	padding-top: $vert-spacing-unit;
+}

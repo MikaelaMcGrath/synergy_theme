@@ -18,7 +18,10 @@ h6 {
   color: $heading-font-color;
 }
 h1 {
-	font-weight: $light-font-weight;
+  font-size: $base-font-size *3;
+  &.dark-grey {
+    color: $dark-grey;
+  }
 }
 h2 {
 	font-weight: $light-font-weight;
