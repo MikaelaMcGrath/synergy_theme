@@ -2103,6 +2103,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/js\/bootstrap-hover-dropdown.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/bootstrap-hover-dropdown-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/bootstrap-hover-dropdown.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/bootstrap-hover-dropdown.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/synergy-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2293,6 +2313,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/components\/_pagination.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_pagination.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/components\/_phone.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2315,6 +2348,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/css\/_product.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/_social.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_social.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

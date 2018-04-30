@@ -28,7 +28,21 @@
 	  		background-color: transparent;
 	  	}
 	}
+  .open > .dropdown-menu {
+    display: table;
+  }
+  .dropdown-menu {
+    box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5);
+    //display: table;
+    //position: relative;
+    width: 100%;
+    a {
+      background-color: $white;
+      color: $base;
+    }
+  }
 }
+
 @media (min-width: $screen-sm-min) {
  	.navbar-nav {
   		display: flex;
@@ -37,7 +51,7 @@
       		text-align: center;
       		width: calc(100% / 7);
       		display: flex;
-    		justify-content: center;
+    		  justify-content: center;
     		&> a {
     			display: flex;
 	      		flex-direction: column;

@@ -1,0 +1,99 @@
+.pagination {
+	clear: both;
+	width: 43%;
+	li {
+		a,
+		span {
+			width: 32px;
+			height: 20px;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+			line-height: 8px;
+			border: none;
+			font-size: 0;
+			white-space: nowrap;
+			background-color: transparent;
+			&:before {
+				content: '\f111';
+				font-family: 'FontAwesome';
+				font-size: 10px;
+				padding: 0 $horz-spacing-unit/2 0 $horz-spacing-unit;
+				color: $grey;
+				vertical-align: middle;
+			}
+			&:after {
+				font-family: 'FontAwesome';
+				padding: 0 $horz-spacing-unit 0 $horz-spacing-unit/2;
+				vertical-align: middle;
+			}
+			&:hover,
+			&:focus {
+				background-color: transparent;
+				vertical-align: middle;
+			}
+		}
+		&.active span {
+			background-color: transparent;
+			&:before {
+				color: $accent;
+			}
+			&:hover,
+			&:focus {
+				background-color: transparent;
+				vertical-align: middle;
+			}
+		}
+		&.next a,
+		&.prev a,
+		&.pager-last a,
+		&.pager-first a
+		 {
+			height: 20px;
+			width: auto;
+			overflow: visible;
+			font-size: $small-font-size;
+			color: $grey;
+			line-height: 5px;
+			vertical-align: middle;
+			&:before,
+			&:after {
+				font-size: 20px;
+				font-weight: $bold-font-weight;
+			}
+		}
+		&.next a {
+			padding-left: $horz-spacing-unit;
+			&:before {
+				content: '\f105';
+			}
+		}
+					
+		&.prev a {
+			padding-right: $horz-spacing-unit;
+			&:before {
+				content: '';
+				padding: 0;
+			}
+			&:after {
+				content: '\f104';
+			}
+		}
+		&.pager-last a {
+			padding-left: $horz-spacing-unit;
+			&:before {
+				content: '\f101';
+			}
+		}
+		&.pager-first a {
+			padding-right: $horz-spacing-unit;
+			&:before {
+				content: '';
+				padding: 0;
+			}
+			&:after {
+				content: '\f100';
+			}
+		}
+	}
+}
