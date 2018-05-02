@@ -8672,104 +8672,107 @@ body {
         font-size: 30px; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-.pagination {
+.synergy-pager {
   clear: both;
-  width: 43%; }
-  /* line 5, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-  .pagination li a,
-  .pagination li span {
-    width: 32px;
-    height: 20px;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    line-height: 8px;
-    border: none;
-    font-size: 0;
-    white-space: nowrap;
-    background-color: transparent; }
-    /* line 17, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li a:before,
-    .pagination li span:before {
-      content: '\f111';
-      font-family: 'FontAwesome';
-      font-size: 10px;
-      padding: 0 0.5rem 0 1rem;
-      color: #868E96;
-      vertical-align: middle; }
-    /* line 25, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li a:after,
-    .pagination li span:after {
-      font-family: 'FontAwesome';
-      padding: 0 1rem 0 0.5rem;
-      vertical-align: middle; }
-    /* line 30, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li a:hover, .pagination li a:focus,
-    .pagination li span:hover,
-    .pagination li span:focus {
-      background-color: transparent;
-      vertical-align: middle; }
-  /* line 36, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-  .pagination li.active span {
-    background-color: transparent; }
+  text-align: center; }
+  /* line 4, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+  .synergy-pager .pagination {
+    clear: both; }
+    /* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+    .synergy-pager .pagination li a,
+    .synergy-pager .pagination li span {
+      width: 32px;
+      height: 20px;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      line-height: 8px;
+      border: none;
+      font-size: 0;
+      white-space: nowrap;
+      background-color: transparent; }
+      /* line 19, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li a:before,
+      .synergy-pager .pagination li span:before {
+        content: '\f111';
+        font-family: 'FontAwesome';
+        font-size: 10px;
+        padding: 0 0.5rem 0 1rem;
+        color: #868E96;
+        vertical-align: middle; }
+      /* line 27, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li a:after,
+      .synergy-pager .pagination li span:after {
+        font-family: 'FontAwesome';
+        padding: 0 1rem 0 0.5rem;
+        vertical-align: middle; }
+      /* line 32, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li a:hover, .synergy-pager .pagination li a:focus,
+      .synergy-pager .pagination li span:hover,
+      .synergy-pager .pagination li span:focus {
+        background-color: transparent;
+        vertical-align: middle; }
     /* line 38, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.active span:before {
-      color: #F57923; }
-    /* line 41, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.active span:hover, .pagination li.active span:focus {
-      background-color: transparent;
+    .synergy-pager .pagination li.active span {
+      background-color: transparent; }
+      /* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.active span:before {
+        color: #F57923; }
+      /* line 43, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.active span:hover, .synergy-pager .pagination li.active span:focus {
+        background-color: transparent;
+        vertical-align: middle; }
+    /* line 49, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+    .synergy-pager .pagination li.next a,
+    .synergy-pager .pagination li.prev a,
+    .synergy-pager .pagination li.pager-last a,
+    .synergy-pager .pagination li.pager-first a {
+      height: 20px;
+      width: auto;
+      overflow: visible;
+      font-size: 0.7692307692rem;
+      color: #868E96;
+      line-height: 5px;
       vertical-align: middle; }
-  /* line 47, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-  .pagination li.next a,
-  .pagination li.prev a,
-  .pagination li.pager-last a,
-  .pagination li.pager-first a {
-    height: 20px;
-    width: auto;
-    overflow: visible;
-    font-size: 0.7692307692rem;
-    color: #868E96;
-    line-height: 5px;
-    vertical-align: middle; }
-    /* line 59, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.next a:before, .pagination li.next a:after,
-    .pagination li.prev a:before,
-    .pagination li.prev a:after,
-    .pagination li.pager-last a:before,
-    .pagination li.pager-last a:after,
-    .pagination li.pager-first a:before,
-    .pagination li.pager-first a:after {
-      font-size: 20px;
-      font-weight: 700; }
-  /* line 65, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-  .pagination li.next a {
-    padding-left: 1rem; }
+      /* line 61, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.next a:before, .synergy-pager .pagination li.next a:after,
+      .synergy-pager .pagination li.prev a:before,
+      .synergy-pager .pagination li.prev a:after,
+      .synergy-pager .pagination li.pager-last a:before,
+      .synergy-pager .pagination li.pager-last a:after,
+      .synergy-pager .pagination li.pager-first a:before,
+      .synergy-pager .pagination li.pager-first a:after {
+        font-size: 20px;
+        font-weight: 700; }
     /* line 67, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.next a:before {
-      content: '\f105'; }
-  /* line 72, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-  .pagination li.prev a {
-    padding-right: 1rem; }
+    .synergy-pager .pagination li.next a {
+      padding-left: 1rem; }
+      /* line 69, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.next a:before {
+        content: '\f105'; }
     /* line 74, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.prev a:before {
-      content: '';
-      padding: 0; }
-    /* line 78, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.prev a:after {
-      content: '\f104'; }
-  /* line 82, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-  .pagination li.pager-last a {
-    padding-left: 1rem; }
+    .synergy-pager .pagination li.prev a {
+      padding-right: 1rem; }
+      /* line 76, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.prev a:before {
+        content: '';
+        padding: 0; }
+      /* line 80, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.prev a:after {
+        content: '\f104'; }
     /* line 84, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.pager-last a:before {
-      content: '\f101'; }
-  /* line 88, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-  .pagination li.pager-first a {
-    padding-right: 1rem; }
+    .synergy-pager .pagination li.pager-last a {
+      padding-left: 1rem; }
+      /* line 86, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.pager-last a:before {
+        content: '\f101'; }
     /* line 90, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.pager-first a:before {
-      content: '';
-      padding: 0; }
-    /* line 94, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
-    .pagination li.pager-first a:after {
-      content: '\f100'; }
+    .synergy-pager .pagination li.pager-first a {
+      padding-right: 1rem; }
+      /* line 92, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.pager-first a:before {
+        content: '';
+        padding: 0; }
+      /* line 96, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_pagination.scss */
+      .synergy-pager .pagination li.pager-first a:after {
+        content: '\f100'; }
