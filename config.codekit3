@@ -2319,6 +2319,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/components\/_primary.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_primary.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/components\/_product.scss": {
 		"aP": 1,
 		"bl": 0,

@@ -109,7 +109,7 @@
   </div>
 </header>
 <div class="container-fluid">
-  <div class="main-container <?php print $container_class; ?>">
+  <div class="main-container no-hero <?php print $container_class; ?>">
     <header role="banner" id="page-header">
       <?php if (!empty($site_slogan)): ?>
         <p class="lead"><?php print $site_slogan; ?></p>
