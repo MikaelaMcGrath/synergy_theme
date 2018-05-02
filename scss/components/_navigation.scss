@@ -2,11 +2,12 @@
   	background-color: $base;
   	font-weight: $light-font-weight;
     margin-bottom: 0;
-  	.navbar-nav {
+  	.menu {
   		float: none;
   		margin: 0 -15px;
     	&> .active,
       &> li {
+        position: relative;
     		&> a {
 	      		background-color: $base;
 	      		color: $white;
@@ -17,48 +18,92 @@
 	      		}
 	      	}
     	}
+      .caret {
+        display: none;
+      }
+      li.open {
+        position: static;
+        &:before {
+          content: '\f0d8';
+          font-family: 'FontAwesome';
+          color: $white;
+          position: absolute;
+          bottom: -20px;
+          z-index: 9999;
+          font-size: 30px;
+        }
+        .dropdown-menu {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          border-radius: 0;
+          text-align: left;
+          width: 100%;
+          margin-top: 0;
+          border: none;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+          .container {
+            display: flex;
+          }
+          li {
+            padding: 15px 0;
+            flex: 1 0 auto;
+            a {
+              color: $base;
+              font-weight: $bold-font-weight;
+              &:hover,
+              &:focus {
+                text-decoration: none;
+                color: $accent;
+              }
+            }
+          }
+        }
+      }
   	}
-  	.navbar-toggle {
-  		border-color: transparent;
-	  	.icon-bar {
-	  		background-color: white;
-	  	}
-	  	&:hover,
-	  	&:focus {
-	  		background-color: transparent;
-	  	}
-	}
-  .open > .dropdown-menu {
-    display: table;
+
+    
+}
+.mean-container {
+  .mean-bar, .mean-nav {
+    background-color: $base;
   }
-  .dropdown-menu {
-    box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5);
-    //display: table;
-    //position: relative;
-    width: 100%;
-    a {
-      background-color: $white;
-      color: $base;
+  .mean-nav {
+    ul li a.mean-expand {
+      height: 28px;
+      padding: 14px 12px !important;
+      &:hover,
+      &:focus {
+        background-color: darken($base, 5%);
+      }
+    }
+  }
+  a.meanmenu-reveal {
+    padding-top: 15px;
+    font-family: $base-font-family;
+    &.meanclose {
+      padding-top: 13px;
     }
   }
 }
-
 @media (min-width: $screen-sm-min) {
- 	.navbar-nav {
-  		display: flex;
-  		margin: 7.5px -15px;
-    	&> li {
-      		text-align: center;
-      		width: calc(100% / 7);
-      		display: flex;
-    		  justify-content: center;
-    		&> a {
-    			display: flex;
-	      		flex-direction: column;
-	      		justify-content: center;
-	      		width: 100%;
-	      		padding: $horz-spacing-unit*1.1 $vert-spacing-unit/2;
-    		}
-    	}
-  	}
+  .navbar-default {
+    .menu {
+      display: flex;
+      margin: 0 -15px;
+      &> li {
+          text-align: center;
+          flex: 1 0 auto;
+          display: flex;
+          justify-content: center;
+        &> a {
+          display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            padding: $horz-spacing-unit*1.1 $vert-spacing-unit/2;
+        }
+      }
+    }
+  }
 }

@@ -70,6 +70,12 @@
 		}
 	}
 }
+.related-products {
+	margin: 0 0 $vert-spacing-unit*2 0;
+	h2 {
+		color: $dark-grey;
+	}
+}
 .product {
 	text-align: center;
 	font-size: $small-font-size;

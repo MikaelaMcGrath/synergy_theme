@@ -2103,26 +2103,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/js\/bootstrap-hover-dropdown.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/bootstrap-hover-dropdown-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/bootstrap-hover-dropdown.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/bootstrap-hover-dropdown.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/synergy-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2443,6 +2423,13 @@
 		"oAP": "\/templates\/system\/html.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/system\/page--article.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page--article.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/system\/page--product.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2455,6 +2442,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/system\/page.tpl.php",
+		"oF": 0
+		},
+	"\/templates\/system\/views-view--members-map--block.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/views-view--members-map--block.tpl.php",
 		"oF": 0
 		}
 	},
