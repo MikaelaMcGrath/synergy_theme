@@ -8829,4 +8829,8 @@ body {
     width: 10px; }
     /* line 23, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
     .region-sidebar-first input[type='checkbox']:checked:before {
-      color: #8DC63F; }
+      background: #F57923;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%; }
