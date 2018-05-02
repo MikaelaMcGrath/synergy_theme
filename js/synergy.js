@@ -41,6 +41,6 @@ function checkSize(){
 
 });
     jQuery( document ).ready(function() {
-      jQuery('#edit-search-api-views-fulltext').attr('placeholder', '<i class="fas fa-search"></i>Search all products');
+      jQuery('#edit-search-api-views-fulltext').attr('placeholder', '&#xF002 Search all products');
     });
  })(jQuery);
