@@ -8804,24 +8804,26 @@ body {
         content: '\f100'; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
-.well {
+.region-sidebar-first {
   background-color: transparent;
   border: none;
   box-shadow: none; }
   /* line 5, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
-  .well h2 {
+  .region-sidebar-first h2 {
     font-size: 1rem;
     font-weight: 700; }
   /* line 9, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
-  .well ul {
+  .region-sidebar-first ul {
     padding: 0;
     font-size: 0.7692307692rem; }
     /* line 12, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
-    .well ul a {
+    .region-sidebar-first ul a {
       color: #495057; }
   /* line 16, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
-  .well input[type='checkbox'] {
+  .region-sidebar-first input[type='checkbox'] {
     margin-right: 1em;
     border: 1px solid #495057;
     -webkit-appearance: none;
-    outline: none; }
+    outline: none;
+    height: 10px;
+    width: 10px; }
