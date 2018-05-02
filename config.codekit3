@@ -2450,6 +2450,13 @@
 		"oA": 2,
 		"oAP": "\/templates\/system\/views-view--members-map--block.tpl.php",
 		"oF": 0
+		},
+	"\/templates\/system\/views-view--products--page.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/views-view--products--page.tpl.php",
+		"oF": 0
 		}
 	},
 "hooks": [
