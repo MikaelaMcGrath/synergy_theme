@@ -2437,6 +2437,13 @@
 		"oAP": "\/templates\/system\/page--product.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/system\/page--views-products--page.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page--views-products--page.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/system\/page.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
