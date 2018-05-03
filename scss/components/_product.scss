@@ -150,13 +150,6 @@
 				font-family: 'FontAwesome', $base-font-family;
 				font-weight: $light-font-weight;
 				padding: $vert-spacing-unit*2.5 $horz-spacing-unit;
-				&::placeholder,
-				&::-webkit-input-placeholder,
-				&::-moz-placeholder,
-				&:-ms-input-placeholder,
-				&:-moz-placeholder {
-					color: $base;
-				}
 			}
 		}
 	}
