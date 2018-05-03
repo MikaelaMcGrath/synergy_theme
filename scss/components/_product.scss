@@ -139,9 +139,7 @@
 #views-exposed-form-products-page {
 	.views-exposed-widgets {
 		margin-bottom: $vert-spacing-unit*2;
-		display: flex;
 		.views-widget-filter-search_api_views_fulltext {
-			flex: 2 0 auto;
 			padding: 0;
 			.form-control {
 				color: $base;
@@ -149,6 +147,9 @@
 				font-family: 'FontAwesome', $base-font-family;
 				font-weight: $light-font-weight;
 				padding: $vert-spacing-unit*2.5 $horz-spacing-unit;
+				&::placeholder {
+					color: $base;
+				}
 			}
 		}
 	}
