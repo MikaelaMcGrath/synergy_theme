@@ -8847,8 +8847,12 @@ body {
     outline: none;
     height: 10px;
     width: 10px;
-    padding: 1px; }
-    /* line 25, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
+    padding: 1px;
+    font-weight: 700; }
+    /* line 26, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
+    .region-sidebar-first input[type='checkbox'] .facetapi-active {
+      font-weight: 400; }
+    /* line 29, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
     .region-sidebar-first input[type='checkbox']:checked:before {
       background: #F57923;
       content: '';
