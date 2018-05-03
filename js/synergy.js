@@ -41,6 +41,7 @@ function checkSize(){
 
 });
     jQuery( document ).ready(function() {
-      jQuery('#edit-search-api-views-fulltext').attr('placeholder', '\uf002   Search all products').css('color:#8dc63f;');
+      jQuery('#edit-search-api-views-fulltext').addClass('placeholder').attr('placeholder', '\uf002   Search all products');
     });
+    
  })(jQuery);

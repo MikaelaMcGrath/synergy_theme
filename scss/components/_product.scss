@@ -154,6 +154,15 @@
 		}
 	}
 }
+.placeholder {
+	&::placeholder,
+				&::-webkit-input-placeholder,
+				&::-moz-placeholder,
+				&:-ms-input-placeholder,
+				&:-moz-placeholder {
+					color: $base;
+				}
+}
 @media (min-width: $screen-sm-min) {
 	.quicktabs-wrapper {
 		margin-top: $vert-spacing-unit*3;
