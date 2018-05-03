@@ -8176,9 +8176,10 @@ h2 {
 .btn-primary {
   color: #ffffff;
   background-color: #F57923;
-  border-color: #F57923; }
+  border-color: #F57923;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
 
-/* line 6, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+/* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:hover {
@@ -8186,7 +8187,7 @@ h2 {
   background-color: #f6883b;
   border-color: #f6883b; }
 
-/* line 13, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+/* line 14, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary[disabled]:active,
@@ -8195,7 +8196,7 @@ h2 {
   background-color: #f36a0b;
   border-color: #f36a0b; }
 
-/* line 21, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+/* line 22, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary[disabled]:hover,
 .btn-primary[disabled]:focus {
   color: #ffffff;
@@ -8208,9 +8209,15 @@ h2 {
   background-color: #F1F3F5;
   border: 0;
   padding: 1.5rem 1rem;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0;
+  box-shadow: none; }
 
-/* line 8, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
+/* line 10, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
+select {
+  height: 48px; }
+
+/* line 14, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
 #mc_embed_signup div.mce_inline_error {
   background-color: #ffffff !important;
   font-weight: 400 !important;
@@ -8220,6 +8227,27 @@ h2 {
   height: 0 !important;
   padding: 0 !important;
   transition: display ease 0.2s; }
+
+/* line 24, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
+input[type='checkbox'] {
+  margin-right: 1em;
+  border: 1px solid #495057;
+  -webkit-appearance: none;
+  outline: none;
+  height: 10px;
+  width: 10px;
+  padding: 1px; }
+  /* line 32, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
+  input[type='checkbox']:checked:before {
+    background: #F57923;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+/* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
+.input-group-addon {
+  display: none; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_branding.scss */
 .logo {
@@ -8846,24 +8874,8 @@ body {
     .region-sidebar-first ul a {
       color: #495057; }
   /* line 17, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
-  .region-sidebar-first input[type='checkbox'] {
-    margin-right: 1em;
-    border: 1px solid #495057;
-    -webkit-appearance: none;
-    outline: none;
-    height: 10px;
-    width: 10px;
-    padding: 1px; }
-    /* line 25, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
-    .region-sidebar-first input[type='checkbox']:checked:before {
-      background: #F57923;
-      content: '';
-      display: block;
-      width: 100%;
-      height: 100%; }
-  /* line 33, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
   .region-sidebar-first .facetapi-inactive {
     font-weight: 700; }
-  /* line 36, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
+  /* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
   .region-sidebar-first .facetapi-active {
     font-weight: 400; }
