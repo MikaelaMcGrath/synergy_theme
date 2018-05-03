@@ -136,20 +136,20 @@
 		display: flex;
 		.views-widget-filter-search_api_views_fulltext {
 			flex: 2 0 auto;
-			padding-top: 0;
+			padding: 0;
 			.form-control {
-				font-color: $base;
+				color: $base;
 				font-size: $base-font-size*2;
 				font-family: 'FontAwesome', $base-font-family;
-			}
-		}
-		.views-submit-button {
-			flex: 0 1 auto;
-			padding: 0;
-			.btn {
-				padding: 6px $horz-spacing-unit*2;
-				height: 100%;
-				margin-top: 0;
+				font-weight: $light-font-weight;
+				padding: $vert-spacing-unit*2.5 $horz-spacing-unit;
+				&::placeholder,
+				&::-webkit-input-placeholder,
+				&::-moz-placeholder,
+				&:-ms-input-placeholder,
+				&:-moz-placeholder {
+					color: $base;
+				}
 			}
 		}
 	}

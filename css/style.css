@@ -8639,21 +8639,17 @@ body {
   /* line 137, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
   #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext {
     flex: 2 0 auto;
-    padding-top: 0; }
+    padding: 0; }
     /* line 140, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
     #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control {
-      font-color: #8DC63F;
+      color: #8DC63F;
       font-size: 2rem;
-      font-family: "FontAwesome", "Open Sans", sans-serif; }
-  /* line 146, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-  #views-exposed-form-products-page .views-exposed-widgets .views-submit-button {
-    flex: 0 1 auto;
-    padding: 0; }
-    /* line 149, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-    #views-exposed-form-products-page .views-exposed-widgets .views-submit-button .btn {
-      padding: 6px 2rem;
-      height: 100%;
-      margin-top: 0; }
+      font-family: "FontAwesome", "Open Sans", sans-serif;
+      font-weight: 300;
+      padding: 2.5rem 1rem; }
+      /* line 146, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+      #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-webkit-input-placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-moz-placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control:-ms-input-placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control:-moz-placeholder {
+        color: #8DC63F; }
 
 @media (min-width: 768px) {
   /* line 158, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
