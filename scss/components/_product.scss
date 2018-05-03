@@ -140,6 +140,7 @@
 	.views-exposed-widgets {
 		margin-bottom: $vert-spacing-unit*2;
 		.views-widget-filter-search_api_views_fulltext {
+			width: 100%;
 			padding: 0;
 			.form-control {
 				color: $base;
