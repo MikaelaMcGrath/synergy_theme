@@ -8651,8 +8651,8 @@ body {
       #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-webkit-input-placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-moz-placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control:-ms-input-placeholder, #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control:-moz-placeholder {
         color: #8DC63F; }
 
-/* line 158, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-.placeholder::placeholder, .placeholder::-webkit-input-placeholder, .placeholder::-moz-placeholder, .placeholder:-ms-input-placeholder, .placeholder:-moz-placeholder {
+/* line 159, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+.placeholder::-webkit-input-placeholder, .placeholder::-moz-placeholder, .placeholder:-ms-input-placeholder, .placeholder:-moz-placeholder {
   color: #8DC63F; }
 
 @media (min-width: 768px) {
