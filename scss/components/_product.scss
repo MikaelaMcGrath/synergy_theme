@@ -130,6 +130,9 @@
 		}
 	}
 }
+#views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::placeholder {
+	color: $base;
+}
 #views-exposed-form-products-page {
 	.views-exposed-widgets {
 		margin-bottom: $vert-spacing-unit*2;
@@ -151,17 +154,12 @@
 					color: $base;
 				}
 			}
-		}
-	}
-}
-.placeholder {
-
-				&::-webkit-input-placeholder,
-				&::-moz-placeholder,
-				&:-ms-input-placeholder,
-				&:-moz-placeholder {
+			.form-control::placeholder
+				{
 					color: $base;
 				}
+		}
+	}
 }
 @media (min-width: $screen-sm-min) {
 	.quicktabs-wrapper {
