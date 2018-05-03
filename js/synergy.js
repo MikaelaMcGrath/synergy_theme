@@ -41,7 +41,7 @@ function checkSize(){
 
 });
     jQuery( document ).ready(function() {
-      jQuery('#edit-search-api-views-fulltext').addClass('placeholder').attr('placeholder', '\uf002   Search all products');
+      //jQuery('#edit-search-api-views-fulltext').addClass('placeholder').attr('placeholder', '\uf002   Search all products');
     });
     
  })(jQuery);
