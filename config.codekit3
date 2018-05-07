@@ -2443,6 +2443,13 @@
 		"oAP": "\/templates\/system\/page--article.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/system\/page--front.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page--front.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/system\/page--product.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2464,11 +2471,11 @@
 		"oAP": "\/templates\/system\/page.tpl.php",
 		"oF": 0
 		},
-	"\/templates\/system\/views-view--members-map--block.tpl.php": {
+	"\/templates\/views\/views-view--members-map--block.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/templates\/system\/views-view--members-map--block.tpl.php",
+		"oAP": "\/templates\/views\/views-view--members-map--block.tpl.php",
 		"oF": 0
 		}
 	},
