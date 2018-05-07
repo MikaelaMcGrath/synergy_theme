@@ -151,7 +151,7 @@
       <?php endif; ?>
   </div>
 </div>
-<div class="container-fluid">
+<div class="row container-fluid">
     <div class="full-width">
       <?php print render($page['full_width']); ?>
     </div>
