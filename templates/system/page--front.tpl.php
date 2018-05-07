@@ -109,7 +109,7 @@
 </div>
 </header>
 <div class="container-fluid">
-  <header role="banner" id="page-header" class="row container-fluid">
+  <header role="banner" id="page-header" class="row">
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
   <div class="main-container <?php print $container_class; ?>">
@@ -152,15 +152,15 @@
   </div>
 </div>
 <div class="row container-fluid">
-    <div class="full-width">
+    <div class="full-width container">
       <?php print render($page['full_width']); ?>
     </div>
-    <div class="container">
-      <div class="content-secondary">
+</div>
+<div class="container-fluid">
+      <div class="content-secondary container row">
         <?php print render($page['content_secondary']); ?>
       </div>
     </div>
-  </div>
 </div>
 <?php if (!empty($page['footer'])): ?>
   <footer class="footer <?php print $container_class; ?>">
