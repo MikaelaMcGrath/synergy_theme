@@ -155,10 +155,10 @@
     <div class="full-width">
       <?php print render($page['full_width']); ?>
     </div>
-  </div>
-  <div class="row container">
-    <div class="content-secondary">
-      <?php print render($page['content_secondary']); ?>
+    <div class="row container">
+      <div class="content-secondary">
+        <?php print render($page['content_secondary']); ?>
+      </div>
     </div>
   </div>
 </div>
