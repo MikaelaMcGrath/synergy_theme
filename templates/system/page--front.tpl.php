@@ -109,7 +109,7 @@
   </div>
 </header>
 <div class="container-fluid">
-  <header role="banner" id="page-header" class="container-fluid">
+  <header role="banner" id="page-header" class="row container-fluid">
       <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
   <div class="main-container <?php print $container_class; ?>">
@@ -149,7 +149,16 @@
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
-
+  </div>
+  <div class="row container-fluid">
+    <div class="full-width">
+      <?php print render($page['full_width']); ?>
+    </div>
+  </div>
+  <div class="row container">
+    <div class="content-secondary">
+      <?php print render($page['content_secondary']); ?>
+    </div>
   </div>
 </div>
 </div>
