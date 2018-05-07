@@ -156,9 +156,11 @@
       <?php print render($page['full_width']); ?>
     </div>
 </div>
-<div class="container-fluid">
-      <div class="content-secondary container row">
+<div class="container-fluid row">
+      <div class="container">
+        <div class="content-secondary row">
         <?php print render($page['content_secondary']); ?>
+      </div>
       </div>
     </div>
 </div>
