@@ -151,11 +151,11 @@
       <?php endif; ?>
   </div>
 </div>
-<div class="row container-fluid">
+<div class="container-fluid">
     <div class="full-width">
       <?php print render($page['full_width']); ?>
     </div>
-    <div class="row container">
+    <div class="container">
       <div class="content-secondary">
         <?php print render($page['content_secondary']); ?>
       </div>
