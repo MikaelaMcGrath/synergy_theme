@@ -2450,11 +2450,11 @@
 		"oAP": "\/templates\/system\/page--front.tpl.php",
 		"oF": 0
 		},
-	"\/templates\/system\/page--no-hero.tpl.php": {
+	"\/templates\/system\/page--nohero.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/templates\/system\/page--no-hero.tpl.php",
+		"oAP": "\/templates\/system\/page--nohero.tpl.php",
 		"oF": 0
 		},
 	"\/templates\/system\/page--product.tpl.php": {
