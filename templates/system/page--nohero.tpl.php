@@ -156,6 +156,9 @@
 
   </div>
 </div>
+<section role="banner" id="footer-banner" class="container-fluid">
+    <?php print render($page['footer_banner']); ?>
+  </section>
 </div>
 <?php if (!empty($page['footer'])): ?>
   <footer class="footer <?php print $container_class; ?>">
