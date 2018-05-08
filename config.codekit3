@@ -2267,6 +2267,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/components\/_content.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/components\/_footer.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2434,13 +2447,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/system\/html.tpl.php",
-		"oF": 0
-		},
-	"\/templates\/system\/page--article.tpl.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/templates\/system\/page--article.tpl.php",
 		"oF": 0
 		},
 	"\/templates\/system\/page--front.tpl.php": {

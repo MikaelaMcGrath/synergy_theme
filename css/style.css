@@ -8884,3 +8884,7 @@ body {
   /* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_primary.scss */
   .region-sidebar-first .facetapi-active {
     font-weight: 400; }
+
+/* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+.standout {
+  font-size: 1.5rem; }
