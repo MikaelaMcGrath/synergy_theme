@@ -8172,6 +8172,10 @@ h2 {
 .uppercase {
   text-transform: uppercase; }
 
+/* line 32, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+p {
+  font-family: "Montserrat", sans-serif; }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary {
   color: #ffffff;
