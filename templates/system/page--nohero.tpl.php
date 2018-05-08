@@ -109,7 +109,7 @@
   </div>
 </header>
 <div class="container-fluid">
-  <header role="banner" id="page-header" class="container-fluid">
+  <header role="banner" id="page-header" class="row container-fluid">
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
   <div class="main-container <?php print $container_class; ?>">
@@ -156,7 +156,7 @@
 
   </div>
 </div>
-<section role="banner" id="footer-banner" class="container-fluid">
+<section role="banner" id="footer-banner" class="row container-fluid">
     <?php print render($page['footer_banner']); ?>
   </section>
 </div>
