@@ -8984,12 +8984,14 @@ hr {
 /* line 35, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
 .slick__arrow .slick-arrow:before {
   color: #495057;
-  font-family: "FontAwesome"; }
+  font-family: "FontAwesome";
+  font-size: 20px;
+  font-weight: 700; }
 
-/* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+/* line 42, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
 .slick__arrow .slick-arrow.slick-prev:before {
   content: '\f104'; }
 
-/* line 45, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+/* line 47, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
 .slick__arrow .slick-arrow.slick-next:before {
   content: '\f105'; }

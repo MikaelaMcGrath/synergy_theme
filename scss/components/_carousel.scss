@@ -35,6 +35,8 @@
 		&:before {
 			color: $dark-grey;
 			font-family: "FontAwesome";
+			font-size: 20px;
+			font-weight: $bold-font-weight;
 		}
 		&.slick-prev {
 			&:before {
