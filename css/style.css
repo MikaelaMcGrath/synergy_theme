@@ -7451,10 +7451,6 @@ ul.secondary {
     ul.secondary {
       float: right; } }
 
-/* line 194, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/_overrides.scss */
-.page-header {
-  margin-top: 0; }
-
 /* line 201, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/_overrides.scss */
 .region-sidebar-first .block:first-child h2.block-title,
 .region-sidebar-second .block:first-child h2.block-title {
@@ -8155,7 +8151,7 @@ h6 {
   font-family: "Open Sans", sans-serif;
   line-height: 1.2;
   margin: 0.75em 0 0.75em;
-  color: #8DC63F; }
+  color: #495057; }
 
 /* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 h1 {
@@ -8166,15 +8162,25 @@ h1 {
 
 /* line 26, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 h2 {
-  font-weight: 300; }
+  font-weight: 300;
+  color: #8DC63F; }
 
-/* line 29, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+/* line 30, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+.subtitle {
+  color: #8DC63F;
+  font-weight: 700; }
+
+/* line 34, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 .uppercase {
   text-transform: uppercase; }
 
-/* line 32, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+/* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 p {
   font-family: "Montserrat", sans-serif; }
+
+/* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+.font-small {
+  font-size: 0.7692307692rem; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary {
@@ -8887,4 +8893,9 @@ body {
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 .standout {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-weight: 300; }
+
+/* line 5, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+.main-container.container {
+  margin-bottom: 1rem; }

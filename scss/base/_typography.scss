@@ -15,7 +15,7 @@ h6 {
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing;
-  color: $heading-font-color;
+  color: $base-font-color;
 }
 h1 {
   font-size: $base-font-size *3;
@@ -25,10 +25,18 @@ h1 {
 }
 h2 {
 	font-weight: $light-font-weight;
+  color: $heading-font-color;
+}
+.subtitle {
+  color: $heading-font-color;
+  font-weight: $bold-font-weight;
 }
 .uppercase {
 	text-transform: uppercase;
 }
 p {
   font-family: $secondary-font-family;
+}
+.font-small {
+  font-size: $small-font-size;
 }
