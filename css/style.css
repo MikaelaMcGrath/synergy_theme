@@ -8970,7 +8970,6 @@ hr {
     font-family: 'FontAwesome';
     padding: 0 1rem 0 0.5rem;
     vertical-align: middle; }
-  /* line 26, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
-  .slick-dots li:hover, .slick-dots li:focus {
-    background-color: transparent;
-    vertical-align: middle; }
+  /* line 27, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+  .slick-dots li.slick-active:before {
+    color: #F57923; }

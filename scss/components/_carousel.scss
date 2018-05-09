@@ -23,10 +23,10 @@
 				padding: 0 $horz-spacing-unit 0 $horz-spacing-unit/2;
 				vertical-align: middle;
 			}
-			&:hover,
-			&:focus {
-				background-color: transparent;
-				vertical-align: middle;
+			&.slick-active {
+				&:before {
+					color: $accent;
+				}
 			}
 	}
 }
