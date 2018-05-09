@@ -30,17 +30,19 @@
 	}
 }
 .slick__arrow {
-	&:before {
-		color: $dark-grey;
-	}
-	&.slick-prev {
+	.slick-arrow {
 		&:before {
-			content: '\f104';
+			color: $dark-grey;
 		}
-	}
-	&.slick-next {
-		&:before {
-			content: '\f105';
+		&.slick-prev {
+			&:before {
+				content: '\f104';
+			}
+		}
+		&.slick-next {
+			&:before {
+				content: '\f105';
+			}
 		}
 	}
 }
