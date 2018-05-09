@@ -1,0 +1,9 @@
+.full-width {
+	background-color: $light-grey;
+	h2 {
+		color: $dark-grey;
+	}
+	.slide__content {
+		margin: 0 $horz-spacing-unit;
+	}
+}

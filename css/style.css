@@ -8186,6 +8186,11 @@ p {
 .font-small {
   font-size: 0.7692307692rem; }
 
+/* line 43, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+i.fas {
+  font-family: "FontAwesome";
+  font-style: normal; }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary {
   color: #ffffff;
@@ -8916,3 +8921,10 @@ hr {
 /* line 5, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 .main-container.container {
   margin-bottom: 2rem; }
+
+/* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+.full-width {
+  background-color: #DEE2E6; }
+  /* line 3, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  .full-width h2 {
+    color: #495057; }
