@@ -143,16 +143,16 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <div class="row">
-      <?php if (!empty($page['content_left'])): ?>
+      <?php //if (!empty($page['content_left'])): ?>
         <div class="content-left">
           <?php print render($page['content_left']); ?>
         </div>
-      <?php endif; ?>
-      <?php if (!empty($page['content_right'])): ?>
+      <?php //endif; ?>
+      <?php// if (!empty($page['content_right'])): ?>
         <div class="content-right">
           <?php print render($page['content_right']); ?>
         </div>
-      <?php endif; ?>
+      <?php// endif; ?>
     </div>
         <?php print render($page['content']); ?>
     </section>
