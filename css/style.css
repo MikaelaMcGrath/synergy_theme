@@ -8940,10 +8940,29 @@ hr {
     /* line 14, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
     .full-width .slick--float .slick__slide .product-fields {
       background-color: #ffffff; }
+  /* line 18, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  .full-width .slick__arrow {
+    position: relative; }
 
-/* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+/* line 23, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .front h1 {
   color: #ffffff; }
+
+/* line 28, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+.container-fluid .container-fluid.full-width {
+  padding-bottom: 0; }
+
+/* line 33, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+.slick__arrow:before {
+  color: #495057; }
+
+/* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+.slick__arrow.slick-prev:before {
+  content: '\f104'; }
+
+/* line 42, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+.slick__arrow.slick-next:before {
+  content: '\f105'; }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
 .slick-dots li {

@@ -15,9 +15,32 @@
 			background-color: $white;
 		}
 	}
+	.slick__arrow {
+		position: relative;
+	}
 }
 .front {
 	h1 {
 		color: $white;
+	}
+}
+.container-fluid {
+	.container-fluid.full-width {
+		padding-bottom: 0;
+	}
+}
+.slick__arrow {
+	&:before {
+		color: $dark-grey;
+	}
+	&.slick-prev {
+		&:before {
+			content: '\f104';
+		}
+	}
+	&.slick-next {
+		&:before {
+			content: '\f105';
+		}
 	}
 }
