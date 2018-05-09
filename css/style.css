@@ -8928,3 +8928,10 @@ hr {
   /* line 3, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width h2 {
     color: #495057; }
+  /* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  .full-width .slick--float .slick__slide .slide__content {
+    margin: 0 1rem; }
+
+/* line 13, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+.front h1 {
+  color: #ffffff; }

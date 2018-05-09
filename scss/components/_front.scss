@@ -3,7 +3,14 @@
 	h2 {
 		color: $dark-grey;
 	}
-	.slide__content {
-		margin: 0 $horz-spacing-unit;
+	.slick--float .slick__slide {
+		.slide__content {
+			margin: 0 $horz-spacing-unit;
+		}
+	}
+}
+.front {
+	h1 {
+		color: $white;
 	}
 }
