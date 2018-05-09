@@ -8944,3 +8944,33 @@ hr {
 /* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .front h1 {
   color: #ffffff; }
+
+/* line 2, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+.slick-dots li {
+  width: 32px;
+  height: 20px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  line-height: 8px;
+  border: none;
+  font-size: 0;
+  white-space: nowrap;
+  background-color: transparent; }
+  /* line 13, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+  .slick-dots li:before {
+    content: '\f111';
+    font-family: 'FontAwesome';
+    font-size: 10px;
+    padding: 0 0.5rem 0 1rem;
+    color: #868E96;
+    vertical-align: middle; }
+  /* line 21, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+  .slick-dots li:after {
+    font-family: 'FontAwesome';
+    padding: 0 1rem 0 0.5rem;
+    vertical-align: middle; }
+  /* line 26, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+  .slick-dots li:hover, .slick-dots li:focus {
+    background-color: transparent;
+    vertical-align: middle; }
