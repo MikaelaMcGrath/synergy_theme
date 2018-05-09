@@ -23,6 +23,8 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 regions[footer_banner] 	= 'Footer banner'
+regions[full_width_secondary] 	= 'Full width secondary'
+regions[content_third] = 'Content third'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
