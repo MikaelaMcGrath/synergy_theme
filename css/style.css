@@ -8952,18 +8952,6 @@ hr {
 .container-fluid .container-fluid.full-width {
   padding-bottom: 0; }
 
-/* line 34, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-.slick__arrow .slick-arrow:before {
-  color: #495057; }
-
-/* line 38, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-.slick__arrow .slick-arrow.slick-prev:before {
-  content: '\f104'; }
-
-/* line 43, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-.slick__arrow .slick-arrow.slick-next:before {
-  content: '\f105'; }
-
 /* line 2, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
 .slick-dots li {
   width: 32px;
@@ -8992,3 +8980,16 @@ hr {
   /* line 27, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
   .slick-dots li.slick-active:before {
     color: #F57923; }
+
+/* line 35, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+.slick__arrow .slick-arrow:before {
+  color: #495057;
+  font-family: "FontAwesome"; }
+
+/* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+.slick__arrow .slick-arrow.slick-prev:before {
+  content: '\f104'; }
+
+/* line 45, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
+.slick__arrow .slick-arrow.slick-next:before {
+  content: '\f105'; }
