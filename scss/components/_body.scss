@@ -2,7 +2,11 @@ body {
   	background-color: white;
 }
 .container-fluid {
-	box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5)
+	box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5);
+	& .container-fluid {
+		padding: $vert-spacing-unit*2 15px;
+		box-shadow: none;
+	}
 }
 .no-hero {
 	margin-top: $vert-spacing-unit;

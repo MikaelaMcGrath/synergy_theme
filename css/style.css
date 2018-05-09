@@ -8462,13 +8462,17 @@ body {
 /* line 4, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
 .container-fluid {
   box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5); }
+  /* line 6, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
+  .container-fluid .container-fluid {
+    padding: 2rem 15px;
+    box-shadow: none; }
 
-/* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
+/* line 11, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
 .no-hero {
   margin-top: 1rem;
   padding-top: 1rem; }
 
-/* line 11, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
+/* line 15, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
 .alert {
   display: none;
   visibility: hidden; }
