@@ -8477,6 +8477,10 @@ body {
   display: none;
   visibility: hidden; }
 
+/* line 19, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
+hr {
+  border-top: 2px solid #8DC63F; }
+
 @media (min-width: 768px) {
   /* line 3, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_phone.scss */
   .phone a {
