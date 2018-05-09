@@ -4,11 +4,12 @@
 		color: $dark-grey;
 	}
 	.slick--float .slick__slide {
+		margin-top: 10px;
 		.slide__content {
 			margin: 0 $horz-spacing-unit;
 		}
 		.border {
-			box-shadow: 0 4px 15px 5px $grey;
+			box-shadow: 0 4px 15px 5px $light-grey;
 		}
 		.product-fields {
 			background-color: $white;
