@@ -8468,6 +8468,11 @@ body {
   margin-top: 1rem;
   padding-top: 1rem; }
 
+/* line 11, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_body.scss */
+.alert {
+  display: none;
+  visibility: hidden; }
+
 @media (min-width: 768px) {
   /* line 3, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_phone.scss */
   .phone a {

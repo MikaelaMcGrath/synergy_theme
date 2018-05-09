@@ -8,3 +8,7 @@ body {
 	margin-top: $vert-spacing-unit;
 	padding-top: $vert-spacing-unit;
 }
+.alert {
+	display: none;
+	visibility: hidden;
+}
