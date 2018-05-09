@@ -1,11 +1,17 @@
 .full-width {
-	background-color: $light-grey;
+	background-color: $lightest-grey;
 	h2 {
 		color: $dark-grey;
 	}
 	.slick--float .slick__slide {
 		.slide__content {
 			margin: 0 $horz-spacing-unit;
+		}
+		.border {
+			box-shadow: 0 4px 15px 5px $grey;
+		}
+		.product-fields {
+			background-color: $white;
 		}
 	}
 }
