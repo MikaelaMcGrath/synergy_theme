@@ -8990,7 +8990,7 @@ hr {
 /* line 39, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .front #block-views-members-map-block {
   border-top: 1px solid #8DC63F;
-  margin-top: 2rem; }
+  padding-top: 2rem; }
 
 /* line 44, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 #block-views-exp-products-page {
