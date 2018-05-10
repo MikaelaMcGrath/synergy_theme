@@ -40,7 +40,6 @@
 		border-top: 1px solid $base;
 		border-bottom: 1px solid $base;
 		padding-top: $vert-spacing-unit*2;
-		padding-bottom: $vert-spacing-unit*2;
 	}
 }
 #block-views-exp-products-page {
@@ -83,10 +82,12 @@
 	}
 	.left-member-map {
 			width: 100%;
+			padding-bottom: $vert-spacing-unit*2;
 		}
 		.right-member-map {
 			width:100%;
 			clear: both;
+			padding-bottom: $vert-spacing-unit*2;
 		}
 }
 @media (min-width: 480px) {
