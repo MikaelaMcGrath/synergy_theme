@@ -77,12 +77,20 @@
 	}
 }
 #block-views-members-map-block {
+	font-size: $base-font-size*0.9;
 	h2 {
 		margin-top: 0;
+	}
+	h3 {
+		color: $base;
+		font-weight: $bold-font-weight;
 	}
 	.left-member-map {
 			width: 100%;
 			padding-bottom: $vert-spacing-unit*2;
+			.col-sm-6 {
+				margin-left: -15px;
+			}
 		}
 		.right-member-map {
 			width:100%;
