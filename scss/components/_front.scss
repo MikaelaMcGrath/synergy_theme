@@ -86,8 +86,19 @@
 		font-weight: $bold-font-weight;
 		font-size: $base-font-size;
 	}
+	.views-exposed-form {
+		.views-exposed-widget {
+			padding: $vert-spacing-unit 0 0 0;
+		}
+	}
 	.views-exposed-widgets {
 		    margin-bottom: $horz-spacing-unit;
+		    .views-submit-button {
+		    	.btn {
+			    	height: 42px;
+			    	padding: 0 3em;
+			    }
+		    }
 	}
 	.left-member-map {
 			width: 100%;
@@ -162,10 +173,6 @@
 			    position: absolute;
 			    bottom: 0;
 			    right: 0;
-			    .btn {
-			    	height: 42px;
-			    	padding: 0 3em;
-			    }
 		 	}
 		}
 		.left-member-map {
