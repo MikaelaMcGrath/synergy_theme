@@ -49,8 +49,11 @@
 }
 #block-views-contact-form-block-2 {
 	margin: $vert-spacing-unit*2 0;
-	.btn {
-		text-transform: uppercase;
+	.captch {
+		transform: scale(0.7);
+		-webkit-transform: scale(0.7);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
 	}
 }
 #block-block-4 {
@@ -68,6 +71,19 @@
 			bottom: 5px
 		}
 	}
+	#block-views-contact-form-block-2 {
+	.form-actions {
+		float: right;
+		clear: none;
+		width: 48%;
+	}
+	.btn {
+		text-transform: uppercase;
+		height: 53px;
+		width: 100%;
+
+	}
+}
 }
 @media (min-width: $screen-sm-min) {
 	.full-width {
