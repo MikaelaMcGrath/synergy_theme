@@ -39,7 +39,8 @@
 	#block-views-members-map-block {
 		border-top: 1px solid $base;
 		border-bottom: 1px solid $base;
-		padding: $vert-spacing-unit*2 0;
+		padding-top: $vert-spacing-unit*2;
+		padding-bottom: $vert-spacing-unit*2;
 	}
 }
 #block-views-exp-products-page {
