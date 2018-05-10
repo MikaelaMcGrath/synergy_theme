@@ -8192,7 +8192,7 @@ i.fas {
   font-style: normal; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
-.btn-primary {
+.btn-primary, .button-primary {
   color: #ffffff;
   background-color: #F57923;
   border-color: #F57923;
@@ -8201,23 +8201,32 @@ i.fas {
 /* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary:focus,
 .btn-primary.focus,
-.btn-primary:hover {
+.btn-primary:hover,
+.button-primary:focus,
+.button-primary.focus,
+.button-primary:hover {
   color: #ffffff;
   background-color: #f6883b;
   border-color: #f6883b; }
 
-/* line 14, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+/* line 17, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary[disabled]:active,
-.btn-primary[disabled].active {
+.btn-primary[disabled].active,
+.button-primary:active,
+.button-primary.active,
+.button-primary[disabled]:active,
+.button-primary[disabled].active {
   color: #ffffff;
   background-color: #f36a0b;
   border-color: #f36a0b; }
 
-/* line 22, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+/* line 29, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary[disabled]:hover,
-.btn-primary[disabled]:focus {
+.btn-primary[disabled]:focus,
+.button-primary[disabled]:hover,
+.button-primary[disabled]:focus {
   color: #ffffff;
   background-color: #f79754;
   border-color: #f79754; }
@@ -8992,32 +9001,35 @@ hr {
 /* line 50, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 #block-views-contact-form-block-2 {
   margin: 2rem 0; }
+  /* line 52, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  #block-views-contact-form-block-2 .btn {
+    text-transform: uppercase; }
 
-/* line 53, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+/* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 #block-block-4 {
   margin-bottom: 2rem; }
-  /* line 55, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 58, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-block-4 .tick ul {
     margin-bottom: 1rem; }
-    /* line 57, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+    /* line 60, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
     #block-block-4 .tick ul li {
       padding: 2px 0; }
 
 @media (min-width: 480px) {
-  /* line 64, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 67, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick__arrow {
     bottom: 5px; } }
 
 @media (min-width: 768px) {
-  /* line 71, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 74, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick__arrow {
     bottom: 28px;
     width: 200px; }
-  /* line 75, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 78, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick-dots {
     display: block;
     visibility: visible; }
-  /* line 81, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 84, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .container-fluid .container-fluid.full-width {
     padding-bottom: 0; } }
 

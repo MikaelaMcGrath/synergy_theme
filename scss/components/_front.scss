@@ -49,6 +49,9 @@
 }
 #block-views-contact-form-block-2 {
 	margin: $vert-spacing-unit*2 0;
+	.btn {
+		text-transform: uppercase;
+	}
 }
 #block-block-4 {
 	margin-bottom: $vert-spacing-unit*2;
