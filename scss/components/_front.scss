@@ -154,6 +154,12 @@
 			clear: none;
 		}
 	}
+	#block-views-members-map-block {
+		.views-exposed-widgets {
+		    width: 80%;
+		    
+		}
+	}
 }
 @media (min-width: $screen-sm-min) {
 	.full-width {
