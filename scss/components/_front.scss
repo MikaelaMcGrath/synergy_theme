@@ -17,8 +17,9 @@
 	}
 	.slick__arrow {
 		position: relative;
-		bottom: -4px;
-		width: 300px;
+		bottom: 20px;
+		width: 100px;
+		margin: 0 auto;
 
 	}
 	.slick-dots {
@@ -36,6 +37,17 @@
 		color: $white;
 	}
 }
+@media (min-width: $screen-sm-min) {
+	.full-width {
+		.slick__arrow {
+			bottom: 5px
+		}
+		.slick-dots {
+			display: block;
+			visibility: visible;
+		}
+	}
+}
 @media (min-width: $screen-md-min) {
 	.full-width {
 		.slick__arrow {
@@ -43,10 +55,7 @@
 			bottom: -4px;
 			width: 300px;
 		}
-		.slick-dots {
-			display: block;
-			visibility: visible;
-		}
+		
 	}
 	.container-fluid {
 		.container-fluid.full-width {
