@@ -33,7 +33,7 @@
     <?php print $title; ?>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
-  <div class="left">
+  <div class="left-member-map">
   <?php if ($header): ?>
     <div class="view-header">
       <?php print $header; ?>
@@ -51,7 +51,7 @@
     </div>
   <?php endif; ?>
 </div>
-<div class="right">
+<div class="right-member-map">
   <?php if ($rows): ?>
     <div class="view-content">
       <?php print $rows; ?>

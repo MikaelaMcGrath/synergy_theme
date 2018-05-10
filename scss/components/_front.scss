@@ -81,6 +81,13 @@
 	h2 {
 		margin-top: 0;
 	}
+	.left-members-map {
+			width: 100%;
+		}
+		.right-members-map {
+			width:100%;
+			clear: both;
+		}
 }
 @media (min-width: 480px) {
 	.full-width {
@@ -114,5 +121,14 @@
 			padding-bottom: 0;
 		}
 	}
+	#block-views-members-map-block {
+		.left-members-map {
+			width: 50%;
+			float: left;
+		}
+		.right-members-map { 
+			clear: none;
+		}
 
+	}
 }
