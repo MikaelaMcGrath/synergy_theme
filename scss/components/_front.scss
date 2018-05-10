@@ -38,7 +38,8 @@
 	}
 	#block-views-members-map-block {
 		border-top: 1px solid $base;
-		padding-top: $vert-spacing-unit*2;
+		border-bottom: 1px solid $base;
+		padding: $vert-spacing-unit*2 0;
 	}
 }
 #block-views-exp-products-page {

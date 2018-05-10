@@ -33,7 +33,7 @@
     <?php print $title; ?>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
-  <div class="col-sm-6">
+  <div class="left">
   <?php if ($header): ?>
     <div class="view-header">
       <?php print $header; ?>
@@ -51,7 +51,7 @@
     </div>
   <?php endif; ?>
 </div>
-<div class="col-sm-6">
+<div class="right">
   <?php if ($rows): ?>
     <div class="view-content">
       <?php print $rows; ?>
