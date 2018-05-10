@@ -1,6 +1,6 @@
 .slick-dots {
 	li {
-			width: 32px;
+			width: 30px;
 			height: 20px;
 			overflow: hidden;
 			padding: 0;
@@ -14,7 +14,6 @@
 				content: '\f111';
 				font-family: 'FontAwesome';
 				font-size: 10px;
-				padding: 0 $horz-spacing-unit/2 0 $horz-spacing-unit;
 				color: $grey;
 				vertical-align: middle;
 			}

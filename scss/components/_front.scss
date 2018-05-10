@@ -47,7 +47,8 @@
 @media (min-width: $screen-sm-min) {
 	.full-width {
 		.slick__arrow {
-			bottom: 5px
+			bottom: 28px;
+			width: 200px;
 		}
 		.slick-dots {
 			display: block;
@@ -61,13 +62,3 @@
 	}
 
 }
-@media (min-width: $screen-md-min) {
-	.full-width {
-		.slick__arrow {
-			position: absolute;
-			bottom: -4px;
-			width: 300px;
-		}
-		
-	}
-	}
