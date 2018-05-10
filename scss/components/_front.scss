@@ -141,13 +141,20 @@
 		}
 	}
 	#block-views-members-map-block {
-		input[type="text"] {
-			width:100%;
-		}
 		.views-exposed-widgets {
 		    margin-bottom: 1em;
 		    position: relative;
 		    width: 70%;
+		    .geofield-proximity-field-wrapper .form-item, .geofield-proximity-field-wrapper .geofield-proximity-origin-from {
+		    	margin-right: 0;
+		    }
+		    .geofield-proximity-field-wrapper .form-type-select {
+		    	padding-top: 0;
+		    	padding-top: $vert-spacing-unit;
+		    }
+		    input[type="text"] {
+				width:100%;
+			}
 		    .views-submit-button {
 			    position: absolute;
 			    bottom: 0;

@@ -9092,26 +9092,33 @@ hr {
   .container-fluid .container-fluid.full-width {
     padding-bottom: 0; }
   /* line 144, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-members-map-block input[type="text"] {
-    width: 100%; }
-  /* line 147, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-members-map-block .views-exposed-widgets {
     margin-bottom: 1em;
     position: relative;
     width: 70%; }
+    /* line 148, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+    #block-views-members-map-block .views-exposed-widgets .geofield-proximity-field-wrapper .form-item, #block-views-members-map-block .views-exposed-widgets .geofield-proximity-field-wrapper .geofield-proximity-origin-from {
+      margin-right: 0; }
     /* line 151, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+    #block-views-members-map-block .views-exposed-widgets .geofield-proximity-field-wrapper .form-type-select {
+      padding-top: 0;
+      padding-top: 1rem; }
+    /* line 155, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+    #block-views-members-map-block .views-exposed-widgets input[type="text"] {
+      width: 100%; }
+    /* line 158, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
     #block-views-members-map-block .views-exposed-widgets .views-submit-button {
       position: absolute;
       bottom: 0;
       right: 0; }
-      /* line 155, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+      /* line 162, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
       #block-views-members-map-block .views-exposed-widgets .views-submit-button .btn {
         height: 42px; }
-  /* line 160, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 167, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-members-map-block .left-member-map {
     width: 50%;
     float: left; }
-  /* line 164, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 171, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-members-map-block .right-member-map {
     clear: none; } }
 
