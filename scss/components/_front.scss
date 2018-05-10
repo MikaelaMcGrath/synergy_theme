@@ -26,6 +26,11 @@
 		visibility: hidden;
 	}
 }
+.container-fluid {
+		.container-fluid.full-width {
+			padding-bottom: $vert-spacing-unit;
+		}
+	}
 .front {
 	h1 {
 		color: $white;
@@ -44,8 +49,8 @@
 		}
 	}
 	.container-fluid {
-	.container-fluid.full-width {
-		padding-bottom: 0;
+		.container-fluid.full-width {
+			padding-bottom: 0;
+		}
 	}
-}
 }
