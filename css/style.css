@@ -9002,7 +9002,7 @@ hr {
 #block-views-contact-form-block-2 {
   margin: 2rem 0; }
   /* line 52, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-2 .captch {
+  #block-views-contact-form-block-2 .captcha {
     transform: scale(0.7);
     -webkit-transform: scale(0.7);
     transform-origin: 0 0;
