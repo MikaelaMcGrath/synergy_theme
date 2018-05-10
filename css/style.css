@@ -8633,7 +8633,7 @@ hr {
         min-width: 35px; }
 
 /* line 73, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-.edit-search-api-views-fulltext {
+#edit-search-api-views-fulltext.form-control {
   border-radius: 10px; }
 
 /* line 77, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
