@@ -90,7 +90,9 @@
 		.views-exposed-widget {
 			padding: $vert-spacing-unit 0 0 0;
 		}
-	}
+	input[type="text"] {
+				width:100%;
+			}
 	.views-exposed-widgets {
 		    margin-bottom: $horz-spacing-unit;
 		    position: relative;
@@ -113,6 +115,7 @@
 		    	padding-top: $vert-spacing-unit;
 		    }
 	}
+}
 	.left-member-map {
 			width: 100%;
 			padding-bottom: $vert-spacing-unit*2;
@@ -135,6 +138,7 @@
 			padding-bottom: $vert-spacing-unit*2;
 		}
 }
+
 @media (min-width: 480px) {
 	.full-width {
 		.slick__arrow {
@@ -170,9 +174,7 @@
 	#block-views-members-map-block {
 		.views-exposed-widgets {
 		    width: 70%;
-		    input[type="text"] {
-				width:100%;
-			}
+		    
 		}
 		.left-member-map {
 			width: 50%;
