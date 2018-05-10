@@ -103,6 +103,10 @@
 			    	padding: 0 3em;
 			    }
 		    }
+		    .geofield-proximity-field-wrapper .form-item, 
+		    .geofield-proximity-field-wrapper .geofield-proximity-origin-from {
+		    	margin-right: 0;
+		    }
 	}
 	.left-member-map {
 			width: 100%;
@@ -161,9 +165,6 @@
 	#block-views-members-map-block {
 		.views-exposed-widgets {
 		    width: 70%;
-		    .geofield-proximity-field-wrapper .form-item, .geofield-proximity-field-wrapper .geofield-proximity-origin-from {
-		    	margin-right: 0;
-		    }
 		    .geofield-proximity-field-wrapper .form-type-select, 
 		    .form-group:last-child, 
 		    .panel:last-child {
