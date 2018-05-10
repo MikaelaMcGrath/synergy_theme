@@ -89,8 +89,15 @@
 	.left-member-map {
 			width: 100%;
 			padding-bottom: $vert-spacing-unit*2;
-			.col-sm-6 {
-				margin-left: -15px;
+			.address, .contact {
+				display: inline-block;
+			}
+			.address {
+				width: 43%;
+				margin-right: $horz-spacing-unit;
+			}
+			.contact {
+				width: 52%;
 			}
 		}
 		.right-member-map {
