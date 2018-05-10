@@ -55,6 +55,11 @@
 		transform-origin: 0 0;
 		-webkit-transform-origin: 0 0;
 	}
+	.btn {
+			text-transform: uppercase;
+			height: 53px;
+			padding: 6px $horz-spacing-unit*2;
+	}
 }
 #block-block-4 {
 	margin-bottom: $vert-spacing-unit*2;
@@ -72,18 +77,15 @@
 		}
 	}
 	#block-views-contact-form-block-2 {
-	.form-actions {
-		float: right;
-		clear: none;
-		width: 48%;
+		.form-actions {
+			float: right;
+			clear: none;
+			width: 48%;
+		}
+		.btn {
+			width: 100%;
+		}
 	}
-	.btn {
-		text-transform: uppercase;
-		height: 53px;
-		width: 100%;
-
-	}
-}
 }
 @media (min-width: $screen-sm-min) {
 	.full-width {
