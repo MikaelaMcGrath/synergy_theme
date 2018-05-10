@@ -8960,28 +8960,32 @@ hr {
 .front h1 {
   color: #ffffff; }
 
-/* line 41, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-#block-views-exp-products-page .block-title {
-  color: #495057;
-  font-size: 1.5rem;
-  display: block;
-  visibility: visible; }
+/* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+#block-views-exp-products-page {
+  border-bottom: 1px solid #8DC63F; }
+  /* line 42, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  #block-views-exp-products-page .block-title {
+    color: #495057;
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: block;
+    visibility: visible; }
 
 @media (min-width: 480px) {
-  /* line 50, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 52, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick__arrow {
     bottom: 5px; } }
 
 @media (min-width: 768px) {
-  /* line 57, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 59, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick__arrow {
     bottom: 28px;
     width: 200px; }
-  /* line 61, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 63, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick-dots {
     display: block;
     visibility: visible; }
-  /* line 67, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 69, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .container-fluid .container-fluid.full-width {
     padding-bottom: 0; } }
 
