@@ -37,6 +37,13 @@
 		color: $white;
 	}
 }
+@media (min-width: 480px) {
+	.full-width {
+		.slick__arrow {
+			bottom: 5px
+		}
+	}
+}
 @media (min-width: $screen-sm-min) {
 	.full-width {
 		.slick__arrow {
@@ -47,6 +54,12 @@
 			visibility: visible;
 		}
 	}
+	.container-fluid {
+		.container-fluid.full-width {
+			padding-bottom: 0;
+		}
+	}
+
 }
 @media (min-width: $screen-md-min) {
 	.full-width {
@@ -57,9 +70,4 @@
 		}
 		
 	}
-	.container-fluid {
-		.container-fluid.full-width {
-			padding-bottom: 0;
-		}
 	}
-}

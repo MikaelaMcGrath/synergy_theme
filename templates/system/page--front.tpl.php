@@ -165,8 +165,7 @@
       </div>
       </div>
     </div>
-</div>
-<div class="row container-fluid">
+    <div class="row container-fluid">
     <div class="full-width-secondary container">
       <?php print render($page['full_width_secondary']); ?>
     </div>
@@ -179,6 +178,8 @@
       </div>
     </div>
 </div>
+</div>
+
 <?php if (!empty($page['footer'])): ?>
   <footer class="footer <?php print $container_class; ?>">
     <?php print render($page['footer']); ?>
