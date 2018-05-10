@@ -47,6 +47,18 @@
 		visibility: visible;
 	}
 }
+#block-views-contact-form-block-2 {
+	margin: $vert-spacing-unit*2 0;
+}
+#block-block-4 {
+	margin-bottom: $vert-spacing-unit*2;
+	.tick ul {
+		margin-bottom: $vert-spacing-unit;
+		li {
+			padding: 2px 0;
+		}
+	}
+}
 @media (min-width: 480px) {
 	.full-width {
 		.slick__arrow {
