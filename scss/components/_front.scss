@@ -93,6 +93,7 @@
 	}
 	.views-exposed-widgets {
 		    margin-bottom: $horz-spacing-unit;
+		    position: relative;
 		    .views-submit-button {
 		    	position: absolute;
 			    bottom: 0;
@@ -159,7 +160,6 @@
 	}
 	#block-views-members-map-block {
 		.views-exposed-widgets {
-		    position: relative;
 		    width: 70%;
 		    .geofield-proximity-field-wrapper .form-item, .geofield-proximity-field-wrapper .geofield-proximity-origin-from {
 		    	margin-right: 0;
