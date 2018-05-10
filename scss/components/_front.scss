@@ -37,6 +37,15 @@
 		color: $white;
 	}
 }
+#block-views-exp-products-page {
+	.block-title {
+		color: $dark-grey;
+		font-size: $base-font-size*1.5;
+		display: block;
+		visibility: visible;
+		margin-bottom: 1px solid $base;
+	}
+}
 @media (min-width: 480px) {
 	.full-width {
 		.slick__arrow {
