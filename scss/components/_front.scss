@@ -50,14 +50,14 @@
 #block-views-contact-form-block-2 {
 	margin: $vert-spacing-unit*2 0;
 	.captcha {
-		transform: scale(0.7);
-		-webkit-transform: scale(0.7);
+		transform: scale(0.65);
+		-webkit-transform: scale(0.65);
 		transform-origin: 0 0;
 		-webkit-transform-origin: 0 0;
 	}
 	.btn {
 			text-transform: uppercase;
-			height: 53px;
+			height: 50px;
 			padding: 6px $horz-spacing-unit*2;
 	}
 }
@@ -83,10 +83,6 @@
 		.form-actions {
 			float: right;
 			clear: none;
-			width: 48%;
-		}
-		.btn {
-			width: 100%;
 		}
 	}
 }
