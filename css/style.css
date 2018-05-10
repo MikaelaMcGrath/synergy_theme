@@ -8942,15 +8942,31 @@ hr {
       background-color: #ffffff; }
   /* line 18, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick__arrow {
-    position: relative; }
+    position: relative;
+    bottom: -4px;
+    width: 300px; }
+  /* line 24, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  .full-width .slick-dots {
+    display: none;
+    visibility: hidden; }
 
-/* line 23, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+/* line 30, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .front h1 {
   color: #ffffff; }
 
-/* line 28, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-.container-fluid .container-fluid.full-width {
-  padding-bottom: 0; }
+@media (min-width: 992px) {
+  /* line 36, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  .full-width .slick__arrow {
+    position: absolute;
+    bottom: -4px;
+    width: 300px; }
+  /* line 41, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  .full-width .slick-dots {
+    display: block;
+    visibility: visible; }
+  /* line 47, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  .container-fluid .container-fluid.full-width {
+    padding-bottom: 0; } }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
 .slick-dots li {

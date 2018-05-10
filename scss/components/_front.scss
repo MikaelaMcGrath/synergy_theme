@@ -17,6 +17,13 @@
 	}
 	.slick__arrow {
 		position: relative;
+		bottom: -4px;
+		width: 300px;
+
+	}
+	.slick-dots {
+		display: none;
+		visibility: hidden;
 	}
 }
 .front {
@@ -24,8 +31,21 @@
 		color: $white;
 	}
 }
-.container-fluid {
+@media (min-width: $screen-md-min) {
+	.full-width {
+		.slick__arrow {
+			position: absolute;
+			bottom: -4px;
+			width: 300px;
+		}
+		.slick-dots {
+			display: block;
+			visibility: visible;
+		}
+	}
+	.container-fluid {
 	.container-fluid.full-width {
 		padding-bottom: 0;
 	}
+}
 }
