@@ -9036,11 +9036,11 @@ hr {
   margin-top: 0; }
 
 /* line 84, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-#block-views-members-map-block .left-members-map {
+#block-views-members-map-block .left-member-map {
   width: 100%; }
 
 /* line 87, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-#block-views-members-map-block .right-members-map {
+#block-views-members-map-block .right-member-map {
   width: 100%;
   clear: both; }
 
@@ -9069,11 +9069,11 @@ hr {
   .container-fluid .container-fluid.full-width {
     padding-bottom: 0; }
   /* line 125, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-members-map-block .left-members-map {
+  #block-views-members-map-block .left-member-map {
     width: 50%;
     float: left; }
   /* line 129, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-members-map-block .right-members-map {
+  #block-views-members-map-block .right-member-map {
     clear: none; } }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
