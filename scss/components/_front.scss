@@ -76,22 +76,6 @@
 		visibility: visible;
 	}
 }
-#block-views-contact-form-block-2, 
-#block-views-contact-form-block-1 {
-	margin: $vert-spacing-unit*2 0;
-	.captcha {
-		transform: scale(0.65);
-		-webkit-transform: scale(0.65);
-		transform-origin: 0 0;
-		-webkit-transform-origin: 0 0;
-		width: 50%;
-	}
-	.btn {
-			text-transform: uppercase;
-			height: 50px;
-			padding: 6px $horz-spacing-unit*2;
-	}
-}
 #block-block-4 {
 	margin-bottom: $vert-spacing-unit*2;
 	.tick ul {

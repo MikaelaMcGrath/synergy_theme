@@ -12,11 +12,28 @@
 		border-radius: 5px;
 	}
 }
+#block-views-contact-form-block-2, 
+#block-views-contact-form-block-1,
+#block-views-contact-form-block-3 {
+	margin: $vert-spacing-unit*2 0;
+	.captcha {
+		transform: scale(0.65);
+		-webkit-transform: scale(0.65);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		width: 50%;
+	}
+	.btn {
+			text-transform: uppercase;
+			height: 50px;
+			padding: 6px $horz-spacing-unit*2;
+	}
+}
 #block-views-contact-form-block-3 {
 	label {
-		color: $light-grey;
+		color: $grey;
 	}
-	p.small-font {
+	p.font-small {
 		padding-top: 2em;
 	}
 }
