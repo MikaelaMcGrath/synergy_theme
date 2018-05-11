@@ -7,9 +7,22 @@
 }
 #page-header {
 	min-height: 375px;
+	&:before {
+		min-height: 375px;
+		background: rgba(255,255,255,0.4);
+		width: 100%;
+	}
 	.header-banner-text {
 		max-width: 500px;
 		text-align: center;
 		margin: 0 auto;
+		min-height: 375px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		.btn {
+			width: 40px
+		}
 	}
 }

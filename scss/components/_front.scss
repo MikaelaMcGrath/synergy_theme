@@ -54,6 +54,11 @@
 		border-bottom: 1px solid $base;
 		padding-top: $vert-spacing-unit*2;
 	}
+	#page-header {
+		&:before {
+			background: rgba(0,0,0,0.5);
+		}
+	}
 }
 #block-views-exp-products-page {
 	border-bottom: 1px solid $base;
