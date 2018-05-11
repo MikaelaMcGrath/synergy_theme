@@ -9096,7 +9096,7 @@ hr {
   margin: 0 0 1rem 0; }
   /* line 97, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-contact-form-block-1 p {
-    padding: 0; }
+    margin: 0; }
   /* line 100, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-contact-form-block-1 .form-control {
     color: #495057;
