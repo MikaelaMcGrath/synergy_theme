@@ -26,6 +26,19 @@
 		display: none;
 		visibility: hidden;
 	}
+	.more-link {
+		font-size: $small-font-size;
+		position: absolute;
+		bottom: 22px;
+		right: 15px;
+		a {
+			color: $accent;
+			&:hover,
+			&:focus {
+				color: $accent;
+			}
+		}
+	}
 }
 .container-fluid {
 		.container-fluid.full-width {
