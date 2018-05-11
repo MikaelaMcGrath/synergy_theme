@@ -110,14 +110,6 @@
 </header>
 <div class="container-fluid">
   <div class="main-container no-hero <?php print $container_class; ?>">
-    <header role="banner" id="page-header">
-      <?php if (!empty($site_slogan)): ?>
-        <p class="lead"><?php print $site_slogan; ?></p>
-      <?php endif; ?>
-
-      <?php print render($page['header']); ?>
-    </header> <!-- /#page-header -->
-
     <div class="row">
 
       <?php if (!empty($page['sidebar_first'])): ?>
