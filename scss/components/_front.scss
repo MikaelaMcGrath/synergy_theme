@@ -70,6 +70,13 @@
 }
 #block-views-contact-form-block-1 {
 	margin: 0;
+	.form-group {
+		color: $dark-grey;
+		background-color: $white;
+		font-family: $base-font-family;
+		border: 1px solid $grey;
+		border-radius: 5px;
+	}
 }
 #block-block-4 {
 	margin-bottom: $vert-spacing-unit*2;
@@ -198,6 +205,11 @@
 	}
 	.view-content {
 		text-align: center;
+	}
+}
+.content-third {
+	h2 {
+		color: $dark-grey;
 	}
 }
 @media (min-width: 480px) {
