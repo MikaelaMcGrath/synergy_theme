@@ -218,12 +218,16 @@
 	}
 	.view-content {
 		text-align: center;
+		margin-top: $vert-spacing-unit;
 	}
 }
 .content-third {
 	h2 {
 		color: $dark-grey;
 	}
+}
+#block-block-5 {
+	background-image: url ('/sites/all/files/app.png');
 }
 @media (min-width: 480px) {
 	.full-width {
