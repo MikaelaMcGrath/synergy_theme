@@ -8181,7 +8181,7 @@ h2 {
 /* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 p {
   font-family: "Montserrat", sans-serif;
-  padding: 0.5rem 0; }
+  margin: 0.5rem 0; }
 
 /* line 41, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 .font-small {
@@ -8993,6 +8993,10 @@ hr {
     justify-content: center;
     flex-direction: column;
     align-items: center; }
+
+/* line 27, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+#block-views-contact-form-block-3 h2 {
+  color: #495057; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .full-width {
