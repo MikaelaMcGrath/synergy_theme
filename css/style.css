@@ -9409,20 +9409,28 @@ hr {
 
 /* line 19, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
 #block-views-contact-form-block-4 {
-  margin: 0 0 1rem 0; }
+  margin-bottom: 1rem; }
   /* line 21, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-4 p {
     margin: 0; }
+  /* line 24, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  #block-views-contact-form-block-4 .form-control {
+    clear: none;
+    float: right; }
+  /* line 28, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  #block-views-contact-form-block-4 .captcha {
+    width: 200px;
+    float: left; }
 
-/* line 25, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+/* line 34, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
 #block-views-contact-form-block-1,
 #block-views-contact-form-block-3 {
   margin: 0 0 1rem 0; }
-  /* line 28, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  /* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-1 p,
   #block-views-contact-form-block-3 p {
     margin: 0; }
-  /* line 31, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  /* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-1 .form-control,
   #block-views-contact-form-block-3 .form-control {
     color: #495057;
@@ -9431,48 +9439,54 @@ hr {
     border: 1px solid #868E96;
     border-radius: 5px; }
 
-/* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+/* line 49, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
 #block-views-contact-form-block-3 label {
   color: #868E96; }
 
-/* line 43, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+/* line 52, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
 #block-views-contact-form-block-3 .form-type-markup, #block-views-contact-form-block-3 .captcha {
   float: left;
   margin-left: 1rem; }
 
-/* line 47, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+/* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
 #block-views-contact-form-block-3 .form-type-markup {
   width: 30%; }
 
-/* line 50, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+/* line 59, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
 #block-views-contact-form-block-3 .captcha {
   width: 200px; }
 
-/* line 53, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+/* line 62, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
 #block-views-contact-form-block-3 .form-actions {
   clear: none;
   float: right;
   margin-right: 1rem; }
 
 @media (min-width: 480px) {
-  /* line 62, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  /* line 71, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-2 .captcha,
   #block-views-contact-form-block-1 .captcha {
     float: left; }
-  /* line 65, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  /* line 74, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-2 .form-actions,
   #block-views-contact-form-block-1 .form-actions {
     float: right;
     clear: none; } }
 
 @media (min-width: 992px) {
-  /* line 73, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  /* line 82, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-1 .form-group {
     width: 80%; }
-  /* line 76, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  /* line 85, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-1 .form-type-markup {
     width: 30%;
     float: left; }
-  /* line 80, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  /* line 89, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
   #block-views-contact-form-block-1 .captcha {
     width: 30%; } }
+
+@media (min-width: 1200px) {
+  /* line 97, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
+  #block-views-contact-form-block-4 .webform-component-markup {
+    width: 30%;
+    float: left; } }
