@@ -33,18 +33,18 @@
 	label {
 		color: $grey;
 	}
-	.form-type-markup {
+	.form-type-markup, .captcha {
 			width: 30%;
 			float: left;
 			margin-left: $horz-spacing-unit;
 		}
 		.captcha {
-			width: 30%;
-			float: left;
+			width: 40%;
 		}
 		.form-actions {
 			clear: none;
 			float: right;
+			margin-right: $horz-spacing-unit;
 		}
 }
 @media (min-width: 480px) {
@@ -56,6 +56,11 @@
 		.form-actions {
 			float: right;
 			clear: none;
+		}
+	}
+	#block-views-contact-form-block-3 {
+		.captcha {
+			width: 30%;
 		}
 	}
 }
