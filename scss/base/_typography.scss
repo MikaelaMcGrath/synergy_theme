@@ -27,6 +27,13 @@ h2 {
 	font-weight: $light-font-weight;
   color: $heading-font-color;
 }
+h3 {
+  font-weight: $light-font-weight;
+}
+h4 {
+  color: $heading-font-color;
+  font-size: $base-font-size;
+}
 .subtitle {
   color: $heading-font-color;
   font-weight: $bold-font-weight;
