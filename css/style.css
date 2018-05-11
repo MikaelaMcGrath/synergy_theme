@@ -9017,17 +9017,17 @@ hr {
     visibility: visible; }
 
 /* line 55, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-#block-views-contact-form-block-2 {
+#block-views-contact-form-block-2, #block-views-contact-form-block-1 {
   margin: 2rem 0; }
   /* line 57, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-2 .captcha {
+  #block-views-contact-form-block-2 .captcha, #block-views-contact-form-block-1 .captcha {
     transform: scale(0.65);
     -webkit-transform: scale(0.65);
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
     width: 50%; }
   /* line 64, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-2 .btn {
+  #block-views-contact-form-block-2 .btn, #block-views-contact-form-block-1 .btn {
     text-transform: uppercase;
     height: 50px;
     padding: 6px 2rem; }
@@ -9167,10 +9167,10 @@ hr {
   .full-width .slick__arrow {
     bottom: 5px; }
   /* line 206, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-2 .captcha {
+  #block-views-contact-form-block-2 .captcha, #block-views-contact-form-block-1 .captcha {
     float: left; }
   /* line 209, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-2 .form-actions {
+  #block-views-contact-form-block-2 .form-actions, #block-views-contact-form-block-1 .form-actions {
     float: right;
     clear: none; }
   /* line 215, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
