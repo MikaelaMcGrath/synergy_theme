@@ -273,15 +273,6 @@
 			bottom: 5px
 		}
 	}
-	#block-views-contact-form-block-2, #block-views-contact-form-block-1 {
-		.captcha {
-			float: left;
-		}
-		.form-actions {
-			float: right;
-			clear: none;
-		}
-	}
 	#block-views-members-map-block {
 		.views-exposed-widgets {
 		    width: 80%;
@@ -335,18 +326,6 @@
 	}
 }
 @media (min-width: $screen-md-min) {
-	#block-views-contact-form-block-1 {
-		.form-group {
-			width: 80%;
-		}
-		.form-type-markup {
-			width: 30%;
-			float: left;
-		}
-		.captcha {
-			width: 30%;
-		}
-	}
 	#block-block-5 {
 		.background-image {
 			background: url('/sites/default/files/app.png') no-repeat;

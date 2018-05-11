@@ -13,5 +13,36 @@
 	}
 }
 #block-views-contact-form-block-3 {
-	
+	label {
+		color: $light-grey;
+	}
+	p.small-font {
+		padding-top: 2em;
+	}
+}
+@media (min-width: 480px) {
+	#block-views-contact-form-block-2, 
+	#block-views-contact-form-block-1 {
+		.captcha {
+			float: left;
+		}
+		.form-actions {
+			float: right;
+			clear: none;
+		}
+	}
+}
+@media (min-width: $screen-md-min) {
+	#block-views-contact-form-block-1 {
+		.form-group {
+			width: 80%;
+		}
+		.form-type-markup {
+			width: 30%;
+			float: left;
+		}
+		.captcha {
+			width: 30%;
+		}
+	}
 }
