@@ -53,7 +53,7 @@ i.fas {
   font-family: "FontAwesome";
   font-style: normal;
 }
-.standout {
+.standout, .standout p {
   font-size: $base-font-size * 1.3;
   font-weight: $light-font-weight;
   font-family: $base-font-family;

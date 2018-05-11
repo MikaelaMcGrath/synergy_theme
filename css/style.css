@@ -8203,7 +8203,7 @@ i.fas {
   font-style: normal; }
 
 /* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
-.standout {
+.standout, .standout p {
   font-size: 1.3rem;
   font-weight: 300;
   font-family: "Open Sans", sans-serif; }
