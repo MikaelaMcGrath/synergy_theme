@@ -8180,16 +8180,23 @@ h2 {
 
 /* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 p {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem 0; }
 
-/* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+/* line 41, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 .font-small {
   font-size: 0.7692307692rem; }
 
-/* line 43, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+/* line 44, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 i.fas {
   font-family: "FontAwesome";
   font-style: normal; }
+
+/* line 48, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
+.standout {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn {
@@ -8961,19 +8968,14 @@ hr {
     font-weight: 400; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-.standout {
-  font-size: 1.5rem;
-  font-weight: 300; }
-
-/* line 5, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 .main-container.container {
   margin-bottom: 2rem; }
 
-/* line 8, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+/* line 4, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 #page-header {
   min-height: 375px;
   position: relative; }
-  /* line 11, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  /* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   #page-header:before {
     min-height: 375px;
     background: rgba(255, 255, 255, 0.4);
@@ -8981,7 +8983,7 @@ hr {
     position: absolute;
     top: 0;
     left: 0; }
-  /* line 19, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  /* line 15, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   #page-header .header-banner-text {
     max-width: 500px;
     text-align: center;

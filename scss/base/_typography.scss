@@ -36,6 +36,7 @@ h2 {
 }
 p {
   font-family: $secondary-font-family;
+  padding: $vert-spacing-unit 0;
 }
 .font-small {
   font-size: $small-font-size;
@@ -43,4 +44,9 @@ p {
 i.fas {
   font-family: "FontAwesome";
   font-style: normal;
+}
+.standout {
+  font-size: $base-font-size * 1.5;
+  font-weight: $light-font-weight;
+  font-family: $base-font-family;
 }
