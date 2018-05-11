@@ -10,15 +10,20 @@
 select {
 	height: 48px;
 }
-#mc_embed_signup div.mce_inline_error {
-	background-color: $white !important;
-	font-weight: $base-font-weight !important;
-	color: $alert !important;
-	font-size: $small-font-size !important;
-	margin: 0 !important;
-	height: 0 !important;
-	padding: 0 !important;
-	transition: display ease 0.2s;
+#mc_embed_signup {
+	.form-group {
+		margin-bottom: 0;
+	}
+	div.mce_inline_error {
+		background-color: $white !important;
+		font-weight: $base-font-weight !important;
+		color: $alert !important;
+		font-size: $small-font-size !important;
+		margin: 0 !important;
+		height: 0 !important;
+		padding: 0 !important;
+		transition: display ease 0.2s;
+	}
 }
 input[type='checkbox'] {
 		margin-right: 1em;
