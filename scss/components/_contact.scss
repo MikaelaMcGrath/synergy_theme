@@ -1,6 +1,7 @@
 #block-views-contact-form-block-2, 
 #block-views-contact-form-block-1,
-#block-views-contact-form-block-3 {
+#block-views-contact-form-block-3,
+#block-views-contact-form-block-4 {
 	margin: $vert-spacing-unit*2 0;
 	.captcha {
 		transform: scale(0.65);
@@ -28,6 +29,9 @@
 		border: 1px solid $grey;
 		border-radius: 5px;
 	}
+}
+#block-views-contact-form-block-4 {
+	padding-top: $vert-spacing-unit*2;
 }
 #block-views-contact-form-block-3 {
 	label {
