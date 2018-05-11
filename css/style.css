@@ -9207,7 +9207,7 @@ hr {
   overflow: hidden; }
   /* line 238, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-block-5 .background-image {
-    background: url("/sites/default/files/app.png") no-repeat;
+    background: url("/sites/default/files/app.png") no-repeat left top;
     z-index: -1;
     background-size: cover;
     position: absolute;
@@ -9279,19 +9279,16 @@ hr {
   /* line 324, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-contact-form-block-1 .captcha {
     width: 30%; }
-  /* line 328, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-block-5 {
-    overflow: hidden; }
-    /* line 330, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-    #block-block-5 .background-image {
-      background: url("/sites/default/files/app.png") no-repeat;
-      z-index: -1;
-      background-size: cover;
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 461px; } }
+  /* line 329, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  #block-block-5 .background-image {
+    background: url("/sites/default/files/app.png") no-repeat;
+    z-index: -1;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 461px; } }
 
 /* line 2, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_carousel.scss */
 .slick-dots li {

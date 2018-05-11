@@ -236,7 +236,7 @@
 #block-block-5 {
 	overflow: hidden;
 	.background-image {
-		background: url('/sites/default/files/app.png') no-repeat;
+		background: url('/sites/default/files/app.png') no-repeat left top;
 		z-index: -1;
 		background-size: cover;
 		position: absolute;
@@ -326,7 +326,6 @@
 		}
 	}
 	#block-block-5 {
-		overflow: hidden;
 		.background-image {
 			background: url('/sites/default/files/app.png') no-repeat;
 			z-index: -1;
