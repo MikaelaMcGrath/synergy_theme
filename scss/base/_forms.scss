@@ -11,9 +11,6 @@ select {
 	height: 48px;
 }
 #mc_embed_signup {
-	.form-group {
-		margin-bottom: 0;
-	}
 	div.mce_inline_error {
 		background-color: $white !important;
 		font-weight: $base-font-weight !important;
@@ -47,3 +44,10 @@ input[type='checkbox'] {
 select.form-control {
 	height: 48px;
 }
+@media (min-width: 480px) {
+	#mc_embed_signup {
+	.form-group {
+		margin-bottom: 0;
+	}
+}
+	}
