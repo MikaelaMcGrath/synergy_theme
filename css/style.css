@@ -9253,23 +9253,11 @@ hr {
     float: left; }
   /* line 296, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-members-map-block .right-member-map {
-    clear: none; } }
-
-@media (min-width: 992px) {
-  /* line 304, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-1 .form-group {
-    width: 80%; }
-  /* line 307, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-1 .form-type-markup {
-    width: 30%;
-    float: left; }
-  /* line 311, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-1 .captcha {
-    width: 30%; }
-  /* line 315, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+    clear: none; }
+  /* line 301, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-block-5 {
     overflow: visible; }
-    /* line 317, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+    /* line 303, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
     #block-block-5 .background-image {
       background: url("/sites/default/files/app.png") no-repeat;
       z-index: -1;
@@ -9279,6 +9267,18 @@ hr {
       right: 0;
       width: 100%;
       height: 511px; } }
+
+@media (min-width: 992px) {
+  /* line 317, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  #block-views-contact-form-block-1 .form-group {
+    width: 80%; }
+  /* line 320, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  #block-views-contact-form-block-1 .form-type-markup {
+    width: 30%;
+    float: left; }
+  /* line 324, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  #block-views-contact-form-block-1 .captcha {
+    width: 30%; } }
 
 @media (min-width: 1200px) {
   /* line 330, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */

@@ -298,6 +298,19 @@
 		}
 
 	}
+	#block-block-5 {
+		overflow: visible;
+		.background-image {
+			background: url('/sites/default/files/app.png') no-repeat;
+			z-index: -1;
+			background-size: cover;
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 100%;
+			height: 511px;
+		}
+	}
 }
 @media (min-width: $screen-md-min) {
 	#block-views-contact-form-block-1 {
@@ -310,19 +323,6 @@
 		}
 		.captcha {
 			width: 30%;
-		}
-	}
-	#block-block-5 {
-		overflow: visible;
-		.background-image {
-			background: url('/sites/default/files/app.png') no-repeat;
-			z-index: -1;
-			background-size: cover;
-			position: absolute;
-			top: 0;
-			right: 0;
-			width: 100%;
-			height: 511px;
 		}
 	}
 }
