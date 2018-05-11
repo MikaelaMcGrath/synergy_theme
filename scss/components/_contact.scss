@@ -34,12 +34,14 @@
 		color: $grey;
 	}
 	.form-type-markup, .captcha {
-			width: 30%;
 			float: left;
 			margin-left: $horz-spacing-unit;
 		}
+		.form-type-markup {
+			width: 30%;
+		}
 		.captcha {
-			width: 40%;
+			width: 200px;
 		}
 		.form-actions {
 			clear: none;
@@ -56,11 +58,6 @@
 		.form-actions {
 			float: right;
 			clear: none;
-		}
-	}
-	#block-views-contact-form-block-3 {
-		.captcha {
-			width: 30%;
 		}
 	}
 }
