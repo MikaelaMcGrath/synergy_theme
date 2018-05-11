@@ -170,7 +170,19 @@
 		img {
 			max-height: 50px;
 			width: auto;
-			margin-bottom: $vert-spacing-unit;
+			margin-bottom: $vert-spacing-unit*2;
+		}
+		.contact, .testimonial {
+			color: $grey;
+		}
+		.contact {
+			padding-bottom: $vert-spacing-unit;
+			&:after {
+				height: 1px;
+				width: 30%;
+				content: '';
+				border-bottom: 1px solid $base;
+			}
 		}
 	}
 	.view-content {
