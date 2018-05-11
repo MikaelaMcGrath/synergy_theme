@@ -8962,6 +8962,10 @@ hr {
 .main-container.container {
   margin-bottom: 2rem; }
 
+/* line 8, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+#page-header {
+  min-height: 375px; }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .full-width {
   background-color: #F1F3F5; }
@@ -9195,7 +9199,7 @@ hr {
 
 /* line 229, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 #block-block-5 {
-  background-image: url "/sites/all/files/app.png"; }
+  background-image: url("/sites/default/files/app.png"); }
 
 @media (min-width: 480px) {
   /* line 234, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
