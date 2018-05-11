@@ -165,7 +165,7 @@
       </div>
       </div>
     </div>
-    <div class="row container-fluid">
+    <div class="row container-fluid shadow">
     <div class="full-width-secondary container">
       <?php print render($page['full_width_secondary']); ?>
     </div>

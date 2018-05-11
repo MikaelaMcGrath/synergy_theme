@@ -138,7 +138,18 @@
 			padding-bottom: $vert-spacing-unit*2;
 		}
 }
-
+.suppliers {
+	.view-header {
+		margin-top: $vert-spacing-unit*2;
+		margin-bottom: $vert-spacing-unit*2;
+	}
+	.view-content {
+		max-height: 100px;
+	}
+}
+.shadow {
+	box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5);
+}
 @media (min-width: 480px) {
 	.full-width {
 		.slick__arrow {
