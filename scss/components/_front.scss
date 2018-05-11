@@ -177,12 +177,19 @@
 		}
 		.contact {
 			padding-bottom: $vert-spacing-unit;
+			position: relative;
 			&:after {
 				height: 1px;
-				width: 30%;
+				width: 40%;
 				content: '';
 				border-bottom: 1px solid $base;
+				position: absolute;
+				bottom: 0;
+				left: 30%;
 			}
+		}
+		.testimonial {
+			padding-top: $vert-spacing-unit*2;
 		}
 	}
 	.view-content {
