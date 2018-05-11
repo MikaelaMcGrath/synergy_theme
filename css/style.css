@@ -9275,12 +9275,12 @@ hr {
     width: 200px;
     margin-left: 15%; }
   /* line 264, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-block-5 .play,
-  #block-block-5 .itunes {
+  #block-block-5 p.play,
+  #block-block-5 p.itunes {
     padding: 0; }
     /* line 267, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-    #block-block-5 .play img,
-    #block-block-5 .itunes img {
+    #block-block-5 p.play img,
+    #block-block-5 p.itunes img {
       width: 200px;
       margin-left: 15%; }
   /* line 272, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
