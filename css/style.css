@@ -8159,7 +8159,7 @@ h6 {
 
 /* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
 h1 {
-  font-size: 3rem; }
+  font-size: 2rem; }
   /* line 22, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
   h1.dark-grey {
     color: #495057; }
@@ -8965,6 +8965,11 @@ hr {
 /* line 8, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 #page-header {
   min-height: 375px; }
+  /* line 10, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  #page-header .header-banner-text {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .full-width {
