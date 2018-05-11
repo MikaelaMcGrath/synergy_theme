@@ -256,6 +256,13 @@
 			margin-left: 10%;
 		}
 	}
+	.itunes {
+		margin-top: 25%;
+		margin-bottom: $vert-spacing-unit*1.5;
+	}
+	.play {
+		margin-bottom: $vert-spacing-unit*2;
+	}
 }
 @media (min-width: 480px) {
 	.full-width {
