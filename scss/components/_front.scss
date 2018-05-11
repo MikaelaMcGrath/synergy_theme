@@ -85,69 +85,7 @@
 		}
 	}
 }
-#block-views-members-map-block, 
-#block-views-members-map-block-2 {
-	font-size: $base-font-size*0.9;
-	h2 {
-		margin-top: 0;
-	}
-	h3 {
-		color: $base;
-		font-weight: $bold-font-weight;
-		font-size: $base-font-size;
-	}
-	.views-exposed-form {
-		.views-exposed-widget {
-			padding: 0;
-		}
-	input[type="text"] {
-				width:100%;
-			}
-	.views-exposed-widgets {
-		    margin-bottom: $horz-spacing-unit;
-		    position: relative;
-		    .views-submit-button {
-		    	position: absolute;
-			    bottom: 0;
-			    right: 0;
-		    	.btn {
-			    	height: 48px;
-			    	padding: 0 3em;
-			    }
-		    }
-		    .geofield-proximity-field-wrapper .form-item, 
-		    .geofield-proximity-field-wrapper .geofield-proximity-origin-from {
-		    	margin-right: 0;
-		    }
-		    .geofield-proximity-field-wrapper .form-type-select, 
-		    .form-group:last-child, 
-		    .panel:last-child {
-		    	padding-top: $vert-spacing-unit;
-		    }
-	}
-}
-	.left-member-map {
-			width: 100%;
-			padding-bottom: $vert-spacing-unit*2;
-			margin-right: $horz-spacing-unit;
-			.address, .contact {
-				display: inline-block;
-				vertical-align: top;
-			}
-			.address {
-				width: 43%;
-				margin-right: $horz-spacing-unit;
-			}
-			.contact {
-				width: 52%;
-			}
-		}
-		.right-member-map {
-			width:100%;
-			clear: both;
-			padding-bottom: $vert-spacing-unit*2;
-		}
-}
+
 .suppliers {
 	margin-bottom: $vert-spacing-unit*2;
 	.view-header {
@@ -257,12 +195,6 @@
 			bottom: 5px
 		}
 	}
-	#block-views-members-map-block {
-		.views-exposed-widgets {
-		    width: 80%;
-		    
-		}
-	}
 }
 @media (min-width: $screen-sm-min) {
 	.full-width {
@@ -279,21 +211,6 @@
 		.container-fluid.full-width {
 			padding-bottom: 0;
 		}
-	}
-	#block-views-members-map-block,
-	#block-views-members-map-block-2 {
-		.views-exposed-widgets {
-		    width: 70%;
-		    
-		}
-		.left-member-map {
-			width: 50%;
-			float: left;
-		}
-		.right-member-map { 
-			clear: none;
-		}
-
 	}
 	#block-block-5 {
 		overflow: visible;
