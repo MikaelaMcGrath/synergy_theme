@@ -153,6 +153,11 @@
 	.view-header {
 		margin-bottom: $vert-spacing-unit;
 	}
+	.product {
+		img {
+			margin: 0;
+		}
+	}
 }
 #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-webkit-input-placeholder,
 #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-moz-placeholder,
