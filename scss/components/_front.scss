@@ -59,10 +59,17 @@
 			background: rgba(0,0,0,0.5);
 		}
 	}
+	#block-views-exp-products-page {
+		border-bottom: 1px solid $base;
+		.block-title {
+			display: block;
+		}
+	}
+
 }
 #block-views-exp-products-page {
-	border-bottom: 1px solid $base;
 	.block-title {
+		display: none;
 		color: $dark-grey;
 		font-size: $base-font-size*1.2;
 		font-weight: $base-font-weight;
