@@ -8969,8 +8969,11 @@ hr {
   #page-header:before {
     min-height: 375px;
     background: rgba(255, 255, 255, 0.4);
-    width: 100%; }
-  /* line 15, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  /* line 18, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   #page-header .header-banner-text {
     max-width: 500px;
     text-align: center;
@@ -8980,9 +8983,6 @@ hr {
     justify-content: center;
     flex-direction: column;
     align-items: center; }
-    /* line 24, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-    #page-header .header-banner-text .btn {
-      width: 40px; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .full-width {
