@@ -1,17 +1,3 @@
-#block-views-contact-form-block-1, 
-#block-views-contact-form-block-3 {
-	margin: 0 0 $vert-spacing-unit 0;
-	p {
-		margin: 0;
-	}
-	.form-control {
-		color: $dark-grey;
-		background-color: $white;
-		font-family: $base-font-family;
-		border: 1px solid $grey;
-		border-radius: 5px;
-	}
-}
 #block-views-contact-form-block-2, 
 #block-views-contact-form-block-1,
 #block-views-contact-form-block-3 {
@@ -27,6 +13,20 @@
 			text-transform: uppercase;
 			height: 50px;
 			padding: 6px $horz-spacing-unit*2;
+	}
+}
+#block-views-contact-form-block-1, 
+#block-views-contact-form-block-3 {
+	margin: 0 0 $vert-spacing-unit 0;
+	p {
+		margin: 0;
+	}
+	.form-control {
+		color: $dark-grey;
+		background-color: $white;
+		font-family: $base-font-family;
+		border: 1px solid $grey;
+		border-radius: 5px;
 	}
 }
 #block-views-contact-form-block-3 {
