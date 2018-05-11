@@ -82,7 +82,7 @@
 	}
 }
 #block-views-contact-form-block-1 {
-	margin: 0;
+	margin: 0 0 $vert-spacing-unit 0;
 	.form-control {
 		color: $dark-grey;
 		background-color: $white;
@@ -186,6 +186,7 @@
 		}
 		&.app {
 			padding-top: 0;
+			padding-bottom: 0;
 		}
 	}
 
@@ -233,8 +234,10 @@
 	}
 }
 #block-block-5 {
-	background-image: url('/sites/default/files/app.png');
-	z-index: -1;
+	.background-image {
+		background: url('/sites/default/files/app.png') no-repeat;
+		z-index: -1;
+	}
 }
 @media (min-width: 480px) {
 	.full-width {
