@@ -9132,7 +9132,7 @@ hr {
   /* line 129, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-members-map-block .views-exposed-form .views-exposed-widget,
   #block-views-members-map-block-2 .views-exposed-form .views-exposed-widget {
-    padding: 1rem 0 0 0; }
+    padding: 0; }
   /* line 132, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-members-map-block .views-exposed-form input[type="text"],
   #block-views-members-map-block-2 .views-exposed-form input[type="text"] {
