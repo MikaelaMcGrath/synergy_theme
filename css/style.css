@@ -9039,7 +9039,7 @@ hr {
 #block-views-contact-form-block-1 {
   margin: 0; }
   /* line 73, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
-  #block-views-contact-form-block-1 .form-group {
+  #block-views-contact-form-block-1 .form-control {
     color: #495057;
     background-color: #ffffff;
     font-family: "Open Sans", sans-serif;
@@ -9221,10 +9221,13 @@ hr {
 
 @media (min-width: 992px) {
   /* line 270, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  #block-views-contact-form-block-1 .form-group {
+    width: 80%; }
+  /* line 273, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-contact-form-block-1 .form-type-markup {
     width: 30%;
     float: left; }
-  /* line 274, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
+  /* line 277, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   #block-views-contact-form-block-1 .captcha {
     width: 30%; } }
 
