@@ -180,9 +180,15 @@
 	}
 }
 .container-fluid {
-	.container-fluid.shadow {
-		box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5);
+	.container-fluid {
+		&.shadow {
+			box-shadow: 5px 3px 40px rgba(0, 0, 0, 0.5);
+		}
+		&.app {
+			padding-top: 0;
+		}
 	}
+
 }
 .view-testimonials {
 	h2 {
@@ -228,6 +234,7 @@
 }
 #block-block-5 {
 	background-image: url('/sites/default/files/app.png');
+	z-index: -1;
 }
 @media (min-width: 480px) {
 	.full-width {

@@ -170,7 +170,7 @@
       <?php print render($page['full_width_secondary']); ?>
     </div>
 </div>
-<div class="container-fluid row">
+<div class="container-fluid row app">
       <div class="container">
         <div class="content-third row">
         <?php print render($page['content_third']); ?>
