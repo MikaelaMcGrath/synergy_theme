@@ -154,6 +154,11 @@
   </div>
   
 </div>
+<div class="row container-fluid full-width">
+    <div class="container">
+      <?php print render($page['full_width']); ?>
+    </div>
+</div>
 <section role="banner" id="footer-banner" class="row">
     <?php print render($page['footer_banner']); ?>
   </section>
