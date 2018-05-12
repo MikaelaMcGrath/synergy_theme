@@ -9034,6 +9034,46 @@ hr {
 #block-views-contact-form-block-3 h2 {
   color: #495057; }
 
+/* line 32, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+.view-synergy-team .product {
+  min-height: 480px; }
+  /* line 35, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  .view-synergy-team .product .border:hover, .view-synergy-team .product .border:focus {
+    border-color: #F1F3F5; }
+  /* line 40, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  .view-synergy-team .product .product-fields {
+    min-height: 450px; }
+    /* line 42, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+    .view-synergy-team .product .product-fields .image {
+      margin-bottom: 0; }
+      /* line 44, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+      .view-synergy-team .product .product-fields .image img {
+        border-radius: 50%; }
+
+@media (min-width: 768px) {
+  /* line 53, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  .product {
+    min-height: 465px; }
+    /* line 55, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+    .product .product-fields {
+      min-height: 430px; } }
+
+@media (min-width: 992px) {
+  /* line 61, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  .product {
+    min-height: 515px; }
+    /* line 63, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+    .product .product-fields {
+      min-height: 485px; } }
+
+@media (min-width: 1200px) {
+  /* line 69, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  .product {
+    min-height: 465px; }
+    /* line 71, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+    .product .product-fields {
+      min-height: 430px; } }
+
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
 .full-width {
   background-color: #F1F3F5; }
