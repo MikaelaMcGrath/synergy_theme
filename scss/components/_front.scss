@@ -29,7 +29,7 @@
 	.more-link {
 		font-size: $small-font-size;
 		position: absolute;
-		bottom: 22px;
+		bottom: 12px;
 		right: 15px;
 		a {
 			color: $accent;
@@ -194,6 +194,9 @@
 		.slick__arrow {
 			bottom: 5px
 		}
+		.more-link {
+			bottom: -2px;
+		}
 	}
 }
 @media (min-width: $screen-sm-min) {
@@ -205,6 +208,9 @@
 		.slick-dots {
 			display: block;
 			visibility: visible;
+		}
+		.more-link {
+			bottom: 22px;
 		}
 	}
 	.container-fluid {
