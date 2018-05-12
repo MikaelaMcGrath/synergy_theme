@@ -9546,13 +9546,13 @@ hr {
   #block-views-members-map-block-1 .right-member-map {
     clear: none; } }
 
-/* line 2, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
-.node-type-article .header-banner-text {
+/* line 3, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
+.node-type-article #page-header .header-banner-text {
   margin: 0;
   color: #ffffff;
   align-items: flex-start; }
-  /* line 6, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
-  .node-type-article .header-banner-text h1, .node-type-article .header-banner-text p {
+  /* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
+  .node-type-article #page-header .header-banner-text h1, .node-type-article #page-header .header-banner-text p {
     color: #ffffff;
     margin: 0;
     padding: 2rem 1rem;

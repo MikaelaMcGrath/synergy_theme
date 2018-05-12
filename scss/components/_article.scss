@@ -1,13 +1,15 @@
 .node-type-article {
-	.header-banner-text {
-		margin: 0;
-		color: $white;
-		align-items: flex-start;
-		h1, p {
-			color: $white;
+	#page-header {
+		.header-banner-text {
 			margin: 0;
-			padding: $vert-spacing-unit*2 $horz-spacing-unit;
-			background-color: $base
+			color: $white;
+			align-items: flex-start;
+			h1, p {
+				color: $white;
+				margin: 0;
+				padding: $vert-spacing-unit*2 $horz-spacing-unit;
+				background-color: $base
+			}
 		}
 	}
 }
