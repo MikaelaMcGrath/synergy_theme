@@ -72,6 +72,9 @@
 	h2 {
 		color: $dark-grey;
 	}
+	p {
+		margin-bottom: $vert-spacing-unit;
+	}
 }
 @media (min-width: 480px) {
 	#block-views-contact-form-block-2, 
