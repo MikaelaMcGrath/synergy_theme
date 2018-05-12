@@ -73,10 +73,13 @@
 			float: right;
 			margin-right: $horz-spacing-unit;
 		}
-		.form-radios {
+		.form-type-radios {
 			display: inline-block;
 			margin-right: $vert-spacing-unit;
-			color: $dark-grey;
+			label {
+				color: $dark-grey;
+			}
+			
 		}
 }
 #block-views-contact-form-block-3,
