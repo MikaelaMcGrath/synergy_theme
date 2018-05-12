@@ -9402,11 +9402,11 @@ hr {
   margin-right: 1rem; }
 
 /* line 76, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
-.node-type-webform .form-type-radios {
+.node-type-webform .form-type-radio {
   display: inline-block;
   margin-right: 1rem; }
   /* line 79, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
-  .node-type-webform .form-type-radios label {
+  .node-type-webform .form-type-radio label {
     color: #495057; }
 
 /* line 87, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
