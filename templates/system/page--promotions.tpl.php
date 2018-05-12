@@ -159,6 +159,13 @@
       <?php print render($page['full_width']); ?>
     </div>
 </div>
+<div class="container-fluid row">
+      <div class="container">
+        <div class="content-secondary row">
+        <?php print render($page['content_secondary']); ?>
+      </div>
+      </div>
+  </div>
 <section role="banner" id="footer-banner" class="row">
     <?php print render($page['footer_banner']); ?>
   </section>
