@@ -9550,10 +9550,30 @@ hr {
 .node-type-article #page-header .header-banner-text {
   margin: 0;
   color: #ffffff;
-  align-items: flex-start; }
-  /* line 7, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
+  align-items: flex-start;
+  text-align: left;
+  min-height: 550px; }
+  /* line 9, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
   .node-type-article #page-header .header-banner-text h1, .node-type-article #page-header .header-banner-text p {
     color: #ffffff;
     margin: 0;
     padding: 2rem 1rem;
-    background-color: #8DC63F; }
+    background-color: #8DC63F;
+    width: 100%; }
+
+/* line 17, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
+.node-type-article #page-header:before {
+  min-height: 550px; }
+
+/* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_images.scss */
+.media-wysiwyg-align-left,
+.media-float-left,
+.media-wysiwyg-align-right,
+.media-float-right {
+  width: 33%;
+  height: auto; }
+
+/* line 8, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_images.scss */
+img.file-full {
+  width: 100%;
+  height: auto; }
