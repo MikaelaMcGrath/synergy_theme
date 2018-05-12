@@ -9571,7 +9571,7 @@ hr {
   text-align: left;
   min-height: 550px; }
   /* line 9, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
-  .node-type-article #page-header .header-banner-text h1, .node-type-article #page-header .header-banner-text p {
+  .node-type-article #page-header .header-banner-text h1, .node-type-article #page-header .header-banner-text p, .node-type-article #page-header .header-banner-text .article-btn-header {
     color: #ffffff;
     margin: 0;
     padding: 2rem 1rem;
