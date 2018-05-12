@@ -9387,7 +9387,7 @@ hr {
   color: #495057; }
 
 /* line 75, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_contact.scss */
-#block-views-contact-form-block p {
+#block-views-contact-form-block .view-header p {
   margin-bottom: 1rem; }
 
 @media (min-width: 480px) {
