@@ -12,11 +12,7 @@
 .btn-primary:hover,
 .button-primary:focus, 
 .button-primary.focus,
-.button-primary:hover {
-    color: $white;
-    background-color: lighten($accent, 5%);
-    border-color: lighten($accent, 5%); 
-}
+.button-primary:hover,
 .btn-primary:active, 
 .btn-primary.active,
 .btn-primary[disabled]:active, 
@@ -24,16 +20,35 @@
 .button-primary:active, 
 .button-primary.active,
 .button-primary[disabled]:active, 
-.button-primary[disabled].active  {
-  color: $white;
-  background-color: darken($accent, 5%);
-  border-color: darken($accent, 5%);
+.button-primary[disabled].active {
+    color: $white;
+    background-color: lighten($accent, 5%);
+    border-color: lighten($accent, 5%); 
 }
 .btn-primary[disabled]:hover, 
 .btn-primary[disabled]:focus,
 .button-primary[disabled]:hover, 
-.button-primary[disabled]:focus  {
+.button-primary[disabled]:focus,
+.btn-secondary[disabled]:hover, 
+.btn-secondary[disabled]:focus   {
 	color: $white;
-	background-color: lighten($accent, 10%);
-	border-color: lighten($accent, 10%);	
+	background-color: $grey;
+	border-color: $grey;	
+}
+.btn-secondary {
+  color: $accent;
+  background-color: $white;
+  border-color: $accent;
+  box-shadow: none;
+}
+.btn-secondary:focus, 
+.btn-secondary.focus,
+.btn-secondary:hover,
+.btn-secondary:active, 
+.btn-secondary.active,
+.btn-secondary[disabled]:active, 
+.btn-secondary[disabled].active {
+    color: $white;
+    background-color: $accent;
+    border-color: $accent; 
 }

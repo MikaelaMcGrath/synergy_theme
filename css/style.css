@@ -8233,12 +8233,7 @@ hr {
 .btn-primary:hover,
 .button-primary:focus,
 .button-primary.focus,
-.button-primary:hover {
-  color: #ffffff;
-  background-color: #f6883b;
-  border-color: #f6883b; }
-
-/* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+.button-primary:hover,
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary[disabled]:active,
@@ -8248,17 +8243,38 @@ hr {
 .button-primary[disabled]:active,
 .button-primary[disabled].active {
   color: #ffffff;
-  background-color: #f36a0b;
-  border-color: #f36a0b; }
+  background-color: #f6883b;
+  border-color: #f6883b; }
 
-/* line 32, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+/* line 28, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
 .btn-primary[disabled]:hover,
 .btn-primary[disabled]:focus,
 .button-primary[disabled]:hover,
-.button-primary[disabled]:focus {
+.button-primary[disabled]:focus,
+.btn-secondary[disabled]:hover,
+.btn-secondary[disabled]:focus {
   color: #ffffff;
-  background-color: #f79754;
-  border-color: #f79754; }
+  background-color: #868E96;
+  border-color: #868E96; }
+
+/* line 38, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+.btn-secondary {
+  color: #F57923;
+  background-color: #ffffff;
+  border-color: #F57923;
+  box-shadow: none; }
+
+/* line 44, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_buttons.scss */
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary.active,
+.btn-secondary[disabled]:active,
+.btn-secondary[disabled].active {
+  color: #ffffff;
+  background-color: #F57923;
+  border-color: #F57923; }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_forms.scss */
 .form-control {

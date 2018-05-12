@@ -109,6 +109,11 @@
   </div>
 </header>
 <div class="container-fluid">
+  <div class="row full-width">
+    <div class="container">
+      <?php print render($page['full_width']); ?>
+    </div>
+  </div>
   <div class="main-container <?php print $container_class; ?>">
     
 
