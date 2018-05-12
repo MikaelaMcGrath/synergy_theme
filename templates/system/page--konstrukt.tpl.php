@@ -170,6 +170,7 @@
     <?php print render($page['footer_banner']); ?>
   </section>
 </div>
+
 <?php if (!empty($page['footer'])): ?>
   <footer class="footer <?php print $container_class; ?>">
     <?php print render($page['footer']); ?>
