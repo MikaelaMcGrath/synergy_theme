@@ -29,6 +29,11 @@
 			clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
 		}
 	}
+	.article-item {
+		.subtitle {
+			margin-top: 0;
+		}
+	}
 }
 .view-id-articles {
 	.article-item {

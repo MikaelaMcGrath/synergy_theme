@@ -28,3 +28,48 @@
 		color: $dark-grey;
 	}
 }
+.view-synergy-team {
+	.product  {
+		min-height: 480px;
+		.border {
+			&:hover,
+			&:focus {
+				border-color: $lightest-grey;
+			}
+		}
+		.product-fields {
+			min-height: 450px;
+			.image {
+		margin-bottom: 0;
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	}
+}
+}
+@media (min-width: $screen-sm-min) {
+	.product {
+		min-height: 465px;
+		.product-fields {
+			min-height: 430px;
+		}
+	}
+}
+@media (min-width: $screen-md-min) {
+	.product {
+		min-height: 515px;
+		.product-fields {
+			min-height: 485px;
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+	.product {
+		min-height: 465px;
+		.product-fields {
+			min-height: 430px;
+		}
+	}
+}

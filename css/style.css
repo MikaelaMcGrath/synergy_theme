@@ -9635,11 +9635,15 @@ hr {
   -webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%); }
 
-/* line 34, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
+/* line 33, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
+.view-display-id-attachment_1 .article-item .subtitle {
+  margin-top: 0; }
+
+/* line 39, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
 .view-id-articles .article-item {
   margin-top: 1rem;
   margin-bottom: 1rem; }
-  /* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
+  /* line 42, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_article.scss */
   .view-id-articles .article-item .btn {
     margin-top: 2rem; }
 
