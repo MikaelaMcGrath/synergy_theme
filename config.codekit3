@@ -2534,6 +2534,13 @@
 		"oAP": "\/templates\/system\/page--front.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/system\/page--konstrukt.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page--konstrukt.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/system\/page--nohero.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2546,13 +2553,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/system\/page--product.tpl.php",
-		"oF": 0
-		},
-	"\/templates\/system\/page--promotions.tpl.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/templates\/system\/page--promotions.tpl.php",
 		"oF": 0
 		},
 	"\/templates\/system\/page--views-products--page.tpl.php": {
