@@ -47,6 +47,33 @@
 		border-radius: 5px;
 	}
 }
+.node-type-webform {
+	label {
+		color: $grey;
+	}
+	.form-control {
+		color: $dark-grey;
+		background-color: $white;
+		font-family: $base-font-family;
+		border: 1px solid $grey;
+		border-radius: 5px;
+	}
+	.form-type-markup, .captcha {
+			float: left;
+			margin-left: $horz-spacing-unit;
+		}
+		.form-type-markup {
+			width: 30%;
+		}
+		.captcha {
+			width: 200px;
+		}
+		.form-actions {
+			clear: none;
+			float: right;
+			margin-right: $horz-spacing-unit;
+		}
+}
 #block-views-contact-form-block-3,
 #block-views-contact-form-block {
 	label {

@@ -13,6 +13,9 @@
 				background-color: $base;
 				width: 100%;
 			}
+			.article-item {
+				padding-bottom: $vert-spacing-unit;
+			}
 		}
 		&:before {
 			min-height: 550px;
