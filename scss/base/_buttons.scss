@@ -40,6 +40,7 @@
   background-color: $white;
   border-color: $accent;
   box-shadow: none;
+  padding: $vert-spacing-unit/2 $horz-spacing-unit*3;
 }
 .btn-secondary:focus, 
 .btn-secondary.focus,
