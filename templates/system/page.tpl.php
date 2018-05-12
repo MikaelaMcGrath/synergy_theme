@@ -152,13 +152,13 @@
     <?php endif; ?>
 
   </div>
-  
-</div>
-<div class="row">
+  <div class="row">
     <div class="full-width container">
       <?php print render($page['full_width']); ?>
     </div>
   </div>
+</div>
+
 <section role="banner" id="footer-banner" class="row">
     <?php print render($page['footer_banner']); ?>
   </section>
