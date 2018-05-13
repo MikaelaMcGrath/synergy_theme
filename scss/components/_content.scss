@@ -79,6 +79,7 @@
 	border: 1px solid $base;
 	text-align: center;
 	vertical-align: middle;
+	border-radius: 5px;
 	a {
 		padding: $vert-spacing-unit $horz-spacing-unit;
 		color: $base;
@@ -88,8 +89,11 @@
 	}
 	&:hover,
 		&:focus {
-			color: $white;
+			
 			background-color: $base;
+			a {
+				color: $white;
+			}
 		}
 }
 @media (min-width: $screen-sm-min) {
