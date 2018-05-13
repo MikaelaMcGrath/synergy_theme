@@ -75,21 +75,22 @@
 	}
 }
 .link-generate {
-	padding: $vert-spacing-unit $horz-spacing-unit;
+	
 	border: 1px solid $base;
 	text-align: center;
 	vertical-align: middle;
 	a {
+		padding: $vert-spacing-unit $horz-spacing-unit;
 		color: $base;
 		display: block;
 		height: 100%;
 		width: 100%;
-		&:hover,
+	}
+	&:hover,
 		&:focus {
 			color: $white;
 			background-color: $base;
 		}
-	}
 }
 @media (min-width: $screen-sm-min) {
 	.product {
