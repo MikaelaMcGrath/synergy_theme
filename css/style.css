@@ -9051,25 +9051,25 @@ hr {
         border-radius: 50%; }
 
 /* line 53, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-.view-id-documents h2 {
+.view-id-documents h3 {
   clear: both;
   color: #8DC63F; }
 
 /* line 57, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-.view-id-documents .products {
+.view-id-documents .product {
   text-align: left;
   min-height: 215px; }
   /* line 60, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-  .view-id-documents .products img {
+  .view-id-documents .product img {
     margin-bottom: 1rem; }
   /* line 63, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-  .view-id-documents .products a {
+  .view-id-documents .product a {
     color: #495057; }
     /* line 65, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-    .view-id-documents .products a:hover, .view-id-documents .products a:focus {
+    .view-id-documents .product a:hover, .view-id-documents .product a:focus {
       color: #495057; }
   /* line 70, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-  .view-id-documents .products .product-fields {
+  .view-id-documents .product .product-fields {
     min-height: 180px; }
 
 @media (min-width: 768px) {
