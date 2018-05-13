@@ -62,6 +62,8 @@
 		}
 		a {
 			color: $dark-grey;
+			font-size: $base-font-size/1.1;
+			font-weight: $base-font-weight;
 			&:hover,
 			&:focus {
 				color: $dark-grey;
