@@ -49,6 +49,29 @@
 	}
 }
 }
+.view-id-documents {
+	h2 {
+		clear: both;
+		color: $base;
+	}
+	.products {
+		text-align: left;
+		min-height: 215px;
+		img {
+			margin-bottom: $vert-spacing-unit;
+		}
+		a {
+			color: $dark-grey;
+			&:hover,
+			&:focus {
+				color: $dark-grey;
+			}
+		}
+		.product-fields {
+			min-height: 180px;
+		}
+	}
+}
 @media (min-width: $screen-sm-min) {
 	.product {
 		min-height: 465px;
