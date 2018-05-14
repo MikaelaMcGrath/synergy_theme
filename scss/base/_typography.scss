@@ -26,6 +26,9 @@ h1 {
 h2 {
 	font-weight: $light-font-weight;
   color: $heading-font-color;
+  &.dark-grey {
+    color: $dark-grey;
+  }
 }
 h3 {
   font-weight: $light-font-weight;

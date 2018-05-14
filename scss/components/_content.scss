@@ -77,7 +77,7 @@
 	}
 }
 .link-generate {
-	
+	margin: $vert-spacing-unit 0;
 	border: 1px solid $base;
 	text-align: center;
 	vertical-align: middle;
@@ -98,6 +98,8 @@
 				text-decoration: none;
 			}
 		}
+}
+.page-node-3239 {
 }
 @media (min-width: $screen-sm-min) {
 	.product {
