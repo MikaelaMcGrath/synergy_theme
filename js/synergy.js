@@ -43,15 +43,5 @@ function checkSize(){
     jQuery( document ).ready(function() {
       jQuery('#edit-search-api-views-fulltext').addClass('placeholder').attr('placeholder', '\uf002   Search all products');
     });
-
-
-    jQuery( document ).ready(function() {
-  
-    jQuery('.not-logged-in').ready(function(){
-       jQuery('#block-menu-menu-footer-menu').find('li:nth-child(5)').addClass('hidden');
-       jQuery('.not-logged-in.page-node-3230').find('.region-content').html('<p>You must be logged in to view this content.</p><p><a href="user/login">Login</a></p>');
-    });
-  }); 
-    
     
  })(jQuery);
