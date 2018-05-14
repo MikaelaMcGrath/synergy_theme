@@ -104,11 +104,19 @@
 	flex-wrap: wrap;
 	li {
 		flex: 1 0 25%;
-		margin: $vert-spacing-unit 0;
+		margin: $vert-spacing-unit $horz-spacing-unit;
 		border: 1px solid $base;
 		text-align: center;
 		vertical-align: middle;
 		border-radius: 5px;
+		&:hover,
+		&:focus {		
+			background-color: $base;
+			a {
+				color: $white;
+				text-decoration: none;
+			}
+		}
 	}
 	a {
 		padding: $vert-spacing-unit $horz-spacing-unit;
@@ -117,14 +125,7 @@
 		height: 100%;
 		width: 100%;
 	}
-	&:hover,
-	&:focus {		
-			background-color: $base;
-			a {
-				color: $white;
-				text-decoration: none;
-			}
-		}
+	
 }
 }
 
