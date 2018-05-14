@@ -125,6 +125,13 @@
 			min-height: 430px;
 		}
 	}
+	.view-id-supplier {
+	.view-content {
+		&>div {
+			flex: 1 0 25%;
+		}
+	}
+}
 }
 @media (min-width: $screen-md-min) {
 	.product {
@@ -133,13 +140,7 @@
 			min-height: 485px;
 		}
 	}
-	.view-id-supplier {
-	.view-content {
-		&>div {
-			flex: 1 0 25%;
-		}
-	}
-}
+	
 }
 @media (min-width: $screen-lg-min) {
 	.product {
