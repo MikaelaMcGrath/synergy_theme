@@ -1,6 +1,26 @@
 .main-container.container {
 	margin-bottom: $vert-spacing-unit *2;
 }
+.logged-in {
+	.user-hide-show {
+		display: block;
+		visibility: visible;
+	}
+	.log-in {
+		display: none;
+		visibility: hidden;
+	}
+}
+.logged-out {
+	.user-hide-show {
+		display: none;
+		visibility: hidden;
+	}
+	.log-in {
+		display: block;
+		visibility: visible;
+	}
+}
 #page-header {
 	min-height: 375px;
 	position: relative;

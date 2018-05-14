@@ -88,7 +88,7 @@
     <div class="col-md-8 col-xs-8 user-menu">
       <ul class="list-inline">
         <li class="first leaf dlink phone"><a href="tel:0732714333" id="phone" class="dmlink toggle-phone">07 3271 4333</a></li>
-        <li class="last leaf dlink login"><span class="mobile-hide"><span class="log-in"><a href="/user/login" class="dmlink">Login</a></span> | <span class="sign-up">Not one of us? <a href="#">Sign Up</a></span></span></li>
+        <li class="last leaf dlink login"><span class="mobile-hide"><span class="user-hide-show"><a href="/authenticated-user">Member/Supplier area</a></span><span class="log-in"><a href="/user/login" class="dmlink">Login</a></span> | <span class="sign-up">Not one of us? <a href="#">Sign Up</a></span></span></li>
       </ul>            
     </div>
   </div>
