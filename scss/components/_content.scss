@@ -109,16 +109,16 @@
 		
 		a {
 		padding: $vert-spacing-unit $horz-spacing-unit;
-		color: $base;
+		color: $dark-base;
 		display: block;
 		border-radius: 5px;
 		margin: $vert-spacing-unit $horz-spacing-unit;
-		border: 1px solid $base;
+		border: 1px solid $dark-base;
 		&:hover,
 		&:focus {		
 			
 
-				background-color: $base;
+				background-color: $dark-base;
 				color: $white;
 				text-decoration: none;
 

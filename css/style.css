@@ -9112,14 +9112,14 @@ hr {
     /* line 110, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
     .menu-block-2 ul li a {
       padding: 1rem 1rem;
-      color: #8DC63F;
+      color: #00703D;
       display: block;
       border-radius: 5px;
       margin: 1rem 1rem;
-      border: 1px solid #8DC63F; }
+      border: 1px solid #00703D; }
       /* line 117, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
       .menu-block-2 ul li a:hover, .menu-block-2 ul li a:focus {
-        background-color: #8DC63F;
+        background-color: #00703D;
         color: #ffffff;
         text-decoration: none; }
 
