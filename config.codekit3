@@ -2548,6 +2548,13 @@
 		"oAP": "\/templates\/system\/page--konstrukt.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/system\/page--nohero.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page--nohero.tpl.php",
+		"oF": 0
+		},
 	"\/templates\/system\/page--product.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
