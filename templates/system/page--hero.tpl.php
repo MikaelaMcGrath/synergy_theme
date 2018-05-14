@@ -109,11 +109,11 @@
   </div>
 </header>
 <div class="container-fluid">
-  <div class="row full-width">
+  <header role="banner" id="page-header" class="row">
     <div class="container">
-      <?php print render($page['full_width']); ?>
+      <?php print render($page['header']); ?>
     </div>
-  </div>
+  </header> <!-- /#page-header -->
   <div class="main-container <?php print $container_class; ?>">
     
 
@@ -132,11 +132,6 @@
       <?php //if (!empty($breadcrumb)): print $breadcrumb;
       //endif;?>
       <a id="main-content"></a>
-            <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
       <?php print $messages; ?>
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
@@ -157,6 +152,7 @@
     <?php endif; ?>
 
   </div>
+  
 </div>
 <section role="banner" id="footer-banner" class="row">
     <?php print render($page['footer_banner']); ?>
