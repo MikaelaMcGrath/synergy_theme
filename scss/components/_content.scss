@@ -99,7 +99,24 @@
 			}
 		}
 }
-.page-node-3239 {
+.view-id-supplier {
+	.view-content {
+		display: flex;
+		flex-wrap: wrap;
+		&>div {
+			flex: 1 0 50%;
+			a {
+			    padding: 1em;
+			    margin: 1em;
+			    display: block;
+			    img {
+					max-height: 100px;
+					width: auto;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
 }
 @media (min-width: $screen-sm-min) {
 	.product {
@@ -116,6 +133,13 @@
 			min-height: 485px;
 		}
 	}
+	.view-id-supplier {
+	.view-content {
+		&>div {
+			flex: 1 0 25%;
+		}
+	}
+}
 }
 @media (min-width: $screen-lg-min) {
 	.product {
