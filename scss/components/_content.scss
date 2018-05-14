@@ -100,14 +100,15 @@
 }
 .menu-block-2 {
 	ul {
-	margin: $vert-spacing-unit 0;
-	border: 1px solid $base;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 5px;
 	display: flex; 
+	flex-wrap: wrap;
 	li {
 		flex: 1 0 25%;
+		margin: $vert-spacing-unit 0;
+		border: 1px solid $base;
+		text-align: center;
+		vertical-align: middle;
+		border-radius: 5px;
 	}
 	a {
 		padding: $vert-spacing-unit $horz-spacing-unit;
