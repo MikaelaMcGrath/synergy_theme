@@ -103,8 +103,7 @@
 	display: flex; 
 	flex-wrap: wrap;
 	li {
-		flex: 1 0 25%;
-		
+		flex: 1 0 50%;
 		text-align: center;
 		vertical-align: middle;
 		
@@ -165,6 +164,13 @@
 		}
 	}
 }
+.menu-block-2 {
+	ul {
+	li {
+		flex: 1 0 33.33%;
+		}
+	}
+}
 }
 @media (min-width: $screen-md-min) {
 	.product {
@@ -173,6 +179,13 @@
 			min-height: 485px;
 		}
 	}
+	.menu-block-2 {
+	ul {
+	li {
+		flex: 1 0 25%;
+	}
+}
+}
 	
 }
 @media (min-width: $screen-lg-min) {
