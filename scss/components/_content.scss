@@ -104,27 +104,30 @@
 	flex-wrap: wrap;
 	li {
 		flex: 1 0 25%;
-		margin: $vert-spacing-unit $horz-spacing-unit;
-		border: 1px solid $base;
+		
 		text-align: center;
 		vertical-align: middle;
-		border-radius: 5px;
-		&:hover,
-		&:focus {		
-			background-color: $base;
-			a {
-				color: $white;
-				text-decoration: none;
-			}
-		}
-	}
-	a {
+		
+		a {
 		padding: $vert-spacing-unit $horz-spacing-unit;
 		color: $base;
 		display: block;
-		height: 100%;
-		width: 100%;
+		border-radius: 5px;
+		margin: $vert-spacing-unit $horz-spacing-unit;
+		border: 1px solid $base;
+		&:hover,
+		&:focus {		
+			
+
+				background-color: $base;
+				color: $white;
+				text-decoration: none;
+
+		}
+		}
+		
 	}
+	
 	
 }
 }
