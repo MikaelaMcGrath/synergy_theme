@@ -26,26 +26,28 @@
 		    justify-content: center;
 
 		}
-		
-		.light-grey, 
 		.street-block, 
 		.locality-block, 
 		.country {
 			color: $grey;
+			text-transform: capitalize;
+		}
+		.light-grey
 			a {
 				color: $grey;
 				&:focus,
 				&:hover {
 					color: $grey;
 				}
-			}
+		
 		}
+	}
 		img {
 			border-radius: 0;
 			
 		}
 	
 
-	}
+	
 }
 }
