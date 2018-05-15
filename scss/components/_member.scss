@@ -1,4 +1,4 @@
-#block-views-members-block-1  {
+#block-views-members-block-1, #block-views-members-block-2  {
 .product  {
 		min-height: 345px;
 		.border {
@@ -27,7 +27,7 @@
 
 		}
 		
-		.light-grey {
+		.light-grey, .street-block, .locality-block, .country {
 			a {
 				color: $grey;
 				&:focus,
