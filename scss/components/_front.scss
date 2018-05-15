@@ -102,6 +102,11 @@
 			width: auto;
 		}
 	}
+	.view-id-members {
+		.view-content {
+			padding: $vert-spacing-unit 0;
+		}
+	}
 }
 .container-fluid {
 	.container-fluid {
