@@ -73,6 +73,13 @@
 	}
 }
 }
+h2.clear {
+	clear: both;
+}
+span.file + span.file {
+	display: none;
+	visibility: hidden;
+}
 .view-id-documents {
 	h3 {
 		clear: both;
@@ -82,9 +89,10 @@
 		text-align: left;
 		min-height: 215px;
 		img {
-			margin-bottom: $vert-spacing-unit;
+			
 		}
 		a {
+			margin-top: $vert-spacing-unit;
 			color: $dark-grey;
 			font-size: $base-font-size/1.1;
 			font-weight: $bold-font-weight;
@@ -103,7 +111,7 @@
 	display: flex; 
 	flex-wrap: wrap;
 	li {
-		flex: 1 0 50%;
+		flex: 0 1 50%;
 		text-align: center;
 		vertical-align: middle;
 		
@@ -167,7 +175,7 @@
 .menu-block-2 {
 	ul {
 	li {
-		flex: 1 0 33.33%;
+		flex: 0 1 33.33%;
 		}
 	}
 }
@@ -182,7 +190,7 @@
 	.menu-block-2 {
 	ul {
 	li {
-		flex: 1 0 25%;
+		flex: 0 1 25%;
 	}
 }
 }
