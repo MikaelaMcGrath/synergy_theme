@@ -9,19 +9,27 @@
 		}
 		.body {
 			text-align: left;
+			p, p.subtitle {
+				font-size: $base-font-size;
+			}
 		}
 		.product-fields {
 			min-height: 300px;
 		.logo {
-		
+		    display: flex;
+		    flex-direction: column;
+		    padding: 1rem 0em;
+		    height: 130px;
+		    justify-content: center;
+
 		}
 		
 		.light-grey {
 			a {
-				color: $light-grey;
+				color: $grey;
 				&:focus,
 				&:hover {
-					color: $light-grey;
+					color: $grey;
 				}
 			}
 		}
