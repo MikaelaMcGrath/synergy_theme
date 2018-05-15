@@ -99,6 +99,12 @@ h2.clear {
 				display: none;
 				visibility: hidden;
 			}
+			& > div:first-of-type {
+				+.file .file-icon {
+					display: none;
+					visibility: hidden;
+				}
+			}
 		}
 		.border {
 			position: relative;
