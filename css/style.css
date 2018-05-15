@@ -9843,12 +9843,15 @@ img.file-full {
     /* line 12, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
     #block-views-members-block-1 .product .product-fields .image {
       margin-bottom: 0; }
-      /* line 18, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+      /* line 17, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+      #block-views-members-block-1 .product .product-fields .image .body {
+        text-align: left; }
+      /* line 21, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
       #block-views-members-block-1 .product .product-fields .image .light-grey a {
         color: #DEE2E6; }
-        /* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+        /* line 23, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
         #block-views-members-block-1 .product .product-fields .image .light-grey a:focus, #block-views-members-block-1 .product .product-fields .image .light-grey a:hover {
           color: #DEE2E6; }
-      /* line 26, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+      /* line 29, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
       #block-views-members-block-1 .product .product-fields .image img {
         border-radius: 0; }
