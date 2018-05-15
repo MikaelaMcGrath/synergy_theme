@@ -83,7 +83,7 @@ h2.clear {
 	}
 	.product {
 		text-align: left;
-		min-height: 215px;
+		min-height: 315px;
 		a {
 			color: $dark-grey;
 			font-size: $base-font-size/1.1;
@@ -94,9 +94,10 @@ h2.clear {
 			}
 		}
 		.product-fields {
-			min-height: 180px;
+			min-height: 280px;
 			img {
 				margin-bottom: $vert-spacing-unit;
+				max-width: 150px;
 			}
 			span.file + span.file {
 				display: none;
@@ -179,6 +180,7 @@ h2.clear {
 }
 
 @media (min-width: $screen-sm-min) {
+
 	.product {
 		min-height: 465px;
 		.product-fields {
@@ -203,12 +205,14 @@ h2.clear {
 }
 }
 @media (min-width: $screen-md-min) {
+
 	.product {
 		min-height: 515px;
 		.product-fields {
 			min-height: 485px;
 		}
 	}
+
 	.menu-block-2 {
 	ul {
 	li {
