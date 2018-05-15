@@ -84,9 +84,6 @@ h2.clear {
 	.product {
 		text-align: left;
 		min-height: 215px;
-		img {
-			
-		}
 		a {
 			color: $dark-grey;
 			font-size: $base-font-size/1.1;
@@ -112,7 +109,7 @@ h2.clear {
 				left: 0;
 				width: 100%;
 				height: 100%;
-			
+
 			}
 		}
 		}
@@ -150,8 +147,8 @@ h2.clear {
 	
 }
 }
-
-.view-id-supplier {
+.not-front {
+	.view-id-supplier {
 	.view-content {
 		display: flex;
 		flex-wrap: wrap;
@@ -170,6 +167,8 @@ h2.clear {
 		}
 	}
 }
+}
+
 @media (min-width: $screen-sm-min) {
 	.product {
 		min-height: 465px;
