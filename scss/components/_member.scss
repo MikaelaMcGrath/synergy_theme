@@ -12,6 +12,9 @@
 			p, p.subtitle {
 				font-size: $base-font-size;
 			}
+			p.standout {
+				font-size: $base-font-size*1.3;
+			}
 		}
 		.product-fields {
 			min-height: 300px;
