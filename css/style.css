@@ -9838,20 +9838,17 @@ img.file-full {
   #block-views-members-block-1 .product .border:hover, #block-views-members-block-1 .product .border:focus {
     border-color: #F1F3F5; }
   /* line 10, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+  #block-views-members-block-1 .product .body {
+    text-align: left; }
+  /* line 13, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
   #block-views-members-block-1 .product .product-fields {
     min-height: 300px; }
-    /* line 12, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-    #block-views-members-block-1 .product .product-fields .image {
-      margin-bottom: 0; }
-      /* line 17, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-      #block-views-members-block-1 .product .product-fields .image .body {
-        text-align: left; }
-      /* line 21, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-      #block-views-members-block-1 .product .product-fields .image .light-grey a {
+    /* line 20, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+    #block-views-members-block-1 .product .product-fields .light-grey a {
+      color: #DEE2E6; }
+      /* line 22, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+      #block-views-members-block-1 .product .product-fields .light-grey a:focus, #block-views-members-block-1 .product .product-fields .light-grey a:hover {
         color: #DEE2E6; }
-        /* line 23, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-        #block-views-members-block-1 .product .product-fields .image .light-grey a:focus, #block-views-members-block-1 .product .product-fields .image .light-grey a:hover {
-          color: #DEE2E6; }
-      /* line 29, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-      #block-views-members-block-1 .product .product-fields .image img {
-        border-radius: 0; }
+    /* line 28, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+    #block-views-members-block-1 .product .product-fields img {
+      border-radius: 0; }

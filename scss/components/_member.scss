@@ -7,16 +7,15 @@
 				border-color: $lightest-grey;
 			}
 		}
-		.product-fields {
-			min-height: 300px;
-			.image {
-		margin-bottom: 0;
-		.logo {
-		
-		}
 		.body {
 			text-align: left;
 		}
+		.product-fields {
+			min-height: 300px;
+		.logo {
+		
+		}
+		
 		.light-grey {
 			a {
 				color: $light-grey;
@@ -30,7 +29,7 @@
 			border-radius: 0;
 			
 		}
-	}
+	
 
 	}
 }
