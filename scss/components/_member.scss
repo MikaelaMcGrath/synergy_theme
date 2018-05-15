@@ -27,7 +27,11 @@
 
 		}
 		
-		.light-grey, .street-block, .locality-block, .country {
+		.light-grey, 
+		.street-block, 
+		.locality-block, 
+		.country {
+			color: $grey;
 			a {
 				color: $grey;
 				&:focus,

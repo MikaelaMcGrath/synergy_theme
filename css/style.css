@@ -9856,12 +9856,39 @@ img.file-full {
       padding: 1rem 0em;
       height: 130px;
       justify-content: center; }
-    /* line 31, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-    #block-views-members-block-1 .product .product-fields .light-grey a, #block-views-members-block-1 .product .product-fields .street-block a, #block-views-members-block-1 .product .product-fields .locality-block a, #block-views-members-block-1 .product .product-fields .country a, #block-views-members-block-2 .product .product-fields .light-grey a, #block-views-members-block-2 .product .product-fields .street-block a, #block-views-members-block-2 .product .product-fields .locality-block a, #block-views-members-block-2 .product .product-fields .country a {
+    /* line 30, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+    #block-views-members-block-1 .product .product-fields .light-grey,
+    #block-views-members-block-1 .product .product-fields .street-block,
+    #block-views-members-block-1 .product .product-fields .locality-block,
+    #block-views-members-block-1 .product .product-fields .country, #block-views-members-block-2 .product .product-fields .light-grey,
+    #block-views-members-block-2 .product .product-fields .street-block,
+    #block-views-members-block-2 .product .product-fields .locality-block,
+    #block-views-members-block-2 .product .product-fields .country {
       color: #868E96; }
-      /* line 33, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-      #block-views-members-block-1 .product .product-fields .light-grey a:focus, #block-views-members-block-1 .product .product-fields .light-grey a:hover, #block-views-members-block-1 .product .product-fields .street-block a:focus, #block-views-members-block-1 .product .product-fields .street-block a:hover, #block-views-members-block-1 .product .product-fields .locality-block a:focus, #block-views-members-block-1 .product .product-fields .locality-block a:hover, #block-views-members-block-1 .product .product-fields .country a:focus, #block-views-members-block-1 .product .product-fields .country a:hover, #block-views-members-block-2 .product .product-fields .light-grey a:focus, #block-views-members-block-2 .product .product-fields .light-grey a:hover, #block-views-members-block-2 .product .product-fields .street-block a:focus, #block-views-members-block-2 .product .product-fields .street-block a:hover, #block-views-members-block-2 .product .product-fields .locality-block a:focus, #block-views-members-block-2 .product .product-fields .locality-block a:hover, #block-views-members-block-2 .product .product-fields .country a:focus, #block-views-members-block-2 .product .product-fields .country a:hover {
+      /* line 35, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+      #block-views-members-block-1 .product .product-fields .light-grey a,
+      #block-views-members-block-1 .product .product-fields .street-block a,
+      #block-views-members-block-1 .product .product-fields .locality-block a,
+      #block-views-members-block-1 .product .product-fields .country a, #block-views-members-block-2 .product .product-fields .light-grey a,
+      #block-views-members-block-2 .product .product-fields .street-block a,
+      #block-views-members-block-2 .product .product-fields .locality-block a,
+      #block-views-members-block-2 .product .product-fields .country a {
         color: #868E96; }
-    /* line 39, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+        /* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+        #block-views-members-block-1 .product .product-fields .light-grey a:focus, #block-views-members-block-1 .product .product-fields .light-grey a:hover,
+        #block-views-members-block-1 .product .product-fields .street-block a:focus,
+        #block-views-members-block-1 .product .product-fields .street-block a:hover,
+        #block-views-members-block-1 .product .product-fields .locality-block a:focus,
+        #block-views-members-block-1 .product .product-fields .locality-block a:hover,
+        #block-views-members-block-1 .product .product-fields .country a:focus,
+        #block-views-members-block-1 .product .product-fields .country a:hover, #block-views-members-block-2 .product .product-fields .light-grey a:focus, #block-views-members-block-2 .product .product-fields .light-grey a:hover,
+        #block-views-members-block-2 .product .product-fields .street-block a:focus,
+        #block-views-members-block-2 .product .product-fields .street-block a:hover,
+        #block-views-members-block-2 .product .product-fields .locality-block a:focus,
+        #block-views-members-block-2 .product .product-fields .locality-block a:hover,
+        #block-views-members-block-2 .product .product-fields .country a:focus,
+        #block-views-members-block-2 .product .product-fields .country a:hover {
+          color: #868E96; }
+    /* line 43, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
     #block-views-members-block-1 .product .product-fields img, #block-views-members-block-2 .product .product-fields img {
       border-radius: 0; }
