@@ -1,5 +1,5 @@
 .main-container.container {
-	margin-bottom: $vert-spacing-unit *2;
+	margin-bottom: $vert-spacing-unit *4;
 }
 .logged-in {
 	.user-hide-show {
@@ -52,7 +52,7 @@
 		color: $dark-grey;
 	}
 }
-.view-synergy-team {
+.view-synergy-team, #block-views-members-block-1 {
 	.product  {
 		min-height: 480px;
 		.border {

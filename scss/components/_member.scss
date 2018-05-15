@@ -1,0 +1,34 @@
+#block-views-members-block-1  {
+.product  {
+		min-height: 345px;
+		.border {
+			&:hover,
+			&:focus {
+				border-color: $lightest-grey;
+			}
+		}
+		.product-fields {
+			min-height: 300px;
+			.image {
+		margin-bottom: 0;
+		.logo {
+		
+		}
+		.light-grey {
+			a {
+				color: $light-grey;
+				&:focus,
+				&:hover {
+					color: $light-grey;
+				}
+			}
+		}
+		img {
+			border-radius: 0;
+			
+		}
+	}
+
+	}
+}
+}
