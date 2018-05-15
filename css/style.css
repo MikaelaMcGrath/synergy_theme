@@ -9088,7 +9088,7 @@ h2.clear {
 /* line 84, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 .view-id-documents .product {
   text-align: left;
-  min-height: 315px; }
+  min-height: 335px; }
   /* line 87, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   .view-id-documents .product a {
     color: #495057;
@@ -9099,7 +9099,7 @@ h2.clear {
       color: #495057; }
   /* line 96, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   .view-id-documents .product .product-fields {
-    min-height: 280px; }
+    min-height: 300px; }
     /* line 98, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
     .view-id-documents .product .product-fields img {
       margin-bottom: 1rem;
