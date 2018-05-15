@@ -176,12 +176,14 @@ h2.clear {
 			min-height: 430px;
 		}
 	}
+	.not-front {
 	.view-id-supplier {
 	.view-content {
 		&>div {
 			flex: 1 0 25%;
 		}
 	}
+}
 }
 .menu-block-2 {
 	ul {
