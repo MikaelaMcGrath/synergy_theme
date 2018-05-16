@@ -47,7 +47,7 @@ a {
   color: $accent;
   &:hover,
   &:focus {
-    color: darken($accent, 15%);
+    color: darken($accent, 10%);
 
   }
 }
