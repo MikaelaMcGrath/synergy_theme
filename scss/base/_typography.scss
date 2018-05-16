@@ -43,6 +43,14 @@ p {
   font-family: $secondary-font-family;
   margin: $vert-spacing-unit/2 0;
 }
+a {
+  color: $accent;
+  &:hover,
+  &:focus {
+    color: darken($accent, 5%);
+    
+  }
+}
 .font-small {
   font-size: $small-font-size;
 }
