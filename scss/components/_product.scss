@@ -170,7 +170,7 @@
 	.views-exposed-widgets {
 		margin-bottom: $vert-spacing-unit*2;
 		.views-widget-filter-search_api_views_fulltext {
-			width: 100%;
+			width: 70%;
 			padding: 0;
 			.form-control {
 				color: $base;
@@ -183,7 +183,20 @@
 				}
 			}
 		}
+		.views-submit-button {
+			padding: 0 0 0 $horz-spacing-unit;
+			height: 79px;
+			width: 30%;
+			.btn {
+				margin-top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: $base;
+				border-color: $base;
+			}
+		}
 	}
+
 }
 @media (min-width: $screen-sm-min) {
 	.quicktabs-wrapper {
@@ -198,6 +211,16 @@
 		}
 		.product-fields {
 			min-height: 380px;
+		}
+	}
+	}
+#views-exposed-form-products-page {
+	.views-exposed-widgets {
+		.views-widget-filter-search_api_views_fulltext {
+			width: 80%;
+		}
+		.views-submit-button {
+			width: 20%;
 		}
 	}
 }
