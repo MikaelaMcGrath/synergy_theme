@@ -49,6 +49,7 @@
 }
 }
 #block-views-product-range-block-4 {
+	margin-bottom: 3em;
 	.product-fields {
 		background-color: $white;
 	}
@@ -59,4 +60,10 @@
 			clear: both;
 			text-align: center;
 		}
+}
+.not-logged-in.node-type-members {
+	.full-width{
+		display: none;
+		visibility: hidden;
+	}
 }
