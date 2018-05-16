@@ -8204,7 +8204,7 @@ i.fas {
   color: #495057; }
 
 /* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/base/_typography.scss */
-.standout, .standout p {
+.standout, .standout p, .standout p:last-child {
   font-size: 1.3rem;
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
