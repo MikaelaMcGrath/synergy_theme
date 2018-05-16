@@ -2540,6 +2540,13 @@
 		"oAP": "\/templates\/system\/html.tpl.php",
 		"oF": 0
 		},
+	"\/templates\/system\/page--content--full-width.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/system\/page--content--full-width.php",
+		"oF": 0
+		},
 	"\/templates\/system\/page--front.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
