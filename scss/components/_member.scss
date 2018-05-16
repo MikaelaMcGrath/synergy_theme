@@ -1,6 +1,7 @@
-#block-views-members-block-1, #block-views-members-block-2  {
+#block-views-members-block-1, #block-views-members-block-2 {
 .product  {
 		min-height: 345px;
+		margin-bottom: 3em;
 		.border {
 			&:hover,
 			&:focus {
@@ -45,8 +46,17 @@
 			border-radius: 0;
 			
 		}
-	
-
-	
 }
+}
+#block-views-product-range-block-4 {
+	.product-fields {
+		background-color: $white;
+	}
+	.border {
+			box-shadow: 0 4px 15px 5px $light-grey;
+		}
+		.view-footer {
+			clear: both;
+			text-align: center;
+		}
 }
