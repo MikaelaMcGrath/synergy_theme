@@ -213,8 +213,7 @@
 			min-height: 380px;
 		}
 	}
-	}
-#views-exposed-form-products-page {
+	#views-exposed-form-products-page {
 	.views-exposed-widgets {
 		.views-widget-filter-search_api_views_fulltext {
 			width: 80%;
@@ -224,6 +223,9 @@
 		}
 	}
 }
+	}
+
+
 @media (min-width: $screen-md-min) {
 	.product {
 		min-height: 430px;
