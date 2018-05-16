@@ -27,6 +27,9 @@
 	min-height: 375px;
 	position: relative;
 	z-index: -2;
+	&>.container {
+		z-index: 1;
+	}
 	&:before {
 		height: 375px;
 		background: rgba(255,255,255,0.5);
