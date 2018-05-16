@@ -109,12 +109,8 @@
   </div>
 </header>
 <div class="container-fluid">
-  <header role="banner" id="page-header" class="row">
-    <div class="container">
-      <?php print render($page['header']); ?>
-    </div>
-  </header> <!-- /#page-header -->
-  <div class="main-container <?php print $container_class; ?>">
+
+  <div class="main-container no-hero <?php print $container_class; ?>">
     
 
     <div class="row">
