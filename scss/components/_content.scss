@@ -26,20 +26,16 @@
 #page-header {
 	min-height: 375px;
 	position: relative;
-	z-index: -2;
 	&>.container {
-		z-index: 1;
-		&:before {
+	}
+	&:before {
 		height: 375px;
 		background: rgba(255,255,255,0.5);
 		width: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
-		z-index: -1;
 	}
-	}
-	
 	.header-banner-text {
 		max-width: 500px;
 		text-align: center;
