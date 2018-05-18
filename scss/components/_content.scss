@@ -5,7 +5,7 @@
 	.user-hide-show {
 		display: inline-block;
 		visibility: visible;
-		padding-right: $horz-spacing-unit;
+		padding: 0 $horz-spacing-unit;
 	}
 	.log-in, .sign-up {
 		display: none;

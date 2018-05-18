@@ -9042,7 +9042,7 @@ hr {
 .logged-in .user-hide-show {
   display: inline-block;
   visibility: visible;
-  padding-right: 1rem; }
+  padding: 0 1rem; }
 
 /* line 10, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 .logged-in .log-in, .logged-in .sign-up {
