@@ -7,7 +7,7 @@
 		visibility: visible;
 		padding-right: $horz-spacing-unit;
 	}
-	.log-in {
+	.log-in, .sign-up {
 		display: none;
 		visibility: hidden;
 	}
@@ -18,7 +18,7 @@
 		visibility: hidden;
 
 	}
-	.log-in {
+	.log-in, .sign-up {
 		display: inline-block;
 		visibility: visible;
 	}

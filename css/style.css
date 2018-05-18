@@ -9045,7 +9045,7 @@ hr {
   padding-right: 1rem; }
 
 /* line 10, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-.logged-in .log-in {
+.logged-in .log-in, .logged-in .sign-up {
   display: none;
   visibility: hidden; }
 
@@ -9055,7 +9055,7 @@ hr {
   visibility: hidden; }
 
 /* line 21, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-.not-logged-in .log-in {
+.not-logged-in .log-in, .not-logged-in .sign-up {
   display: inline-block;
   visibility: visible; }
 
