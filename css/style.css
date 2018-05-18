@@ -9917,7 +9917,7 @@ img.file-full {
 
 /* line 51, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 #block-views-product-range-block-4 {
-  margin-bottom: 3em; }
+  margin: 3rem 0; }
   /* line 53, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
   #block-views-product-range-block-4 .product-fields {
     background-color: #ffffff; }
@@ -9930,6 +9930,10 @@ img.file-full {
     text-align: center; }
 
 /* line 65, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+.node-type-members .container-fluid .container-fluid.full-width {
+  padding-top: 0; }
+
+/* line 71, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 .not-logged-in.node-type-members .full-width {
   display: none;
   visibility: hidden; }
