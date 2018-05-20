@@ -6,7 +6,11 @@
   	.menu {
   		float: none;
   		margin: 0 -15px;
-    	&> .active,
+    	&> .active {
+        &> a {
+          background-color: $dark-base;
+        }
+      }
       &> li {
         position: relative;
     		&> a {
