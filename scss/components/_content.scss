@@ -54,16 +54,20 @@
 }
 .view-synergy-team, 
 #block-views-members-block-1 {
+	.view-content {
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.product  {
-		min-height: 480px;
+		margin-bottom: $vert-spacing-unit*3;
 		.border {
+			height: 100%;
 			&:hover,
 			&:focus {
 				border-color: $lightest-grey;
 			}
 		}
 		.product-fields {
-			min-height: 450px;
 			.image {
 		margin-bottom: 0;
 		img {
@@ -183,9 +187,9 @@ h2.clear {
 @media (min-width: $screen-sm-min) {
 
 	.product {
-		min-height: 465px;
+
 		.product-fields {
-			min-height: 430px;
+
 		}
 	}
 	.not-front {
@@ -208,9 +212,9 @@ h2.clear {
 @media (min-width: $screen-md-min) {
 
 	.product {
-		min-height: 515px;
+
 		.product-fields {
-			min-height: 485px;
+	
 		}
 	}
 
@@ -225,9 +229,9 @@ h2.clear {
 }
 @media (min-width: $screen-lg-min) {
 	.product {
-		min-height: 465px;
+	
 		.product-fields {
-			min-height: 430px;
+			
 		}
 	}
 }
