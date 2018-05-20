@@ -30,7 +30,7 @@
 	.more-link {
 		font-size: $small-font-size;
 		position: absolute;
-		bottom: 12px;
+		top: $vert-spacing-unit * 3;
 		right: 15px;
 	}
 }
