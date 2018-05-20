@@ -59,9 +59,8 @@
 		flex-wrap: wrap;
 	}
 	.product  {
-		margin-bottom: $vert-spacing-unit*3;
 		.border {
-			height: 100%;
+
 			&:hover,
 			&:focus {
 				border-color: $lightest-grey;

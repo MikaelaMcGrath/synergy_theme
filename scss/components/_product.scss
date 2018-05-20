@@ -110,13 +110,14 @@
 .product {
 	text-align: center;
 	font-size: $small-font-size;
-	min-height: 390px;
 	max-width: 350px;
 	margin: 0 auto;
+	margin-bottom: $vert-spacing-unit*2;
 	.border {
 		box-shadow: 0 4px 15px 5px $lightest-grey;
 		border-radius: 10px;
 		max-width: 350px;
+		height: 100%;
 		border: 1px solid $lightest-grey;
 		&:hover,
 		&:focus {
@@ -129,8 +130,8 @@
 	.product-fields {
 		display: flex;
 		flex-direction: column;
-		min-height: 360px;
 		max-width: 350px;
+		height: 100%;
 		padding: $vert-spacing-unit*2 $horz-spacing-unit*1.5 $vert-spacing-unit*1.5;
 		border: 5px solid $lightest-grey;
 		border-radius: 10px;
@@ -213,13 +214,13 @@
 	}
 	.product {
 		max-width: none;
-		min-height: 415px;
+
 		.product-fields,
 		.border {
 			max-width: none;
 		}
 		.product-fields {
-			min-height: 380px;
+	
 		}
 	}
 	#views-exposed-form-products-page {
@@ -237,17 +238,17 @@
 
 @media (min-width: $screen-md-min) {
 	.product {
-		min-height: 430px;
+
 		.product-fields {
-			min-height: 395px;
+
 		}
 	}
 }
 @media (min-width: $screen-lg-min) {
 	.product {
-		min-height: 410px;
+
 		.product-fields {
-			min-height: 375px;
+		
 		}
 	}
 }
