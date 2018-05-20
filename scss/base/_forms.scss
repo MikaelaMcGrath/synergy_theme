@@ -7,9 +7,6 @@
 	border-radius: 0;
 	box-shadow: none;
 }
-select {
-	height: 48px;
-}
 #mc_embed_signup {
 	div.mce_inline_error {
 		background-color: $white !important;
@@ -43,6 +40,7 @@ input[type='checkbox'] {
 	}
 select.form-control {
 	height: 48px;
+	padding: 10px;
 }
 @media (min-width: 480px) {
 	#mc_embed_signup {
