@@ -198,6 +198,9 @@
 	}
 
 }
+.view-product-range {
+	position: relative;
+}
 @media (min-width: $screen-sm-min) {
 	.quicktabs-wrapper {
 		margin-top: $vert-spacing-unit*2;
