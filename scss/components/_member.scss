@@ -1,6 +1,5 @@
 #block-views-members-block-1, #block-views-members-block-2 {
 .product  {
-		min-height: 345px;
 		margin-bottom: 3em;
 		.border {
 			&:hover,
@@ -18,7 +17,6 @@
 			}
 		}
 		.product-fields {
-			min-height: 300px;
 		.logo {
 		    display: flex;
 		    flex-direction: column;
