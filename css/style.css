@@ -9062,15 +9062,17 @@ hr {
 /* line 26, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
 #page-header {
   min-height: 375px;
-  position: relative; }
-  /* line 31, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  position: relative;
+  z-index: 1; }
+  /* line 30, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   #page-header:before {
     height: 375px;
     background: rgba(255, 255, 255, 0.5);
     width: 100%;
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 0;
+    z-index: -1; }
   /* line 39, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   #page-header .header-banner-text {
     max-width: 500px;
