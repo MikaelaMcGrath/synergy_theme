@@ -112,6 +112,7 @@
 	font-size: $small-font-size;
 	max-width: 350px;
 	height: 100%;
+	margin-bottom: $vert-spacing-unit * 2;
 	.border {
 		box-shadow: 0 4px 15px 5px $lightest-grey;
 		border-radius: 10px;
