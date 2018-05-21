@@ -51,7 +51,8 @@
 .member-page {
 	width: 100%;
 }
-#block-views-product-range-block-4 {
+#block-views-product-range-block-4,
+#block-views-product-range-block-5 {
 	margin: $vert-spacing-unit*3 0;
 	.product-fields {
 		background-color: $white;
@@ -62,6 +63,7 @@
 		.view-footer {
 			clear: both;
 			text-align: center;
+			margin-top: $vert-spacing-unit;
 		}
 }
 .node-type-members .container-fluid {
