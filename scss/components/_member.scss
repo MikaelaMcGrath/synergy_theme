@@ -66,9 +66,12 @@
 			padding-top: $vert-spacing-unit;
 		}
 }
-.node-type-members .container-fluid {
-	.container-fluid.full-width {
-		padding-top: 0;
+.node-type-members, .page-node-3239 {
+
+	.container-fluid {
+		.container-fluid.full-width {
+			padding-top: 0;
+		}
 	}
 
 }

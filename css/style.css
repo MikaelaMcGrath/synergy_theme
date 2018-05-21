@@ -9932,11 +9932,11 @@ img.file-full {
     text-align: center;
     padding-top: 1rem; }
 
-/* line 70, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
-.node-type-members .container-fluid .container-fluid.full-width {
+/* line 72, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+.node-type-members .container-fluid .container-fluid.full-width, .page-node-3239 .container-fluid .container-fluid.full-width {
   padding-top: 0; }
 
-/* line 76, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 79, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 .not-logged-in.node-type-members .full-width {
   display: none;
   visibility: hidden; }
