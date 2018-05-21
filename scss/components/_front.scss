@@ -9,6 +9,7 @@
 		margin-bottom: $vert-spacing-unit * 2;
 		.slide__content {
 			margin: 0 $horz-spacing-unit;
+			height: 100%;
 		}
 		.border {
 			box-shadow: 0 4px 15px 5px $light-grey;
