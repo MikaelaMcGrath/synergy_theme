@@ -1,6 +1,5 @@
 #block-views-members-block-1, #block-views-members-block-2 {
 .product  {
-		margin-bottom: 3em;
 		.border {
 			&:hover,
 			&:focus {
@@ -45,6 +44,9 @@
 			
 		}
 }
+}
+.member-page {
+	width: 100%;
 }
 #block-views-product-range-block-4 {
 	margin: $vert-spacing-unit*3 0;
