@@ -103,7 +103,8 @@ h2.clear {
 				color: $dark-grey;
 			}
 		}
-		&> a {
+		.border {
+			&> a {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -111,6 +112,8 @@ h2.clear {
 				height: 100%;
 
 			}
+		}
+		
 		.product-fields {
 			img {
 				margin-bottom: $vert-spacing-unit;
@@ -184,13 +187,6 @@ h2.clear {
 }
 
 @media (min-width: $screen-sm-min) {
-
-	.product {
-
-		.product-fields {
-
-		}
-	}
 	.not-front {
 	.view-id-supplier {
 	.view-content {
@@ -209,14 +205,6 @@ h2.clear {
 }
 }
 @media (min-width: $screen-md-min) {
-
-	.product {
-
-		.product-fields {
-	
-		}
-	}
-
 	.menu-block-2 {
 	ul {
 	li {
@@ -225,12 +213,4 @@ h2.clear {
 }
 }
 	
-}
-@media (min-width: $screen-lg-min) {
-	.product {
-	
-		.product-fields {
-			
-		}
-	}
 }
