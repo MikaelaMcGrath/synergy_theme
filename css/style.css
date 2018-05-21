@@ -9438,7 +9438,7 @@ h2.clear {
   .full-width .slick__arrow,
   #block-views-product-range-block-2 .slick__arrow {
     bottom: 28px;
-    width: 200px; }
+    width: 40%; }
   /* line 227, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
   .full-width .slick-dots,
   #block-views-product-range-block-2 .slick-dots {
