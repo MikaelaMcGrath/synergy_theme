@@ -9861,8 +9861,11 @@ img.file-full {
   padding: 1rem 0em;
   height: 130px;
   justify-content: center; }
+  /* line 25, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+  #block-views-members-block-1 .product .product-fields .logo img, #block-views-members-block-2 .product .product-fields .logo img {
+    max-height: 130px; }
 
-/* line 27, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 30, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 #block-views-members-block-1 .product .product-fields .street-block,
 #block-views-members-block-1 .product .product-fields .locality-block,
 #block-views-members-block-1 .product .product-fields .country, #block-views-members-block-2 .product .product-fields .street-block,
@@ -9870,40 +9873,40 @@ img.file-full {
 #block-views-members-block-2 .product .product-fields .country {
   color: #868E96; }
 
-/* line 32, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 35, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 #block-views-members-block-1 .product .product-fields .light-grey a, #block-views-members-block-2 .product .product-fields .light-grey a {
   color: #868E96; }
-  /* line 35, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+  /* line 38, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
   #block-views-members-block-1 .product .product-fields .light-grey a:focus, #block-views-members-block-1 .product .product-fields .light-grey a:hover, #block-views-members-block-2 .product .product-fields .light-grey a:focus, #block-views-members-block-2 .product .product-fields .light-grey a:hover {
     color: #868E96; }
 
-/* line 42, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 45, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 #block-views-members-block-1 .product img, #block-views-members-block-2 .product img {
   border-radius: 0; }
 
-/* line 48, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 51, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 .member-page {
   width: 100%; }
 
-/* line 51, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 54, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 #block-views-product-range-block-4 {
   margin: 3rem 0; }
-  /* line 53, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+  /* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
   #block-views-product-range-block-4 .product-fields {
     background-color: #ffffff; }
-  /* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+  /* line 59, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
   #block-views-product-range-block-4 .border {
     box-shadow: 0 4px 15px 5px #DEE2E6; }
-  /* line 59, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+  /* line 62, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
   #block-views-product-range-block-4 .view-footer {
     clear: both;
     text-align: center; }
 
-/* line 65, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 68, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 .node-type-members .container-fluid .container-fluid.full-width {
   padding-top: 0; }
 
-/* line 71, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
+/* line 74, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_member.scss */
 .not-logged-in.node-type-members .full-width {
   display: none;
   visibility: hidden; }
