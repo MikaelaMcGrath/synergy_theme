@@ -30,12 +30,16 @@
 	.more-link {
 		font-size: $small-font-size;
 		position: absolute;
-		top: $vert-spacing-unit * 3;
+		top: $vert-spacing-unit *2;
 		right: 15px;
 	}
 }
 #block-views-product-range-block-2 {
 	background-color: $white;
+	.more-link {
+		bottom: 12px;
+		top: auto;
+	}
 }
 .container-fluid {
 		.container-fluid.full-width {
@@ -198,6 +202,9 @@
 		.slick__arrow {
 			bottom: 5px
 		}
+		
+	}
+	#block-views-product-range-block-2 {
 		.more-link {
 			bottom: -2px;
 		}
@@ -214,6 +221,9 @@
 			display: block;
 			visibility: visible;
 		}
+		
+	}
+	#block-views-product-range-block-2 {
 		.more-link {
 			bottom: 22px;
 		}
