@@ -6,6 +6,7 @@
 	}
 	.slick--float .slick__slide {
 		margin-top: 10px;
+		margin-bottom: $vert-spacing-unit * 2;
 		.slide__content {
 			margin: 0 $horz-spacing-unit;
 		}
