@@ -46,5 +46,8 @@ function checkSize(){
     jQuery( document ).ready(function() {
       jQuery('.view-id-documents.view-display-id-block').find('.file > a').addClass('btn btn-secondary');
     });
+    jQuery( document ).ready(function() {
+      jQuery('.view-id-members_map.view-display-id-block').find('.views-field-title p:contains("Synergy"), .leaflet-popup-content a:contains("Synergy")').text('Synergy Contsruction and Industrial Supply Group');
+    });
     
  })(jQuery);
