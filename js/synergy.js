@@ -47,8 +47,6 @@ function checkSize(){
       jQuery('.view-id-documents.view-display-id-block').find('.file > a').addClass('btn btn-secondary');
     });
     jQuery( document ).ready(function() {
-      jQuery('.view-id-members_map.view-display-id-block').find('.views-field-title p:contains("Synergy")').text('Synergy Contsruction and Industrial Supply Group');
-      jQuery('.view-id-members_map.view-display-id-block').find('.leaflet-popup-content a:contains("Synergy")').text('Synergy Contsruction and Industrial Supply Group');
       jQuery('.view-id-members_map.view-display-id-block').find('.views-field-field-geofield-distance span:contains("0.00km")').text('');
     });
     
