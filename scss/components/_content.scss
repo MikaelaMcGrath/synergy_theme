@@ -75,7 +75,8 @@
 	}
 }
 .view-synergy-team, 
-#block-views-members-block-1 {
+#block-views-members-block-1,
+.view-id-documents.view-display-id-block {
 
 	.product  {
 		.border {
@@ -94,6 +95,18 @@
 	}
 
 	}
+}
+}
+.view-synergy-team, 
+#block-views-members-block-1 {
+	.product  {
+		.border {
+
+			&:hover,
+			&:focus {
+				border-color: $lightest-grey;
+			}
+		}
 }
 }
 h2.clear {

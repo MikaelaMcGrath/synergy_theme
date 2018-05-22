@@ -1,4 +1,4 @@
-.btn {
+.btn, .view-id-documents.view-display-id-block .file a {
   padding: $vert-spacing-unit/2 $horz-spacing-unit;
 }
 .btn-primary, .button-primary {
@@ -7,49 +7,50 @@
   border-color: $accent;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
-.btn-primary:focus, 
-.btn-primary.focus,
-.btn-primary:hover,
-.button-primary:focus, 
-.button-primary.focus,
-.button-primary:hover,
-.btn-primary:active, 
-.btn-primary.active,
-.btn-primary[disabled]:active, 
-.btn-primary[disabled].active,
-.button-primary:active, 
-.button-primary.active,
-.button-primary[disabled]:active, 
-.button-primary[disabled].active {
+.btn-primary, 
+.btn-primary[disabled], 
+.button-primary, 
+.button-primary[disabled] {
+  &:focus,
+  &.focus,
+  &:hover,
+  &:active,
+  &.active {
     color: $white;
     background-color: lighten($accent, 5%);
     border-color: lighten($accent, 5%); 
+  }
+    
 }
-.btn-primary[disabled]:hover, 
-.btn-primary[disabled]:focus,
-.button-primary[disabled]:hover, 
-.button-primary[disabled]:focus,
-.btn-secondary[disabled]:hover, 
-.btn-secondary[disabled]:focus   {
-	color: $white;
-	background-color: $grey;
-	border-color: $grey;	
+.btn-primary[disabled], 
+.button-primary[disabled], 
+.btn-secondary[disabled]   {
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $grey;
+    border-color: $grey;  
+  }
 }
-.btn-secondary {
+
+.btn-secondary,
+.view-id-documents.view-display-id-block .file a {
   color: $accent;
   background-color: $white;
   border-color: $accent;
   box-shadow: none;
   padding: $vert-spacing-unit/2 $horz-spacing-unit*3;
 }
-.btn-secondary:focus, 
-.btn-secondary.focus,
-.btn-secondary:hover,
-.btn-secondary:active, 
-.btn-secondary.active,
-.btn-secondary[disabled]:active, 
-.btn-secondary[disabled].active {
+.btn-secondary, 
+.btn-secondary[disabled], 
+.view-id-documents.view-display-id-block .file a {
+  &:focus,
+  &.focus,
+  &:hover,
+  &:active,
+  &.active {
     color: $white;
     background-color: $accent;
     border-color: $accent; 
+  }
 }
