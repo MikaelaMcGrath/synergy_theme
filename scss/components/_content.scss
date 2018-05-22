@@ -109,6 +109,12 @@
 		}
 }
 }
+.view-id-documents.view-display-id-block {
+	img.file-icon {
+		display: none; 
+		visibility: hidden;
+	}
+}
 h2.clear {
 	clear: both;
 }

@@ -1,4 +1,4 @@
-.btn, .view-id-documents.view-display-id-block .file a {
+.btn {
   padding: $vert-spacing-unit/2 $horz-spacing-unit;
 }
 .btn-primary, .button-primary {
@@ -33,8 +33,7 @@
   }
 }
 
-.btn-secondary,
-.view-id-documents.view-display-id-block .file a {
+.btn-secondary {
   color: $accent;
   background-color: $white;
   border-color: $accent;
@@ -42,8 +41,7 @@
   padding: $vert-spacing-unit/2 $horz-spacing-unit*3;
 }
 .btn-secondary, 
-.btn-secondary[disabled], 
-.view-id-documents.view-display-id-block .file a {
+.btn-secondary[disabled] {
   &:focus,
   &.focus,
   &:hover,

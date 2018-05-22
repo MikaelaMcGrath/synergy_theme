@@ -43,5 +43,8 @@ function checkSize(){
     jQuery( document ).ready(function() {
       jQuery('#edit-search-api-views-fulltext').addClass('placeholder').attr('placeholder', '\uf002   Search all products');
     });
+    jQuery( document ).ready(function() {
+      jQuery('.view-id-documents.view-display-id-block').find('.file > a').addClass('btn btn-secondary');
+    });
     
  })(jQuery);
