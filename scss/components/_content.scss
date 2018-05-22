@@ -114,6 +114,12 @@
 		display: none; 
 		visibility: hidden;
 	}
+	.btn {
+		white-space: normal;
+		padding: $vert-spacing-unit/2 $horz-spacing-unit;
+		width: 100%;
+		margin-bottom: $vert-spacing-unit;
+	}
 }
 h2.clear {
 	clear: both;
