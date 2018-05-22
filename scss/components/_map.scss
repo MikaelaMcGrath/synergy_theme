@@ -65,6 +65,14 @@
 #block-views-members-map-block-1 {
 	margin-top: $vert-spacing-unit*2;
 }
+.view-id-members_map.view-display-id-block {
+	.node-3197 {
+		a {
+			pointer-events: none;
+			color: $dark-grey;
+		}
+	}
+	}
 @media (min-width: 480px) {
 	#block-views-members-map-block,
 	#block-views-members-map-block-2
