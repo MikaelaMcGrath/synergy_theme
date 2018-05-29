@@ -13,6 +13,9 @@
 				background-color: $base;
 				width: 100%;
 			}
+			h1 {
+				padding: $vert-spacing-unit $horz-spacing-unit;
+			}
 			.article-item {
 				padding-bottom: $vert-spacing-unit;
 			}
@@ -27,6 +30,9 @@
 	.article-item {
 		margin-top: $vert-spacing-unit;
 		margin-bottom: $vert-spacing-unit;
+		.article-image {
+			margin-bottom: $vert-spacing-unit;
+		}
 		.btn {
 			margin-top: $vert-spacing-unit*2;
 		}
@@ -40,6 +46,15 @@
 		img {
 			-webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
 			clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+		}
+	}
+}
+}
+@media (min-width: $screen-sm-min) {
+	.view-id-articles {
+	.article-item {
+		.article-image {
+			margin-bottom: 0;
 		}
 	}
 }
