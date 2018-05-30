@@ -9,7 +9,6 @@
 	}
 }
 .quicktabs-wrapper {
-	margin-bottom: $vert-spacing-unit*3;
 	//border: 1px solid $light-grey;
 	ul.quicktabs-tabs {
 		padding-left: 0;
@@ -55,6 +54,7 @@
 	}
 }
 .features-benefits {	
+	margin-top: $vert-spacing-unit*3;
 	.view-content {
 		font-weight: $bold-font-weight;
 		ul {

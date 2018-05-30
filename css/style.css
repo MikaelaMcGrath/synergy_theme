@@ -8642,67 +8642,68 @@ hr {
 .view-product-page .supplier-logo img {
   margin: 0; }
 
-/* line 11, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-.quicktabs-wrapper {
-  margin-bottom: 3rem; }
-  /* line 14, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-  .quicktabs-wrapper ul.quicktabs-tabs {
-    padding-left: 0;
-    margin: 0; }
-    /* line 18, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-    .quicktabs-wrapper ul.quicktabs-tabs li {
-      padding: 0;
-      float: left;
-      margin-bottom: -1px;
-      position: relative; }
-      /* line 23, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-      .quicktabs-wrapper ul.quicktabs-tabs li a {
-        border: 1px solid #DEE2E6;
-        border-left: transparent;
-        background-color: #F1F3F5;
-        color: #495057;
-        padding: 0.6666666667rem 1rem;
-        font-weight: 700;
-        display: block; }
-        /* line 31, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-        .quicktabs-wrapper ul.quicktabs-tabs li a:hover, .quicktabs-wrapper ul.quicktabs-tabs li a:focus {
-          text-decoration: none; }
-      /* line 37, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-      .quicktabs-wrapper ul.quicktabs-tabs li.active a {
-        background-color: #ffffff;
-        border-bottom: 1px solid #ffffff; }
-      /* line 42, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-      .quicktabs-wrapper ul.quicktabs-tabs li:first-child {
-        border-left: 1px solid #DEE2E6; }
-  /* line 48, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-  .quicktabs-wrapper .quicktabs_main {
-    border: 1px solid #DEE2E6;
-    padding: 1rem 1rem;
-    clear: both; }
-    /* line 52, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-    .quicktabs-wrapper .quicktabs_main ul {
-      margin: 0; }
-
-/* line 58, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-.features-benefits .view-content {
-  font-weight: 700; }
-  /* line 60, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-  .features-benefits .view-content ul {
-    list-style-type: none;
+/* line 13, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+.quicktabs-wrapper ul.quicktabs-tabs {
+  padding-left: 0;
+  margin: 0; }
+  /* line 17, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+  .quicktabs-wrapper ul.quicktabs-tabs li {
     padding: 0;
+    float: left;
+    margin-bottom: -1px;
+    position: relative; }
+    /* line 22, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+    .quicktabs-wrapper ul.quicktabs-tabs li a {
+      border: 1px solid #DEE2E6;
+      border-left: transparent;
+      background-color: #F1F3F5;
+      color: #495057;
+      padding: 0.6666666667rem 1rem;
+      font-weight: 700;
+      display: block; }
+      /* line 30, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+      .quicktabs-wrapper ul.quicktabs-tabs li a:hover, .quicktabs-wrapper ul.quicktabs-tabs li a:focus {
+        text-decoration: none; }
+    /* line 36, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+    .quicktabs-wrapper ul.quicktabs-tabs li.active a {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ffffff; }
+    /* line 41, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+    .quicktabs-wrapper ul.quicktabs-tabs li:first-child {
+      border-left: 1px solid #DEE2E6; }
+
+/* line 47, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+.quicktabs-wrapper .quicktabs_main {
+  border: 1px solid #DEE2E6;
+  padding: 1rem 1rem;
+  clear: both; }
+  /* line 51, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+  .quicktabs-wrapper .quicktabs_main ul {
     margin: 0; }
-    /* line 64, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-    .features-benefits .view-content ul li {
-      display: table;
-      padding: 1rem 0;
-      font-weight: 400; }
-      /* line 68, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
-      .features-benefits .view-content ul li:before {
-        content: '\f058';
-        font-family: 'FontAwesome';
-        color: #8DC63F;
-        display: table-cell;
-        min-width: 35px; }
+
+/* line 56, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+.features-benefits {
+  margin-top: 3rem; }
+  /* line 58, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+  .features-benefits .view-content {
+    font-weight: 700; }
+    /* line 60, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+    .features-benefits .view-content ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      /* line 64, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+      .features-benefits .view-content ul li {
+        display: table;
+        padding: 1rem 0;
+        font-weight: 400; }
+        /* line 68, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
+        .features-benefits .view-content ul li:before {
+          content: '\f058';
+          font-family: 'FontAwesome';
+          color: #8DC63F;
+          display: table-cell;
+          min-width: 35px; }
 
 /* line 79, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_product.scss */
 .tick ul {
