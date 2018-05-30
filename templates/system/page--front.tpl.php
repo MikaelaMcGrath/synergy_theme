@@ -165,11 +165,13 @@
       </div>
       </div>
     </div>
+    <?php if (!empty($page['full_width_secondary'])): ?>
     <div class="row container-fluid shadow">
     <div class="full-width-secondary container">
       <?php print render($page['full_width_secondary']); ?>
     </div>
 </div>
+ <?php endif; ?>
 <div class="container-fluid row app">
       <div class="container">
         <div class="content-third row">

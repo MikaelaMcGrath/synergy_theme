@@ -215,7 +215,8 @@
 	}
 	.product {
 		max-width: none;
-
+		margin: 0;
+		margin-bottom: $vert-spacing-unit*2;
 		.product-fields,
 		.border {
 			max-width: none;
