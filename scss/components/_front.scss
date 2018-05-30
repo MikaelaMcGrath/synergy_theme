@@ -132,7 +132,7 @@
 	h2 {
 		color: $dark-grey;
 	}
-	.slick__slide {
+	.slick__slide, .unslick {
 		vertical-align: top;
 		padding: 0 $horz-spacing-unit*3;
 		img {
@@ -163,6 +163,11 @@
 	.view-content {
 		text-align: center;
 		margin-top: $vert-spacing-unit;
+	}
+	.unslick {
+		img {
+			margin: 0 auto;
+		}
 	}
 }
 .content-third {
