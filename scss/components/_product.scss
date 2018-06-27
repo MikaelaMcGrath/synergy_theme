@@ -171,12 +171,16 @@
 		margin-bottom: $vert-spacing-unit;
 	}
 }
+.block-views-product-page-block-2 {
+	margin: $vert-spacing-unit 0;
+}
 #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-webkit-input-placeholder,
 #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control::-moz-placeholder,
 #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control:-ms-input-placeholder, 
 #views-exposed-form-products-page .views-exposed-widgets .views-widget-filter-search_api_views_fulltext .form-control:-moz-placeholder{
 	color: $base;
 }
+
 #views-exposed-form-products-page {
 	.views-exposed-widgets {
 		margin-bottom: $vert-spacing-unit*2;
