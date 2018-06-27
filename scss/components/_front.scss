@@ -84,7 +84,7 @@
 	#block-views-contact-form-block-2 {
 		margin-top: $vert-spacing-unit * 3;
 	}
-	.right-member-map {
+	#block-views-members-map-block .right-member-map {
 		padding-bottom: $vert-spacing-unit * 3;
 	}
 
@@ -191,8 +191,6 @@
 	overflow: hidden;
 	h2 {
 		color: $dark-grey;
-		font-size: 30px;
-		font-weight: $light-font-weight;
 	}
 }
 #block-block-5 {
@@ -210,6 +208,8 @@
 	h2 {
 		width: 200px;
 		margin-left: 15%;
+		font-size: 30px;
+		font-weight: $light-font-weight;
 	}
 	p.play,
 	p.itunes {
