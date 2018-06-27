@@ -189,10 +189,10 @@
 			padding: 0;
 			.form-control {
 				color: $base;
-				font-size: $base-font-size*2;
+				font-size: $base-font-size*1.5;
 				font-family: 'FontAwesome', $base-font-family;
 				font-weight: $light-font-weight;
-				padding: $vert-spacing-unit*2.5 $horz-spacing-unit;
+				padding: $vert-spacing-unit*2 $horz-spacing-unit;
 				&::placeholder {
 					color: $base;
 				}
@@ -200,12 +200,13 @@
 		}
 		.views-submit-button {
 			padding: 0 0 0 $horz-spacing-unit;
-			height: 79px;
+			height: 64px;
 			width: 30%;
 			.btn {
 				margin-top: 0;
 				width: 100%;
 				height: 100%;
+				font-size: $base-font-size * 1.2;
 				background-color: $base;
 				border-color: $base;
 			}
