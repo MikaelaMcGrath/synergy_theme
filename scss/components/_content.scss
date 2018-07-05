@@ -174,7 +174,7 @@ h2.clear {
 		}
 	}
 }
-.menu-block-2 {
+.menu-block-2, .menu-block-3 {
 	ul {
 	display: flex; 
 	flex-wrap: wrap;
@@ -238,7 +238,7 @@ h2.clear {
 	}
 }
 }
-.menu-block-2 {
+.menu-block-2, .menu-block-3 {
 	ul {
 	li {
 		flex: 0 1 33.33%;
@@ -247,7 +247,7 @@ h2.clear {
 }
 }
 @media (min-width: $screen-md-min) {
-	.menu-block-2 {
+	.menu-block-2, .menu-block-3 {
 	ul {
 	li {
 		flex: 0 1 25%;

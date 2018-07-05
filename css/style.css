@@ -9197,16 +9197,16 @@ h2.clear {
     visibility: hidden; }
 
 /* line 178, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-.menu-block-2 ul {
+.menu-block-2 ul, .menu-block-3 ul {
   display: flex;
   flex-wrap: wrap; }
   /* line 181, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-  .menu-block-2 ul li {
+  .menu-block-2 ul li, .menu-block-3 ul li {
     flex: 0 1 50%;
     text-align: center;
     vertical-align: middle; }
     /* line 186, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-    .menu-block-2 ul li a {
+    .menu-block-2 ul li a, .menu-block-3 ul li a {
       padding: 1rem 1rem;
       color: #00703D;
       display: block;
@@ -9214,7 +9214,7 @@ h2.clear {
       margin: 1rem 1rem;
       border: 1px solid #00703D; }
       /* line 193, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-      .menu-block-2 ul li a:hover, .menu-block-2 ul li a:focus {
+      .menu-block-2 ul li a:hover, .menu-block-2 ul li a:focus, .menu-block-3 ul li a:hover, .menu-block-3 ul li a:focus {
         background-color: #00703D;
         color: #ffffff;
         text-decoration: none; }
@@ -9242,12 +9242,12 @@ h2.clear {
   .not-front .view-id-supplier .view-content > div {
     flex: 1 0 25%; }
   /* line 243, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-  .menu-block-2 ul li {
+  .menu-block-2 ul li, .menu-block-3 ul li {
     flex: 0 1 33.33%; } }
 
 @media (min-width: 992px) {
   /* line 252, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
-  .menu-block-2 ul li {
+  .menu-block-2 ul li, .menu-block-3 ul li {
     flex: 0 1 25%; } }
 
 /* line 1, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_front.scss */
