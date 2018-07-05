@@ -15,7 +15,7 @@
     // run test on resize of the window
     jQuery(window).resize(checkSize);
 
-    jQuery( ".menu.nav .dropdown-menu" ).wrapInner( "<div class='container'></div>" );
+    //jQuery( ".menu.nav .dropdown-menu" ).wrapInner( "<div class='container'></div>" );
 
     
 function checkSize(){
