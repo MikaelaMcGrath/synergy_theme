@@ -9237,16 +9237,26 @@ h2.clear {
         width: auto;
         margin: 0 auto; }
 
+/* line 230, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+.auth-only {
+  display: none;
+  visibility: hidden; }
+
+/* line 234, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+.logged-in .auth-only {
+  display: block;
+  visibility: visible; }
+
 @media (min-width: 768px) {
-  /* line 235, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  /* line 242, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   .not-front .view-id-supplier .view-content > div {
     flex: 1 0 25%; }
-  /* line 243, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  /* line 250, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   .menu-block-2 ul li, .menu-block-3 ul li {
     flex: 0 1 33.33%; } }
 
 @media (min-width: 992px) {
-  /* line 252, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
+  /* line 259, Users/Mikaela/Sites/devdesktop/synergy/sites/all/themes/custom/synergy_theme/scss/components/_content.scss */
   .menu-block-2 ul li, .menu-block-3 ul li {
     flex: 0 1 25%; } }
 

@@ -227,7 +227,14 @@ h2.clear {
 	}
 }
 }
-
+.auth-only {
+	display: none;
+	visibility: hidden;
+}
+.logged-in .auth-only {
+	display: block;
+	visibility: visible;
+}
 @media (min-width: $screen-sm-min) {
 	.not-front {
 	.view-id-supplier {
